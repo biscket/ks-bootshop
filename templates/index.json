@@ -28,26 +28,10 @@
             "btn_secondary_text": "",
             "btn_secondary_url": ""
           }
-        },
-        "slide_TddqxQ": {
-          "type": "slide",
-          "settings": {
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
-            "overlay_blur": 2,
-            "subtitle": "Developed by KondaSoft",
-            "title": "Simple to Use, Easy to Customize",
-            "description": "<p>Free Shopify Theme inspired by simplicity and elegance.</p>",
-            "btn_primary_text": "Primary button",
-            "btn_primary_url": "",
-            "btn_secondary_text": "Secondary button",
-            "btn_secondary_url": ""
-          }
         }
       },
       "block_order": [
-        "slide_Q4UPQq",
-        "slide_TddqxQ"
+        "slide_Q4UPQq"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -95,19 +79,19 @@
         "products": [
 
         ],
-        "collection": "latest",
+        "collection": "frontpage",
         "limit": 8,
         "recommended_mode": true,
         "recommended_mode_intent": "related",
         "header_title": "Featured Products",
-        "header_title_font_size": "h3",
+        "header_title_font_size": "h2",
         "header_description": "<p>Add on optional description for this section</p>",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
         "slider_navigation": true,
         "slider_pagination": true,
         "slider_pagination_type": "bullets",
-        "slider_scrollbar": true,
+        "slider_scrollbar": false,
         "slider_partial_slides_mobile": false,
         "slider_autoplay": 0,
         "breakpoint_mobile": 1,
