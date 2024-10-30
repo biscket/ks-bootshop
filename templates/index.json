@@ -292,6 +292,9 @@
         "item_BUkPE7",
         "item_DtBFNc"
       ],
+      "custom_css": [
+        ".testimonials .card{border-radius: 10px;}"
+      ],
       "settings": {
         "bg_color": "bg-white",
         "bg_opacity": 5,
