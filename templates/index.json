@@ -110,12 +110,12 @@
         "row_JkMDbM": {
           "type": "row",
           "settings": {
-            "bg_color": "bg-secondary",
+            "bg_color": "bg-body",
             "bg_opacity": 5,
             "bg_gradient": "",
             "text_color": "text-body",
-            "border_top_width": 1,
-            "border_bottom_width": 1,
+            "border_top_width": 0,
+            "border_bottom_width": 0,
             "border_color": "border-primary",
             "border_opacity": 10,
             "media_align_desktop": "",
@@ -141,8 +141,8 @@
             "btn_secondary_text": "",
             "btn_secondary_url": "",
             "btn_secondary_color": "btn-outline-primary",
-            "pt": 0,
-            "pb": 0
+            "pt": 12,
+            "pb": 12
           }
         }
       },
