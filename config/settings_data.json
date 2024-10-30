@@ -42,7 +42,7 @@
     "product_card_carousel_transition": "slide",
     "product_card_badge_discount_type": "percentage",
     "product_card_title_font_size": "fs-lg",
-    "product_card_show_atc_form": true,
+    "product_card_show_atc_form": false,
     "product_card_atc_btn_color": "btn-primary",
     "product_card_atc_style": "quick-view",
     "product_card_color_swatches": "Color, color",

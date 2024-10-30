@@ -66,6 +66,9 @@
     },
     "featured_products_nXJKQn": {
       "type": "featured-products",
+      "custom_css": [
+        ".section-header{margin-bottom: 60px;}"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -83,9 +86,9 @@
         "limit": 8,
         "recommended_mode": true,
         "recommended_mode_intent": "related",
-        "header_title": "Featured Products",
+        "header_title": "Shop Our Bestsellers",
         "header_title_font_size": "h2",
-        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description": "<p><em>Discover Our Top Selling Products.</em></p>",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
         "slider_navigation": true,
@@ -97,8 +100,8 @@
         "breakpoint_mobile": 1,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
-        "pt": 10,
-        "pb": 11
+        "pt": 12,
+        "pb": 12
       }
     },
     "richtext_4miPYL": {
