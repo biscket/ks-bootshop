@@ -232,10 +232,10 @@
         "item_B99dNi": {
           "type": "item",
           "settings": {
-            "title": "First Testimonial",
-            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
-            "author": "Author's Name",
-            "author_subtitle": "Verified Customer"
+            "title": "Perfect fit and supreme comfort",
+            "description": "<p>This sweatshirt exceeded all my expectations. The fabric is incredibly soft, and the fit is perfect. I wear it almost every day now! Highly recommend for anyone looking for comfort and style in one.</p><p>- Katy -</p>",
+            "author": "",
+            "author_subtitle": ""
           }
         },
         "item_VPnR9Q": {
@@ -293,7 +293,7 @@
         "item_DtBFNc"
       ],
       "custom_css": [
-        ".testimonials .card{border-radius: 10px;}"
+        ".testimonials .card {border-radius: 10px;}"
       ],
       "settings": {
         "bg_color": "bg-white",
