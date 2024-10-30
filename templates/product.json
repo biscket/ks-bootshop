@@ -32,7 +32,7 @@
           "type": "title",
           "settings": {
             "title_font_size": "h3",
-            "pt": 3,
+            "pt": 0,
             "pb": 2
           }
         },
@@ -52,7 +52,7 @@
         "095886ab-f46a-4a25-9d3d-e7c79235921b": {
           "type": "price",
           "settings": {
-            "font_size": "fs-lg",
+            "font_size": "fs-xl",
             "badge_discount_type": "percentage",
             "pt": 0,
             "pb": 3
@@ -82,15 +82,15 @@
         "ea44a44f-429a-4dd2-b40c-f1bf6304c554": {
           "type": "atc_button",
           "settings": {
-            "show_qty_field": true,
+            "show_qty_field": false,
             "show_dynamic_buttons": false,
             "atc_btn_color": "btn-primary",
             "atc_btn_size": "",
-            "show_buy_btn": true,
+            "show_buy_btn": false,
             "buy_btn_color": "btn-outline-secondary",
             "buy_btn_size": "",
             "pt": 0,
-            "pb": 6
+            "pb": 0
           }
         },
         "08894b72-c532-44db-9228-5f14c9841895": {
@@ -101,7 +101,7 @@
             "img_size": 24,
             "text_1": "<p>Commitment to<br/>Excellence</p>",
             "text_2": "<p>100% Satisfaction<br/>Guarantee</p>",
-            "text_3": "<p>Free Shipping<br/>Over $90</p>",
+            "text_3": "<p>Free Shipping<br/>On All Orders</p>",
             "text_4": "",
             "pt": 0,
             "pb": 7
