@@ -67,7 +67,7 @@
     "featured_products_nXJKQn": {
       "type": "featured-products",
       "custom_css": [
-        ".section-header{margin-bottom: 60px;}"
+        ".section-header {margin-bottom: 60px;}"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -137,7 +137,7 @@
         "collection_rznnLq": {
           "type": "collection",
           "settings": {
-            "collection": "men",
+            "collection": "frontpage",
             "title": ""
           }
         },
