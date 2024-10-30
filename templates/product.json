@@ -112,7 +112,7 @@
           "settings": {
             "icon_size": 20,
             "title": "Product Details",
-            "title_font_family": "",
+            "title_font_family": "heading",
             "title_font_size": "fs-md",
             "title_text_transform": "text-capitalize",
             "title_letter_spacing": 1,
@@ -133,7 +133,7 @@
           "settings": {
             "icon_size": 20,
             "title": "Shipping Information",
-            "title_font_family": "",
+            "title_font_family": "heading",
             "title_font_size": "fs-md",
             "title_text_transform": "text-capitalize",
             "title_letter_spacing": 1,
@@ -153,8 +153,8 @@
           "type": "collapse",
           "settings": {
             "icon_size": 20,
-            "title": "Returns & Warranty",
-            "title_font_family": "",
+            "title": "Love It Guranteed",
+            "title_font_family": "heading",
             "title_font_size": "fs-md",
             "title_text_transform": "text-capitalize",
             "title_letter_spacing": 1,
@@ -227,6 +227,9 @@
     },
     "8b8acb35-e69e-4471-a6cb-d0a09485fb41": {
       "type": "featured-products",
+      "custom_css": [
+        ".section-header{margin-bottom:50px;}"
+      ],
       "settings": {
         "bg_color": "bg-body text-body",
         "bg_opacity": 100,
@@ -246,20 +249,20 @@
         "recommended_mode_intent": "related",
         "header_title": "Recommended Products",
         "header_title_font_size": "h3",
-        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description": "",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
         "slider_navigation": true,
         "slider_pagination": true,
         "slider_pagination_type": "bullets",
-        "slider_scrollbar": true,
+        "slider_scrollbar": false,
         "slider_partial_slides_mobile": true,
         "slider_autoplay": 0,
         "breakpoint_mobile": 1,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
-        "pt": 2,
-        "pb": 11
+        "pt": 13,
+        "pb": 13
       }
     },
     "20426219-2b04-4ec4-9f23-1ed81a76c181": {
