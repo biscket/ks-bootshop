@@ -100,7 +100,7 @@
         "breakpoint_mobile": 1,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
-        "pt": 12,
+        "pt": 13,
         "pb": 12
       }
     },
