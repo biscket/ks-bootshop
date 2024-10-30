@@ -274,7 +274,7 @@
       ],
       "custom_css": [
         ".testimonials .card {border-radius: 10px;}",
-        "testimonials .card .svg-icon-star {color: #f8cc1b!important;}"
+        ".testimonials .card .svg-icon-star {color: #f8cc1b;}"
       ],
       "settings": {
         "bg_color": "bg-white",
