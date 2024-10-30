@@ -273,7 +273,7 @@
         "item_79nB3i"
       ],
       "custom_css": [
-        ".testimonials .card {border-radius: 10px;}",
+        ".testimonials .card {border-radius: 10px; padding: 10px;}",
         ".testimonials .card .svg-icon-star {color: #f8cc1b;}"
       ],
       "settings": {
