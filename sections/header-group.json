@@ -65,8 +65,8 @@
           "type": "mobile",
           "settings": {
             "container_max_width": "",
-            "logo": "shopify://shop_images/1.png",
-            "logo_height": 30,
+            "logo": "shopify://shop_images/Pink_Flower_Elegant_Handwritten_Brand_Logo.png",
+            "logo_height": 40,
             "main_menu": "",
             "collections_menu": "",
             "social_icons": true,
@@ -78,8 +78,8 @@
           "type": "desktop",
           "settings": {
             "container_max_width": "",
-            "logo": "shopify://shop_images/1.png",
-            "logo_height": 50,
+            "logo": "shopify://shop_images/Pink_Flower_Elegant_Handwritten_Brand_Logo.png",
+            "logo_height": 40,
             "main_menu": "main-menu",
             "pt": 5,
             "pb": 5
