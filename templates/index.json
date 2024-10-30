@@ -241,10 +241,10 @@
         "item_VPnR9Q": {
           "type": "item",
           "settings": {
-            "title": "Second Testimonial",
-            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
-            "author": "Author's Name",
-            "author_subtitle": "Verified Customer"
+            "title": "Love the design",
+            "description": "<p>Love the unique design and color. Always get compliments! A must have.</p><p>- Jenny -</p>",
+            "author": "",
+            "author_subtitle": ""
           }
         },
         "item_XTUtYy": {
