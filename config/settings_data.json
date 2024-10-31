@@ -11,6 +11,7 @@
   "current": {
     "color_primary": "#4000be",
     "color_secondary": "#6A6A6A",
+    "color_third": "#6A6A6A",
     "color_body_bg": "#ffffff",
     "color_body_color": "#222222",
     "container_max_width": 1350,
