@@ -87,7 +87,7 @@
         "recommended_mode": true,
         "recommended_mode_intent": "related",
         "header_title": "Shop Our Bestsellers",
-        "header_title_font_size": "h2",
+        "header_title_font_size": "h1",
         "header_description": "",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
