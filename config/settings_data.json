@@ -11,7 +11,6 @@
   "current": {
     "color_primary": "#4000be",
     "color_secondary": "#6A6A6A",
-    "color_third": "#6A6A6A",
     "color_body_bg": "#ffffff",
     "color_body_color": "#222222",
     "container_max_width": 1350,
@@ -67,6 +66,7 @@
     "checkout_logo_size": "small",
     "checkout_accent_color": "#dc3545",
     "checkout_button_color": "#dc3545",
+    "color_third": "#6A6A6A",
     "product_countdown_time": "1718358803",
     "product_countdown_bg_color": "bg-primary",
     "product_countdown_bg_opacity": 10,
