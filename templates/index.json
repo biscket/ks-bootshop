@@ -308,9 +308,9 @@
       "settings": {
         "liquid": "<div class=\"container\">\n<div class=\"row row-cols-1 row-cols-tablet-2 row-cols-desktop-4\">\n\n<div class=\"pb-10 pb-desktop-0\">\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n<div class=\"pb-10 pb-desktop-0\">\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n<div class=\"pb-10 pb-desktop-0\">\n<img src='/cdn/shop/files/truck.svg' style='height:50px;color:#fff' fillColor:\"#fff\"/>\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n<div>\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n</div>\n</div>",
         "bg_color": "bg-primary",
-        "bg_opacity": 100,
+        "bg_opacity": 10,
         "bg_gradient": "",
-        "text_color": "text-white",
+        "text_color": "text-body",
         "border_top_width": 0,
         "border_bottom_width": 0,
         "border_color": "border-body",
