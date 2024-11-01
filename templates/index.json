@@ -305,7 +305,7 @@
     "html_K6Rwnp": {
       "type": "html",
       "settings": {
-        "liquid": "<div class=\"container\">\n<div class=\"row\">\n<div class=\"col-desktop-3 text-center\">\na\n</div>\n<div class=\"col-desktop-3\">\nb\n</div>\n<div class=\"col-desktop-3\">\nc\n</div>\n<div class=\"col-desktop-3\">\nd\n</div>\n</div>\n</div>",
+        "liquid": "<div class=\"container\">\n<div class=\"row\">\n<div class=\"col-desktop-3\">\n<div class=\"text-center\">\na\n</div>\n</div>\n<div class=\"col-desktop-3\">\nb\n</div>\n<div class=\"col-desktop-3\">\nc\n</div>\n<div class=\"col-desktop-3\">\nd\n</div>\n</div>\n</div>",
         "bg_color": "bg-body",
         "bg_opacity": 100,
         "bg_gradient": "",
