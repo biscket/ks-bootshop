@@ -117,8 +117,8 @@
     "custom_css": [
       ".product-price-final-sale {color: #e12727;}",
       ".product-price {font-weight: bold; font-size: 110%;}",
-      ".product-sale-badge {background-color: #e12727;}",
-      ".product-card .product-sale-badge {font-size: 80% !important; border-radius: 3px !important; height: 1.6rem !important;}"
+      ".product-sale-badge {background-color: #e12727; border-radius: 3px !important;}",
+      ".product-card .product-sale-badge {font-size: 80% !important; height: 1.6rem !important;}"
     ]
   }
 }
