@@ -9,59 +9,54 @@
  */
 {
   "sections": {
-    "91492711-8ea6-4c3d-b346-30c8b72100ec": {
+    "richtext_DNcpdH": {
+      "type": "richtext",
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "900",
+        "text_align": "text-center",
+        "title": "Help Center",
+        "title_font_size": "h2",
+        "description": "",
+        "description_font_size": "fs-md",
+        "btn_primary_text": "",
+        "btn_primary_url": "",
+        "btn_primary_color": "btn-primary",
+        "btn_secondary_text": "",
+        "btn_secondary_url": "",
+        "btn_secondary_color": "btn-secondary",
+        "pt": 9,
+        "pb": 9
+      }
+    },
+    "faq_prTfnM": {
       "type": "faq",
       "blocks": {
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-1": {
+        "item_rNHTAD": {
           "type": "item",
           "settings": {
-            "title": "Where do you ship?",
-            "description": "<p>We ship all around the world... Please provide here you own shipping information, including times, prices, options etc.</p>"
+            "title": "Washing Instructions",
+            "description": "<p><strong>Follow these tips to keep your shirts looking the same as when you purchased them:</strong></p><ul><li>Wash your tee inside out (this will help prevent damage to the design)</li><li>Wash your garment in cold water</li><li>Use a mild detergent</li><li>Tumble dry on low or allow the clothing to air dry</li></ul>"
           }
         },
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-2": {
+        "item_m6c9qX": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to receive my order",
-            "description": "<p>This depends on whether it is an International or a Domestic order. All orders within the U.S. are considered domestic orders and they are shipped and delivered within 2-5 business days. Please see International Orders for more details.</p>"
-          }
-        },
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-3": {
-          "type": "item",
-          "settings": {
-            "title": "What payment methods do you support?",
-            "description": "<p>We accept PayPal, Visa, MasterCard, Discover, and American Express but feel free to contact us for other payment options.</p>"
-          }
-        },
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-4": {
-          "type": "item",
-          "settings": {
-            "title": "How can I track my order?",
-            "description": "<p>We will send tracking information to the e-mail address associated with your order once the item has shipped. If you have not received your tracking information and it has been over 2 business day, please contact us at (012) 123 - 4567</p>"
-          }
-        },
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-5": {
-          "type": "item",
-          "settings": {
-            "title": "Can I order as a gift for someone else?",
-            "description": "<p>When ordering as a gift for someone, be sure to enter in your email address to receive all summary information but enter in the recipient’s name and shipping information. We will be sure to keep all prices and receipts out of the package.</p>"
-          }
-        },
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-6": {
-          "type": "item",
-          "settings": {
-            "title": "How can I get a refund for my order?",
-            "description": "<p>If for any reason you are not completely satisfied with your purchase, within 30 days of placing your order, we will refund you for your purchase with no questions asked.</p>"
+            "title": "What kind of printing methods do you use?",
+            "description": "<p><strong>Direct-to-garment (DTG) printing</strong></p><p>This printing method is used for printing on clothing, and the <br/>process itself resembles digital printing on paper. Using this <br/>technique, pigmented water-based inks are applied to the garment’s <br/>surface and are absorbed by the product’s fibers.  </p>"
           }
         }
       },
       "block_order": [
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-1",
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-2",
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-3",
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-4",
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-5",
-        "template--15846749896843__91492711-8ea6-4c3d-b346-30c8b72100ec-item-6"
+        "item_rNHTAD",
+        "item_m6c9qX"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -74,12 +69,12 @@
         "border_opacity": 100,
         "container_max_width": "",
         "open_first_item": true,
-        "header_title": "FAQs",
-        "header_title_font_size": "h1",
-        "header_description": "<p>Still need to reach us? Please <a href=\"/pages/contact-us\" title=\"Contact us\">contact us</a> anytime</p>",
+        "header_title": "Product",
+        "header_title_font_size": "h2",
+        "header_description": "<p>T-Shirts, Sweatshirts, Hoodies & etc.</p>",
         "header_description_font_size": "fs-md",
-        "pt": 13,
-        "pb": 13
+        "pt": 10,
+        "pb": 10
       }
     },
     "664feedb-7180-4e8f-a84d-1cf45bc1dd42": {
@@ -96,8 +91,8 @@
         "container_max_width": "900",
         "text_align": "text-center",
         "title": "Still have questions?",
-        "title_font_size": "h1",
-        "description": "<p>Please contact us anytime from Monday to Friday</p>",
+        "title_font_size": "h2",
+        "description": "<p>Please contact us anytime. We will get back to you within 24 hours.</p>",
         "description_font_size": "fs-md",
         "btn_primary_text": "Contact us",
         "btn_primary_url": "shopify://pages/contact",
@@ -111,7 +106,8 @@
     }
   },
   "order": [
-    "91492711-8ea6-4c3d-b346-30c8b72100ec",
+    "richtext_DNcpdH",
+    "faq_prTfnM",
     "664feedb-7180-4e8f-a84d-1cf45bc1dd42"
   ]
 }
