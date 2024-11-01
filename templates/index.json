@@ -302,6 +302,29 @@
         "pb": 11
       }
     },
+    "html_K6Rwnp": {
+      "type": "html",
+      "settings": {
+        "liquid": "<div class=\"row\">\n<div class=\"col-md-3\">\na\n</div>\n<div class=\"col-md-3\">\nb\n</div>\n<div class=\"col-md-3\">\nc\n</div>\n<div class=\"col-md-3\">\nd\n</div>\n</div>",
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container": "",
+        "container_max_width": "",
+        "text_align": "text-center",
+        "header_title": "HTML and Liquid",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description_font_size": "fs-md",
+        "pt": 10,
+        "pb": 10
+      }
+    },
     "testimonials_eFtnyC": {
       "type": "testimonials",
       "blocks": {
@@ -401,6 +424,7 @@
     "media_with_text_xTY8gi",
     "faq_7TT7z4",
     "richtext_7idPNY",
+    "html_K6Rwnp",
     "testimonials_eFtnyC"
   ]
 }
