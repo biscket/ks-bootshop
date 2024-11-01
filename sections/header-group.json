@@ -20,23 +20,23 @@
             "announcement": "Sign up to enjoy 20% off on your first order."
           }
         },
+        "slide_mwF4Tk": {
+          "type": "slide",
+          "settings": {
+            "announcement": "FREE UK & USA shipping on orders $50+"
+          }
+        },
         "slide_j46kwk": {
           "type": "slide",
           "settings": {
             "announcement": "Fresh Christmas Designs Now Available!"
           }
-        },
-        "slide_mwF4Tk": {
-          "type": "slide",
-          "settings": {
-            "announcement": "Enjoy free shipping on all orders over $50."
-          }
         }
       },
       "block_order": [
         "slide_NDniAn",
-        "slide_j46kwk",
-        "slide_mwF4Tk"
+        "slide_mwF4Tk",
+        "slide_j46kwk"
       ],
       "settings": {
         "bg_color": "bg-primary",
