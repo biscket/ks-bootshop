@@ -252,6 +252,10 @@
         "item_kWLWrb",
         "item_dizKmG"
       ],
+      "custom_css": [
+        ".section-header {margin-bottom: 60px;}",
+        "@media (max-width: 599px) {.pt-13 {padding-top: 30px !important; } .pb-13 {padding-bottom: 30px !important; } .section-header {margin-bottom: 20px; }}"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
