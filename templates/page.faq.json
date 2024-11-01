@@ -168,6 +168,55 @@
         "pb": 10
       }
     },
+    "faq_8QLdVD": {
+      "type": "faq",
+      "blocks": {
+        "item_bCnAc8": {
+          "type": "item",
+          "settings": {
+            "title": "Return Policy",
+            "description": "<p>As our products are custom made to order, we do not accept returns. Please review product details and ask any questions before purchasing. Your satisfaction is important, and we appreciate your understanding of our policy. </p><p>For incorrect or faulty items, contact us within 7 days of receipt. Include your order number and a photo of the item's condition. The item must be unused, with tags, and in original packaging. Thank you for your understanding.custom </p>"
+          }
+        },
+        "item_8nFRhF": {
+          "type": "item",
+          "settings": {
+            "title": "Exchanges and Store Credit Policy",
+            "description": "<p>As our products are custom made to order, we do not accept exchanges. We <br/>encourage you to carefully review product details and ask any questions <br/>you may have before making a purchase. Your satisfaction is important to<br/> us, and we appreciate your understanding of our return policy. If you <br/>have any inquiries or concerns, feel free to contact our customer <br/>support team for assistance.</p>"
+          }
+        },
+        "item_dUVCwQ": {
+          "type": "item",
+          "settings": {
+            "title": "Cancellations and Order Modifications Policy",
+            "description": "<p>Order cancellations and or modifications must be <br/>submitted in writing within 1 hour of order placement. After that time <br/>has elapsed, you may be eligible for a refund, exchange, or store <br/>credit. Please refer to those policies for more details.</p><p>Our cancellation and order modification policy does not apply to requests that occur outside of business hours.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_bCnAc8",
+        "item_8nFRhF",
+        "item_dUVCwQ"
+      ],
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "open_first_item": true,
+        "header_title": "Policies",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Shipping, Return, Exchange & etc.</p>",
+        "header_description_font_size": "fs-md",
+        "pt": 10,
+        "pb": 10
+      }
+    },
     "664feedb-7180-4e8f-a84d-1cf45bc1dd42": {
       "type": "richtext",
       "settings": {
@@ -200,6 +249,7 @@
     "richtext_DNcpdH",
     "faq_prTfnM",
     "faq_i3zgTG",
+    "faq_8QLdVD",
     "664feedb-7180-4e8f-a84d-1cf45bc1dd42"
   ]
 }
