@@ -112,5 +112,11 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".product-price-final-sale {color: #e12727;}",
+      ".product-price{font-weight: bold; font-size: 110%;}"
+    ]
   }
 }
