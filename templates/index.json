@@ -318,9 +318,9 @@
         "container": "",
         "container_max_width": "",
         "text_align": "text-center",
-        "header_title": "HTML and Liquid",
+        "header_title": "",
         "header_title_font_size": "h2",
-        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description": "",
         "header_description_font_size": "fs-md",
         "pt": 10,
         "pb": 10
