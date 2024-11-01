@@ -89,7 +89,7 @@
         "recommended_mode_intent": "related",
         "header_title": "Shop Our Bestsellers",
         "header_title_font_size": "h1",
-        "header_description": "",
+        "header_description": "<p><a href=\"/collections/all\" title=\"All products\">Shop All</a></p>",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
         "slider_navigation": true,
