@@ -67,7 +67,8 @@
     "featured_products_nXJKQn": {
       "type": "featured-products",
       "custom_css": [
-        ".section-header {margin-bottom: 60px;}"
+        ".section-header {margin-bottom: 60px;}",
+        "@media (max-width: 599px) {.section-header {margin-bottom: 20px; margin-top: -40px; }}"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -342,7 +343,7 @@
       "custom_css": [
         ".testimonials .card {border-radius: 10px; padding: 10px;}",
         ".testimonials .card .svg-icon-star {color: #f8cc1b;}",
-        ".section-header{margin-bottom:50px;}"
+        ".section-header {margin-bottom: 50px;}"
       ],
       "settings": {
         "bg_color": "bg-white",
