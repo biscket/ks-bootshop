@@ -305,7 +305,7 @@
     "html_K6Rwnp": {
       "type": "html",
       "settings": {
-        "liquid": "<div class=\"container\">\n<div class=\"row row-cols-1 row-cols-tablet-2 row-cols-desktop-4\">\n\n<div>\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n<div>\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n<div>\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n<div>\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n</div>\n</div>",
+        "liquid": "<div class=\"container\">\n<div class=\"row row-cols-1 row-cols-tablet-2 row-cols-desktop-4\">\n\n<div>\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n<div class=\"pb-10\">\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n<div>\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n<div>\n<div class=\"h5\">100% Satisfaction Guranteed</div>\n<div>\nWe pride ourselves to offer the best quality in class. No compromises!\n</div>\n</div>\n\n</div>\n</div>",
         "bg_color": "bg-body",
         "bg_opacity": 100,
         "bg_gradient": "",
