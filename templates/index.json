@@ -128,7 +128,7 @@
         "limit": 12,
         "recommended_mode": true,
         "recommended_mode_intent": "related",
-        "header_title": "Latest Drop",
+        "header_title": "Shop Latest Drop",
         "header_title_font_size": "h1",
         "header_description": "<p>Explore the new collection. <a href=\"/collections/all\" title=\"All products\">Shop All</a></p>",
         "header_description_font_size": "fs-md",
