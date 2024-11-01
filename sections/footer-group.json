@@ -96,7 +96,7 @@
         "border_opacity": 100,
         "social_icons": true,
         "show_payment_icons": true,
-        "show_powered_by": true,
+        "show_powered_by": false,
         "pt": 10,
         "pb": 7
       }
