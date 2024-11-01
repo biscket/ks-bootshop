@@ -243,13 +243,6 @@
             "description": "<p>If your item arrives damaged or defective, please contact our customer service team within 7 days of receiving your order, and we'll make it right.</p>"
           }
         },
-        "item_rp9Mi4": {
-          "type": "item",
-          "settings": {
-            "title": "Can I return or exchange an item?",
-            "description": "<p>We offer returns and exchanges within 30 days of purchase. Items must be unused and in their original condition. Custom orders are non-refundable.</p>"
-          }
-        },
         "item_TWeCnA": {
           "type": "item",
           "settings": {
@@ -270,13 +263,6 @@
             "title": "Can I customize my order?",
             "description": "<p>Yes, we offer customization options for many of our products. You can add your own text or design during the ordering process. Please contact customer service team for more information.</p>"
           }
-        },
-        "item_fVcGGa": {
-          "type": "item",
-          "settings": {
-            "title": "How do I contact customer support?",
-            "description": "<p>You can reach our customer support team via email or live chat. Check our Contact Us page for the details.</p>"
-          }
         }
       },
       "block_order": [
@@ -286,11 +272,9 @@
         "item_pHCJRG",
         "item_kWLWrb",
         "item_dizKmG",
-        "item_rp9Mi4",
         "item_TWeCnA",
         "item_XrQiKY",
-        "item_UXhJe3",
-        "item_fVcGGa"
+        "item_UXhJe3"
       ],
       "custom_css": [
         ".section-header {margin-bottom: 60px;}",
