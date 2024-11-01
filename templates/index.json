@@ -249,6 +249,34 @@
             "title": "Can I return or exchange an item?",
             "description": "<p>We offer returns and exchanges within 30 days of purchase. Items must be unused and in their original condition. Custom orders are non-refundable.</p>"
           }
+        },
+        "item_TWeCnA": {
+          "type": "item",
+          "settings": {
+            "title": "How do I know what size to order?",
+            "description": "<p>Each product page includes a size chart to help you choose the right size. If you're still unsure, our customer service team can assist you.</p>"
+          }
+        },
+        "item_XrQiKY": {
+          "type": "item",
+          "settings": {
+            "title": "What types of payment do you accept?",
+            "description": "<p>We accept all major credit cards, PayPal, and other secure payment methods.</p>"
+          }
+        },
+        "item_UXhJe3": {
+          "type": "item",
+          "settings": {
+            "title": "Can I customize my order?",
+            "description": "<p>Yes, we offer customization options for many of our products. You can add your own text or design during the ordering process. Please contact customer service team for more information.</p>"
+          }
+        },
+        "item_fVcGGa": {
+          "type": "item",
+          "settings": {
+            "title": "How do I contact customer support?",
+            "description": "<p>You can reach our customer support team via email or live chat. Check our Contact Us page for the details.</p>"
+          }
         }
       },
       "block_order": [
@@ -258,7 +286,11 @@
         "item_pHCJRG",
         "item_kWLWrb",
         "item_dizKmG",
-        "item_rp9Mi4"
+        "item_rp9Mi4",
+        "item_TWeCnA",
+        "item_XrQiKY",
+        "item_UXhJe3",
+        "item_fVcGGa"
       ],
       "custom_css": [
         ".section-header {margin-bottom: 60px;}",
