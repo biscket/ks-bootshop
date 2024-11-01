@@ -204,43 +204,50 @@
         "item_AgKJ3m": {
           "type": "item",
           "settings": {
-            "title": "Where do you ship?",
-            "description": "<p>We ship all around the world... Please provide here you own shipping information, including times, prices, options etc.</p>"
+            "title": "How long does it take to process an order?",
+            "description": "<p>Orders are typically processed within 1-2 business days before shipping.</p>"
           }
         },
         "item_EemRD3": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to receive my order",
-            "description": "<p>This depends on whether it is an International or a Domestic order. All orders within the U.S. are considered domestic orders and they are shipped and delivered within 2-5 business days. Please see International Orders for more details.</p>"
+            "title": "How much does shipping cost?",
+            "description": "<p>Shipping costs vary based on your location and the size of your order. You'll see the final shipping cost at checkout.</p>"
           }
         },
         "item_jyLYkB": {
           "type": "item",
           "settings": {
-            "title": "What payment methods do you support?",
-            "description": "<p>We accept PayPal, Visa, MasterCard, Discover, and American Express but feel free to contact us for other payment options.</p>"
+            "title": "Do you offer free shipping?",
+            "description": "<p>Yes, domestic UK & USA orders receive free shipping when the total oder value is over $50.</p>"
           }
         },
         "item_pHCJRG": {
           "type": "item",
           "settings": {
-            "title": "How can I track my order?",
-            "description": "<p>We will send tracking information to the e-mail address associated with your order once the item has shipped. If you have not received your tracking information and it has been over 2 business day, please contact us at (012) 123 - 4567</p>"
+            "title": "Can I track my order?",
+            "description": "<p>Yes, once your order ships, we'll send you a tracking number via email.</p>"
           }
         },
         "item_kWLWrb": {
           "type": "item",
           "settings": {
-            "title": "Can I order as a gift for someone else?",
-            "description": "<p>When ordering as a gift for someone, be sure to enter in your email address to receive all summary information but enter in the recipient’s name and shipping information. We will be sure to keep all prices and receipts out of the package.</p>"
+            "title": "Do you offer international shipping?",
+            "description": "<p>Absolutely! We ship worldwide. Shipping times and costs will vary based on your location.</p>"
           }
         },
         "item_dizKmG": {
           "type": "item",
           "settings": {
-            "title": "How can I get a refund for my order?",
-            "description": "<p>If for any reason you are not completely satisfied with your purchase, within 30 days of placing your order, we will refund you for your purchase with no questions asked.</p>"
+            "title": "What if my item arrives damaged or defective?",
+            "description": "<p>If your item arrives damaged or defective, please contact our customer service team within 7 days of receiving your order, and we'll make it right.</p>"
+          }
+        },
+        "item_rp9Mi4": {
+          "type": "item",
+          "settings": {
+            "title": "Can I return or exchange an item?",
+            "description": "<p>We offer returns and exchanges within 30 days of purchase. Items must be unused and in their original condition. Custom orders are non-refundable.</p>"
           }
         }
       },
@@ -250,7 +257,8 @@
         "item_jyLYkB",
         "item_pHCJRG",
         "item_kWLWrb",
-        "item_dizKmG"
+        "item_dizKmG",
+        "item_rp9Mi4"
       ],
       "custom_css": [
         ".section-header {margin-bottom: 60px;}",
