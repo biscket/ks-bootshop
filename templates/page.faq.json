@@ -77,6 +77,97 @@
         "pb": 10
       }
     },
+    "faq_i3zgTG": {
+      "type": "faq",
+      "blocks": {
+        "item_qVpUVN": {
+          "type": "item",
+          "settings": {
+            "title": "Unisex Adult T-Shirt",
+            "description": ""
+          }
+        },
+        "item_xXMekx": {
+          "type": "item",
+          "settings": {
+            "title": "Unisex Adult Sweatshit",
+            "description": ""
+          }
+        },
+        "item_k6Aap8": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Unisex Adult Hoodie",
+            "description": ""
+          }
+        },
+        "item_kdNhW9": {
+          "type": "item",
+          "settings": {
+            "title": "Youth T-Shirt",
+            "description": ""
+          }
+        },
+        "item_mPDFn9": {
+          "type": "item",
+          "settings": {
+            "title": "Youth Sweatshirt",
+            "description": ""
+          }
+        },
+        "item_FPz8cc": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Youth Hoodie",
+            "description": ""
+          }
+        },
+        "item_CjYQRf": {
+          "type": "item",
+          "settings": {
+            "title": "Toddler T-Shirt",
+            "description": ""
+          }
+        },
+        "item_iJUP7i": {
+          "type": "item",
+          "settings": {
+            "title": "Baby Bodysuit",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_qVpUVN",
+        "item_xXMekx",
+        "item_k6Aap8",
+        "item_kdNhW9",
+        "item_mPDFn9",
+        "item_FPz8cc",
+        "item_CjYQRf",
+        "item_iJUP7i"
+      ],
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "open_first_item": true,
+        "header_title": "Size Charts",
+        "header_title_font_size": "h2",
+        "header_description": "<p>T-Shirts, Sweatshirts, Hoodies & etc.</p>",
+        "header_description_font_size": "fs-md",
+        "pt": 10,
+        "pb": 10
+      }
+    },
     "664feedb-7180-4e8f-a84d-1cf45bc1dd42": {
       "type": "richtext",
       "settings": {
@@ -108,6 +199,7 @@
   "order": [
     "richtext_DNcpdH",
     "faq_prTfnM",
+    "faq_i3zgTG",
     "664feedb-7180-4e8f-a84d-1cf45bc1dd42"
   ]
 }
