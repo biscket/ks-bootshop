@@ -366,7 +366,7 @@
         "container_max_width": "",
         "header_title": "Customer Reviews",
         "header_title_font_size": "h1",
-        "header_description": "<p><em>Don't just take our word for it.</em></p>",
+        "header_description": "",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
         "slider_navigation": true,
