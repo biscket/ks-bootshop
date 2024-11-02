@@ -152,6 +152,9 @@
         "item_CjYQRf",
         "item_iJUP7i"
       ],
+      "custom_css": [
+        ".accordion-item {border-color: #ccc;}"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -300,6 +303,9 @@
         "item_EcWKcn",
         "item_WGRhXx",
         "item_jCjan9"
+      ],
+      "custom_css": [
+        ".accordion-item {border-color: #ccc;}"
       ],
       "settings": {
         "bg_color": "bg-body",
