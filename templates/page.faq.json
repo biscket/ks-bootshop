@@ -12,8 +12,8 @@
     "richtext_DNcpdH": {
       "type": "richtext",
       "settings": {
-        "bg_color": "bg-body",
-        "bg_opacity": 100,
+        "bg_color": "bg-primary",
+        "bg_opacity": 10,
         "bg_gradient": "",
         "text_color": "text-body",
         "border_top_width": 0,
@@ -70,7 +70,7 @@
         "container_max_width": "",
         "open_first_item": false,
         "header_title": "Product",
-        "header_title_font_size": "h2",
+        "header_title_font_size": "h3",
         "header_description": "<p>T-Shirts, Sweatshirts, Hoodies & etc.</p>",
         "header_description_font_size": "fs-md",
         "pt": 10,
@@ -161,7 +161,7 @@
         "container_max_width": "",
         "open_first_item": false,
         "header_title": "Size Charts",
-        "header_title_font_size": "h2",
+        "header_title_font_size": "h3",
         "header_description": "<p>T-Shirts, Sweatshirts, Hoodies & etc.</p>",
         "header_description_font_size": "fs-md",
         "pt": 10,
@@ -242,7 +242,7 @@
         "container_max_width": "",
         "open_first_item": false,
         "header_title": "Policies",
-        "header_title_font_size": "h2",
+        "header_title_font_size": "h3",
         "header_description": "<p>Shipping, Return, Exchange & etc.</p>",
         "header_description_font_size": "fs-md",
         "pt": 10,
@@ -307,11 +307,11 @@
         "container_max_width": "",
         "open_first_item": false,
         "header_title": "Love It Guaranteed",
-        "header_title_font_size": "h2",
+        "header_title_font_size": "h3",
         "header_description": "<p>If you don't absolutely love your product, we'll give you a full refund.</p>",
         "header_description_font_size": "fs-md",
         "pt": 10,
-        "pb": 10
+        "pb": 13
       }
     },
     "664feedb-7180-4e8f-a84d-1cf45bc1dd42": {
@@ -328,7 +328,7 @@
         "container_max_width": "900",
         "text_align": "text-center",
         "title": "Still have questions?",
-        "title_font_size": "h2",
+        "title_font_size": "h3",
         "description": "<p>Please contact us anytime. We will get back to you within 24 hours.</p>",
         "description_font_size": "fs-md",
         "btn_primary_text": "Contact us",
