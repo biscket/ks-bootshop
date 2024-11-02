@@ -9,6 +9,60 @@
  */
 {
   "sections": {
+    "richtext_qQmyHn": {
+      "type": "richtext",
+      "settings": {
+        "bg_color": "bg-primary",
+        "bg_opacity": 10,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "text_align": "text-center",
+        "title": "Contact Us",
+        "title_font_size": "h2",
+        "description": "<p>Check our <a href=\"/pages/faqs\" title=\"FAQs\">Help Center</a> for helpful answers to common requests.</p>",
+        "description_font_size": "fs-md",
+        "btn_primary_text": "",
+        "btn_primary_url": "",
+        "btn_primary_color": "btn-primary",
+        "btn_secondary_text": "",
+        "btn_secondary_url": "",
+        "btn_secondary_color": "btn-secondary",
+        "pt": 9,
+        "pb": 9
+      }
+    },
+    "richtext_4igLdc": {
+      "type": "richtext",
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "900",
+        "text_align": "text-center",
+        "title": "",
+        "title_font_size": "h2",
+        "description": "<p>Ways to contact us:</p><ul><li><strong>Using the web form below:</strong> Fill in the form on this page and we will get in touch with you as soon as possible.</li><li><strong>Live Chat: </strong>Chat with an agent by clicking the \"Chat with us\" bubble in the lower right corner.</li><li><strong>Email:</strong> <a href=\"mailto:info@supirix.com\">info@supirix.com</a> with your order number in the subject line.</li><li><strong>Voicemail:</strong> at (908) 800 0352 with your name, order <br/>number, and reason for your call. If you did not receive a return call, <br/>we will contact you by email once we've researched your issue.</li></ul><p>We make every effort to respond to your request <strong>by email</strong> within <strong>1 business day</strong>.</p><p><strong>**Pro Tip:</strong> For the fastest resolution, when you <br/>email us include your order number, photos of the product and the <br/>shipping label/packaging, a clear description of the reason for <br/>contacting us, and a complete request including the solution you are <br/>seeking.</p>",
+        "description_font_size": "fs-md",
+        "btn_primary_text": "",
+        "btn_primary_url": "",
+        "btn_primary_color": "btn-primary",
+        "btn_secondary_text": "",
+        "btn_secondary_url": "",
+        "btn_secondary_color": "btn-secondary",
+        "pt": 9,
+        "pb": 9
+      }
+    },
     "page_content_ch6NmA": {
       "type": "page-content",
       "settings": {
@@ -79,6 +133,8 @@
     }
   },
   "order": [
+    "richtext_qQmyHn",
+    "richtext_4igLdc",
     "page_content_ch6NmA",
     "ba94d905-ea2f-4198-8472-5296b1853fb5",
     "9b5ef318-8d23-40cd-a163-d1f62c2d0834"
