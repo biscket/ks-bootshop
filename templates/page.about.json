@@ -93,6 +93,9 @@
       "block_order": [
         "row_WRVTmE"
       ],
+      "custom_css": [
+        ".align-items-desktop-center {align-items: start !important;}"
+      ],
       "settings": {
         "container_max_width": ""
       }
