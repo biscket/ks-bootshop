@@ -58,6 +58,9 @@
         "item_rNHTAD",
         "item_m6c9qX"
       ],
+      "custom_css": [
+        ".accordion-item{border-color:#ddd;}"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
