@@ -418,7 +418,7 @@
         "open_first_item": true,
         "header_title": "FAQ Answered",
         "header_title_font_size": "h1",
-        "header_description": "<p><em>Find answers to your questions here. </em><a href=\"/pages/faqs\" title=\"FAQs\"><em>More FAQs</em></a></p>",
+        "header_description": "<p><em>Find answers to your questions here. </em><a href=\"/pages/faqs\" title=\"FAQs\"><em>Visit Help Center</em></a></p>",
         "header_description_font_size": "fs-md",
         "pt": 13,
         "pb": 13
