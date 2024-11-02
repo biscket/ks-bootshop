@@ -66,7 +66,7 @@
             "media_align_desktop": "",
             "media_border": "rounded",
             "img": "shopify://shop_images/about-us.jpg",
-            "img_orientation": "adapt",
+            "img_orientation": "ratio-3x4",
             "video_ratio": "adapt",
             "video_autoplay": true,
             "video_loop": true,
@@ -75,9 +75,9 @@
             "text_align_mobile": "text-start",
             "text_align_desktop": "text-desktop-start",
             "subtitle": "",
-            "title": "About The Brand",
+            "title": "",
             "title_font_size": "h2",
-            "description": "<p></p><p>Supirix is your go-to destination for unique, vibrant, and authentic designs. We pride ourselves on creating eye-catching apparel and accessories that stand out. Our range includes T-shirts, sweatshirts, baby clothes, mugs, and more, all crafted with the highest quality materials.<br/><strong><br/>Our Story</strong><br/>Funded in the heart of Yorkshire, United Kingdom, Supirix was born out of a passion for creativity and a love for bold, beautiful designs. We started as a small, local business with a vision to bring exceptional artistry to everyday items. As we grew, we partnered with production teams across the globe to ensure our products maintain the highest standards.<br/><br/><strong>Mission</strong><br/>Our mission is simple o infuse the world with color and creativity. We aim to offer products that not only look good but also make our customers feel good. At Supirix, we believe that every item should tell a story and reflect the individuality of the person wearing or using it.<br/><br/><strong>What We Offer</strong><br/>From stylish T-shirts and cozy sweatshirts to adorable baby clothes and must-have mugs, our collection is designed to cater to diverse tastes and preferences. Each product features our signature vibrant colors and unique designs, ensuring you find something that resonates with you.<br/><br/><strong>Join the Community</strong><br/>When you shop at Supirix, you're not just buying a product; you're joining a community of like-minded individuals who appreciate quality, artistry, and authenticity. Follow us on social media, share your Supirix moments, and stay updated with our latest releases and special offers.<br/><br/>We invite you to explore our collections and find your new favorite pieces. Together, let's make the world a more vibrant place, one unique design at a time.</p>",
+            "description": "<p><strong>About</strong></p><p>Supirix is your go-to destination for unique, vibrant, and authentic designs. We pride ourselves on creating eye-catching apparel and accessories that stand out. Our range includes T-shirts, sweatshirts, baby clothes, mugs, and more, all crafted with the highest quality materials.<br/><strong><br/>Our Story</strong><br/>Funded in the heart of Yorkshire, United Kingdom, Supirix was born out of a passion for creativity and a love for bold, beautiful designs. We started as a small, local business with a vision to bring exceptional artistry to everyday items. As we grew, we partnered with production teams across the globe to ensure our products maintain the highest standards.<br/><br/><strong>Mission</strong><br/>Our mission is simple o infuse the world with color and creativity. We aim to offer products that not only look good but also make our customers feel good. At Supirix, we believe that every item should tell a story and reflect the individuality of the person wearing or using it.<br/><br/><strong>What We Offer</strong><br/>From stylish T-shirts and cozy sweatshirts to adorable baby clothes and must-have mugs, our collection is designed to cater to diverse tastes and preferences. Each product features our signature vibrant colors and unique designs, ensuring you find something that resonates with you.<br/><br/><strong>Join the Community</strong><br/>When you shop at Supirix, you're not just buying a product; you're joining a community of like-minded individuals who appreciate quality, artistry, and authenticity. Follow us on social media, share your Supirix moments, and stay updated with our latest releases and special offers.<br/><br/>We invite you to explore our collections and find your new favorite pieces. Together, let's make the world a more vibrant place, one unique design at a time.</p>",
             "description_font_size": "fs-md",
             "btn_primary_text": "Shop Now",
             "btn_primary_url": "shopify://collections/all",
@@ -85,8 +85,8 @@
             "btn_secondary_text": "Contact Us",
             "btn_secondary_url": "shopify://pages/contact",
             "btn_secondary_color": "btn-secondary",
-            "pt": 5,
-            "pb": 10
+            "pt": 13,
+            "pb": 13
           }
         }
       },
