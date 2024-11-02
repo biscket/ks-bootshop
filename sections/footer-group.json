@@ -59,7 +59,7 @@
         "7468602d-7e94-4bd5-9673-02b2f8269581": {
           "type": "menu",
           "settings": {
-            "menu": "footer-menu-2",
+            "menu": "footer-menu-policy",
             "title_font_size": "fs-xl",
             "title": "Policies"
           }
