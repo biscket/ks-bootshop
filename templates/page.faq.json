@@ -191,12 +191,28 @@
             "title": "Cancellations and Order Modifications Policy",
             "description": "<p>Order cancellations and or modifications must be <br/>submitted in writing within 1 hour of order placement. After that time <br/>has elapsed, you may be eligible for a refund, exchange, or store <br/>credit. Please refer to those policies for more details.</p><p>Our cancellation and order modification policy does not apply to requests that occur outside of business hours.</p>"
           }
+        },
+        "item_Akxxzn": {
+          "type": "item",
+          "settings": {
+            "title": "Incomplete Orders / Missing Items Policy",
+            "description": "<p>Our Incomplete Orders/Missing Items Policy aims to address and resolve cases of orders arriving with missing items or components. If this happens, we'll replace the affected items. Claims must be made within 7 days of delivery.<br/><br/>Additional conditions apply for items lost or damaged in transit. To submit a claim, provide proof of purchase along with photo or video evidence. Replacement orders will be issued once we confirm the order was sent with missing items or components.</p>"
+          }
+        },
+        "item_f9rbTy": {
+          "type": "item",
+          "settings": {
+            "title": "Shipping Policy",
+            "description": "<p><strong>Shipping Destinations:</strong><br/><br/>We ship our products worldwide. No matter where you are, you can enjoy the elegance of our products.<br/><br/><strong>Shipping Methods:</strong><br/><br/>We utilize reputable domestic and international carriers to ensure your order reaches you safely and securely. Shipping methods available will be displayed during the checkout process.</p><p><strong>Shipping Rates:</strong><br/><br/>Shipping rates are determined based on the destination, weight, and dimensions of your order. Rates will be calculated and presented to you at checkout before you finalize your purchase.<br/><br/><strong>Estimated Delivery Times:</strong><br/><br/>Estimated delivery times vary based on your location and the shipping method you choose during checkout. Generally, our estimated delivery times are as follows:<br/><br/>- USA / UK / EU Shipping: 3-5 business days<br/>- Rest of the World: 5-15 business days<br/><br/>Please note that these are approximate delivery times and may be subject to delays due to factors beyond our control, such as customs processing.<br/><br/><strong>Order Processing:</strong><br/><br/>Orders are typically processed within 1-2 business days after payment has been received. Once your order has been shipped, you will receive a confirmation email with tracking information.<br/><br/><strong>Tracking Information:</strong><br/><br/>For orders that include tracking, you will receive a tracking number via email. This will allow you to monitor the progress of your order as it makes its way to you.<br/><br/><strong>Customs and Import Duties:</strong><br/><br/>For international orders, customs and import duties may be applicable upon arrival in your country. These charges are the responsibility of the recipient and will vary depending on the destination.<br/><br/><strong>Address Accuracy:</strong><br/><br/>Please ensure that your shipping address is accurate and complete. We cannot be held responsible for orders that are undeliverable due to address errors.</p>"
+          }
         }
       },
       "block_order": [
         "item_bCnAc8",
         "item_8nFRhF",
-        "item_dUVCwQ"
+        "item_dUVCwQ",
+        "item_Akxxzn",
+        "item_f9rbTy"
       ],
       "settings": {
         "bg_color": "bg-body",
