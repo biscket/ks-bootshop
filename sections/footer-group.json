@@ -51,7 +51,7 @@
         "79b0b9d4-1bf4-4490-a48e-94be1aecf12a": {
           "type": "menu",
           "settings": {
-            "menu": "footer-menu-1",
+            "menu": "footer-menu-customer-care",
             "title_font_size": "fs-xl",
             "title": "Company"
           }
