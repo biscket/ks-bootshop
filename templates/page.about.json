@@ -22,60 +22,6 @@
         "pb": 0
       }
     },
-    "hero_carousel_kPmcfU": {
-      "type": "hero-carousel",
-      "blocks": {
-        "slide_qJwHcX": {
-          "type": "slide",
-          "settings": {
-            "img_desktop": "shopify://shop_images/about-us.jpg",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "overlay_blur": 0,
-            "subtitle": "",
-            "title": "About The Brand",
-            "description": "",
-            "btn_primary_text": "",
-            "btn_primary_url": "",
-            "btn_secondary_text": "",
-            "btn_secondary_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_qJwHcX"
-      ],
-      "settings": {
-        "bg_color": "bg-body",
-        "bg_opacity": 100,
-        "bg_gradient": "",
-        "text_color": "text-white",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 100,
-        "carousel_controls": true,
-        "carousel_indicators": true,
-        "carousel_transition": "slide",
-        "carousel_transition_duration": 500,
-        "carousel_autoplay": 5,
-        "carousel_effect": "carousel-zoom-in",
-        "media_mobile_height": 400,
-        "media_desktop_height": 700,
-        "media_adapt": false,
-        "media_full": false,
-        "caption_max_width": "900",
-        "caption_position": "carousel-caption-center",
-        "subtitle_font_size": "fs-md",
-        "title_font_size": "h2",
-        "description_font_size": "fs-lg",
-        "btn_primary_color": "btn-primary",
-        "btn_secondary_color": "btn-secondary",
-        "btn_font_size": "fs-md",
-        "pt": 0,
-        "pb": 0
-      }
-    },
     "media_with_text_pEV74K": {
       "type": "media-with-text",
       "blocks": {
@@ -127,7 +73,6 @@
   },
   "order": [
     "cfc6ff50-e3a5-4219-8350-f2db73f829c8",
-    "hero_carousel_kPmcfU",
     "media_with_text_pEV74K"
   ]
 }
