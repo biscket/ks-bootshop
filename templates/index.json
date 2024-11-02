@@ -205,7 +205,7 @@
           "type": "item",
           "settings": {
             "title": "How long does it take to process an order?",
-            "description": "<p>Orders are typically processed within 1-2 business days before shipping.</p>"
+            "description": "<p><strong>Processing Times:</strong></p><p>Orders are typically processed within 1-2 business days before shipping.</p><p><strong>Estimated Delivery Times:</strong></p><ul><li> USA / UK / EU Shipping: 3-5 business days.</li><li> Rest of the World: 5-15 business days.</li></ul>"
           }
         },
         "item_EemRD3": {
@@ -263,6 +263,13 @@
             "title": "Can I customize my order?",
             "description": "<p>Yes, we offer customization options for many of our products. You can add your own text or design during the ordering process. Please contact customer service team for more information.</p>"
           }
+        },
+        "item_tYRL9L": {
+          "type": "item",
+          "settings": {
+            "title": "What is the \"Love It Guaranteed\" policy?",
+            "description": "<p>Our \"Love It Guaranteed\" policy means that if you're not completely satisfied with your purchase, we'll issue a full refund. We want you to love every product you buy from us.</p><p>Please note that the refund will not include any shipping fees, and this policy does not apply to free items or gifts. Additionally, a small restocking charge, depending on the item, will be deducted from the refund amount.</p><p>Please contact customer service team to get more information.</p>"
+          }
         }
       },
       "block_order": [
@@ -274,7 +281,8 @@
         "item_dizKmG",
         "item_TWeCnA",
         "item_XrQiKY",
-        "item_UXhJe3"
+        "item_UXhJe3",
+        "item_tYRL9L"
       ],
       "custom_css": [
         ".section-header {margin-bottom: 60px;}",
