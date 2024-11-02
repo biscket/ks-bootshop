@@ -28,7 +28,7 @@
         "description_font_size": "fs-md",
         "btn_primary_text": "Visit Help Center",
         "btn_primary_url": "shopify://pages/faqs",
-        "btn_primary_color": "btn-outline-secondary",
+        "btn_primary_color": "btn-outline-primary",
         "btn_secondary_text": "",
         "btn_secondary_url": "",
         "btn_secondary_color": "btn-secondary",
