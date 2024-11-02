@@ -38,6 +38,9 @@
     },
     "richtext_4igLdc": {
       "type": "richtext",
+      "custom_css": [
+        ".richtext{text-align:left!important;}"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
