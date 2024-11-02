@@ -59,7 +59,7 @@
         "item_m6c9qX"
       ],
       "custom_css": [
-        ".accordion-item{border-color:#ddd;}"
+        ".accordion-item {border-color: #ccc;}"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -232,6 +232,9 @@
         "item_f9rbTy",
         "item_baBGhE",
         "item_jHnnBF"
+      ],
+      "custom_css": [
+        ".accordion-item {border-color: #ccc;}"
       ],
       "settings": {
         "bg_color": "bg-body",
