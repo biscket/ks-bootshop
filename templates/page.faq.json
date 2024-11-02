@@ -68,7 +68,7 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "",
-        "open_first_item": true,
+        "open_first_item": false,
         "header_title": "Product",
         "header_title_font_size": "h2",
         "header_description": "<p>T-Shirts, Sweatshirts, Hoodies & etc.</p>",
@@ -159,7 +159,7 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "",
-        "open_first_item": true,
+        "open_first_item": false,
         "header_title": "Size Charts",
         "header_title_font_size": "h2",
         "header_description": "<p>T-Shirts, Sweatshirts, Hoodies & etc.</p>",
@@ -240,10 +240,75 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "",
-        "open_first_item": true,
+        "open_first_item": false,
         "header_title": "Policies",
         "header_title_font_size": "h2",
         "header_description": "<p>Shipping, Return, Exchange & etc.</p>",
+        "header_description_font_size": "fs-md",
+        "pt": 10,
+        "pb": 10
+      }
+    },
+    "faq_URG3qf": {
+      "type": "faq",
+      "blocks": {
+        "item_L7KxPg": {
+          "type": "item",
+          "settings": {
+            "title": "What is the \"Love It Guaranteed\" policy?",
+            "description": "<p>Our \"Love It Guaranteed\" policy means that if you're not completely satisfied with your purchase, we'll issue a full refund. We want you to love every product you buy from us.</p><p>Please note that the refund will not include any shipping fees, and this policy does not apply to free items or gifts. Additionally, a small restocking charge, depending on the item, will be deducted from the refund amount.</p><p>Please contact customer service team to get more information.</p><p></p>"
+          }
+        },
+        "item_bGhVRR": {
+          "type": "item",
+          "settings": {
+            "title": "How do I qualify for the \"Love It Guaranteed\" refund?",
+            "description": "<p>Simply contact our customer support team within 7 days of receiving your order. Let us know why the product didn't meet your expectations, and we'll process your refund.</p>"
+          }
+        },
+        "item_EcWKcn": {
+          "type": "item",
+          "settings": {
+            "title": "Are there any conditions for returning an item under the \"Love It Guaranteed\" policy?",
+            "description": "<p>Yes, the item must be in its original condition, unused, with tags, and in its original packaging. This ensures we can offer the best service to all our customers.</p>"
+          }
+        },
+        "item_WGRhXx": {
+          "type": "item",
+          "settings": {
+            "title": "How long does it take to receive my refund?",
+            "description": "<p>Once we receive your returned item and confirm its condition, your refund will be processed within 5-7 business days. You’ll receive a confirmation email once the refund has been issued.</p>"
+          }
+        },
+        "item_jCjan9": {
+          "type": "item",
+          "settings": {
+            "title": "What if my item is defective or damaged?",
+            "description": "<p>If your item arrives defective or damaged, please contact us within 7 days of receiving your order. Include your order number and a photo of the item's condition. We'll resolve the issue as quickly as possible.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_L7KxPg",
+        "item_bGhVRR",
+        "item_EcWKcn",
+        "item_WGRhXx",
+        "item_jCjan9"
+      ],
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "open_first_item": false,
+        "header_title": "Love It Guaranteed",
+        "header_title_font_size": "h2",
+        "header_description": "<p>If you don't absolutely love your product, we'll give you a full refund.</p>",
         "header_description_font_size": "fs-md",
         "pt": 10,
         "pb": 10
@@ -282,6 +347,7 @@
     "faq_prTfnM",
     "faq_i3zgTG",
     "faq_8QLdVD",
+    "faq_URG3qf",
     "664feedb-7180-4e8f-a84d-1cf45bc1dd42"
   ]
 }
