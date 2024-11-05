@@ -46,7 +46,7 @@
           "settings": {
             "title": "",
             "title_font_size": "h6",
-            "description": "<p>{{ product.metafields.descriptors.subtitle.value }}</p>",
+            "description": "<p>{{ product.metafields.descriptors.subtitle.value }}{{ product.metafields.custom.short_description | metafield_tag }}</p>",
             "description_font_size": "",
             "product_description": false,
             "description_classes": "opacity-70",
