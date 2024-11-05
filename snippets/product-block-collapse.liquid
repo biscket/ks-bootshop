@@ -1,9 +1,9 @@
 {% liquid 
   assign pt = block.settings.pt | prepend: 'pt-'
   assign pb = block.settings.pb | prepend: 'pb-'
-  assign hide = block.settings.description and block.settings.description_page | prepend: 'hide'
 %}
 
+{% if  block.settings.description !="" and  block.settings.description_page != "" %}
 <div 
   class="product-block-collapse {{ pt }} {{ pb }}" 
   {{ block.shopify_attributes }}>
@@ -63,3 +63,4 @@
     </div>
   </div>
 </div>
+        {% endif %}   
