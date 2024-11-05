@@ -14,6 +14,9 @@
 }
 
 /* product details page */
+.product-main .product-price-final-sale {
+  color: #e12727 !important;
+}
 .product-main .product-sale-badge {
   background-color: #e12727;
   border-radius: 3px !important;
