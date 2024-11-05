@@ -36,6 +36,11 @@
             "pb": 2
           }
         },
+        "judge_me_reviews_preview_badge_zxyNq8": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "bf49a5ff-d625-4485-a09c-44d883547f90": {
           "type": "richtext",
           "settings": {
@@ -202,6 +207,7 @@
       "block_order": [
         "8abeac2d-7b60-4697-891c-4d6201789d31",
         "40d3cdd3-9d78-4f15-b346-c3f46d49f7b1",
+        "judge_me_reviews_preview_badge_zxyNq8",
         "bf49a5ff-d625-4485-a09c-44d883547f90",
         "095886ab-f46a-4a25-9d3d-e7c79235921b",
         "4566c39b-0f51-4900-b193-a0ac76bf0c8f",
