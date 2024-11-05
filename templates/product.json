@@ -187,7 +187,7 @@
             "title_font_size": "fs-md",
             "title_text_transform": "text-capitalize",
             "title_letter_spacing": 1,
-            "description": "<p>To return an item to us, follow the directions listed on the return exchange form included with your order. If you don’t have this form available, you can download one by clicking here</p>",
+            "description": "<p>Our \"Love It Guaranteed\" policy means that if you're not completely satisfied with your purchase, we'll issue a full refund. We want you to love every product you buy from us. <br/><br/>Please note that the refund will not include any shipping fees, and this policy does not apply to free items or gifts. Additionally, a small restocking charge, depending on the item, will be deducted from the refund amount.<br/><br/>Please contact customer service team to get more information.</p><p><a href=\"/pages/faqs\" target=\"_blank\" title=\"FAQs\">More Details &gt;&gt;</a></p>",
             "product_description": false,
             "description_font_size": "fs-md",
             "border_top_width": 1,
