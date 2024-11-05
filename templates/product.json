@@ -149,7 +149,7 @@
             "title_text_transform": "text-capitalize",
             "title_letter_spacing": 0,
             "description": "<p>Collapse description goes here</p>",
-            "description_page": "",
+            "description_page": "{{ product.metafields.custom.size_chart.value }}",
             "product_description": false,
             "description_font_size": "fs-md",
             "border_top_width": 1,
