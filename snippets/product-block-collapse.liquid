@@ -1,6 +1,7 @@
 {% liquid 
   assign pt = block.settings.pt | prepend: 'pt-'
   assign pb = block.settings.pb | prepend: 'pb-'
+  assign hide = block.settings.description == "" and block.settings.description_page == "" | prepend: 'hide'
 %}
 
 <div 
@@ -12,7 +13,7 @@
       {{ block.settings.border_top_width | prepend: 'border-top-' }}
       {{ block.settings.border_bottom_width | prepend: 'border-bottom-' }}
       {{ block.settings.border_color }} 
-      {{ block.settings.description == "" and block.settings.description_page == "" | append: 'hide' }}
+      {{ hide }}
     "
     style="
       border-top-style: solid;
