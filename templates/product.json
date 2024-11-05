@@ -228,11 +228,6 @@
         "pb": 13
       }
     },
-    "1710322973d29fae05": {
-      "type": "apps",
-      "settings": {
-      }
-    },
     "8b8acb35-e69e-4471-a6cb-d0a09485fb41": {
       "type": "featured-products",
       "custom_css": [
@@ -271,6 +266,21 @@
         "breakpoint_desktop": 4,
         "pt": 13,
         "pb": 0
+      }
+    },
+    "1710322973d29fae05": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_dfKpGb": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_dfKpGb"
+      ],
+      "settings": {
       }
     },
     "faq_V3wr9b": {
@@ -373,8 +383,8 @@
   },
   "order": [
     "8f4f1b58-133b-491a-a7b2-8bf2e6fbc583",
-    "1710322973d29fae05",
     "8b8acb35-e69e-4471-a6cb-d0a09485fb41",
+    "1710322973d29fae05",
     "faq_V3wr9b"
   ]
 }
