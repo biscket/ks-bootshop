@@ -271,7 +271,7 @@
         "slider_scrollbar": false,
         "slider_partial_slides_mobile": true,
         "slider_autoplay": 0,
-        "card_bg_color": "bg-primary",
+        "card_bg_color": "bg-white",
         "card_bg_opacity": 2,
         "card_text_color": "text-body",
         "card_border_width": 1,
