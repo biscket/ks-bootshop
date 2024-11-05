@@ -48,7 +48,7 @@
       <div class="collapse-inner description rte mb-0 {{ block.settings.description_font_size }}">
         {% if block.settings.description contains '[page' %}
           {% assign page_handle = block.settings.description | split: '[page:' | last | split: ']' | first %}
-          {{ pages[page_handle].content }}
+          {{ pages['about'].content }}
         {% elsif block.settings.product_description %}
           {{ product.description }}
         {% else %}
