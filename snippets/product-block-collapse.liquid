@@ -12,7 +12,7 @@
       {{ block.settings.border_top_width | prepend: 'border-top-' }}
       {{ block.settings.border_bottom_width | prepend: 'border-bottom-' }}
       {{ block.settings.border_color }} 
-      {{ block.settings.description == "" and block.settings.description_page == "" | append: "hide" }}
+      {{ block.settings.description == "" and block.settings.description_page == "" | append: 'hide' }}
     "
     style="
       border-top-style: solid;
