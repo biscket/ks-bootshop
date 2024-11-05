@@ -1,3 +1,4 @@
+/* product card */
 .product-card .product-price-final-sale {
   color: #e12727 !important;
 }
@@ -6,10 +7,13 @@
   font-size: 110% !important;
 }
 .product-card .product-sale-badge {
+  font-size: 80% !important;
+  height: 1.6rem !important;
   background-color: #e12727;
   border-radius: 3px !important;
 }
+
+/* product details page */
 .product-card .product-sale-badge {
-  font-size: 80% !important;
-  height: 1.6rem !important;
+
 }
