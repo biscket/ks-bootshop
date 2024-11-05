@@ -296,12 +296,20 @@
             "title": "Do you offer free shipping?",
             "description": "<p>Yes, domestic UK & USA orders receive free shipping when the total oder value is over $50.</p>"
           }
+        },
+        "item_banhjK": {
+          "type": "item",
+          "settings": {
+            "title": "Can I track my order?",
+            "description": "<p>Yes, once your order ships, we'll send you a tracking number via email.</p>"
+          }
         }
       },
       "block_order": [
         "item_bVFLMA",
         "item_mH3DBf",
-        "item_QHBh39"
+        "item_QHBh39",
+        "item_banhjK"
       ],
       "settings": {
         "bg_color": "bg-body",
