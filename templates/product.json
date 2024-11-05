@@ -97,16 +97,16 @@
           "type": "trust_icons",
           "settings": {
             "label": "What we promise",
-            "max_width": "460",
+            "max_width": "560",
             "img_size": 25,
             "img_1": "shopify://shop_images/truck.svg",
-            "text_1": "<p><strong>Free Shipping Orders Over $50</strong></p>",
+            "text_1": "<p><strong>Free Shipping Orders <br/>Over $50</strong></p>",
             "img_2": "shopify://shop_images/heart.svg",
-            "text_2": "<p><strong>100% Love It Guranteed</strong></p>",
+            "text_2": "<p><strong>100% Love It <br/>Guranteed</strong></p>",
             "img_3": "shopify://shop_images/headset.svg",
-            "text_3": "<p><strong>24/7 Customer Service Available</strong></p>",
+            "text_3": "<p><strong>24/7 Customer <br/>Service Available</strong></p>",
             "img_4": "shopify://shop_images/credit-card.svg",
-            "text_4": "<p><strong>Multiple Secure Payments</strong></p>",
+            "text_4": "<p><strong>Multiple Secure <br/>Payments</strong></p>",
             "pt": 7,
             "pb": 7
           }
