@@ -237,7 +237,9 @@
     "8b8acb35-e69e-4471-a6cb-d0a09485fb41": {
       "type": "featured-products",
       "custom_css": [
-        ".section-header {margin-bottom: 50px;}"
+        ".section-header {margin-bottom: 50px;}",
+        ".section-header {margin-bottom: 60px;}",
+        "@media (max-width: 599px) {.pt-13 {padding-top: 30px !important; } .pb-13 {padding-bottom: 30px !important; } .section-header {margin-bottom: 20px; }}"
       ],
       "settings": {
         "bg_color": "bg-secondary",
@@ -253,7 +255,7 @@
 
         ],
         "collection": "",
-        "limit": 8,
+        "limit": 12,
         "recommended_mode": true,
         "recommended_mode_intent": "related",
         "header_title": "Recommended Products",
@@ -271,7 +273,7 @@
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
         "pt": 13,
-        "pb": 0
+        "pb": 13
       }
     },
     "1710322973d29fae05": {
