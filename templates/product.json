@@ -364,6 +364,9 @@
         "item_Gjgc6X",
         "item_gRDUxd"
       ],
+      "custom_css": [
+        ".col-desktop-8,.col-desktop-10 {width: 100%;}"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -373,7 +376,7 @@
         "border_bottom_width": 0,
         "border_color": "border-body",
         "border_opacity": 100,
-        "container_max_width": "",
+        "container_max_width": "800",
         "open_first_item": true,
         "header_title": "FAQ Answered",
         "header_title_font_size": "h3",
