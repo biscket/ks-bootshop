@@ -281,7 +281,7 @@
         "judge_me_reviews_review_widget_dfKpGb"
       ],
       "custom_css": [
-        "#judgeme_product_reviews {padding-top: 40px;}"
+        ".jdgm-rev-widg {padding: 60px 0 0 0;}"
       ],
       "settings": {
       }
@@ -382,7 +382,7 @@
         "header_title_font_size": "h3",
         "header_description": "<p><a href=\"https://supirix.com/en-gb/pages/faqs\" title=\"FAQs\"><em>Visit Help Center</em></a> for more FAQs</p>",
         "header_description_font_size": "fs-md",
-        "pt": 2,
+        "pt": 13,
         "pb": 13
       }
     }
