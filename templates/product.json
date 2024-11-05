@@ -138,7 +138,7 @@
           "settings": {
             "icon": "shopify://shop_images/ruler.svg",
             "icon_size": 22,
-            "title": "Collapse Title",
+            "title": "Size Chart",
             "title_font_family": "heading",
             "title_font_size": "fs-md",
             "title_text_transform": "text-capitalize",
@@ -165,7 +165,7 @@
             "title_font_size": "fs-md",
             "title_text_transform": "text-capitalize",
             "title_letter_spacing": 1,
-            "description": "<p>Feel free to create additional blocks like this for <strong>Shipping, Payments, etc </strong>through the Shopify Theme editor. Also, you may easily adjust their order by dragging and dropping.</p>",
+            "description": "<p><strong>Processing Times:</strong></p><p>Orders are typically processed within 1-2 business days before shipping.</p><p><strong>Estimated Delivery Times:</strong></p><ul><li> USA / UK / EU Shipping: 3-5 business days.</li><li> Rest of the World: 5-15 business days.</li></ul>",
             "product_description": false,
             "description_font_size": "fs-md",
             "border_top_width": 1,
