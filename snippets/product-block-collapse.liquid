@@ -55,10 +55,7 @@
           {{ block.settings.description }}
         {% endif %}
 
-        {% if block.settings.description_page %}
-          {% assign page_handle = block.settings.description_page | split: '[page:' | last | split: ']' | first %}
-          {{ pages[page_handle].content }}
-       {% endif %}
+      {{ product.metafields.custom.size_chart.value.content }}
         
       </div>
     </div>
