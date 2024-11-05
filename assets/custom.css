@@ -26,5 +26,5 @@
   font-weight: bold !important;
 }
 .product-main .product-options .size-buttons input + label{
-  border-radius:50%;
+  border-radius:1rem;
 }
