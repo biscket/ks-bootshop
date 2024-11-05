@@ -289,7 +289,7 @@
       ],
       "custom_css": [
         ".jdgm-rev-widg {padding: 60px 0 0 0;}",
-        "jdgm-row-stars {padding-bottom: 40px;}"
+        ".jdgm-row-stars {padding-bottom: 0px;}"
       ],
       "settings": {
       }
