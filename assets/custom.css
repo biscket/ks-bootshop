@@ -15,7 +15,6 @@
 
 /* product details page */
 .product-main .product-sale-badge {
-  height: 1.6rem !important;
   background-color: #e12727;
   border-radius: 3px !important;
 }
