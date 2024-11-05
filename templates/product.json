@@ -127,7 +127,7 @@
             "border_bottom_width": 0,
             "border_color": "border-body",
             "border_opacity": 100,
-            "open_by_default": true,
+            "open_by_default": false,
             "pt": 0,
             "pb": 0
           }
