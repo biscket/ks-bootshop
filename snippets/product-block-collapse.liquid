@@ -3,7 +3,7 @@
   assign pb = block.settings.pb | prepend: 'pb-'
 %}
 
-{% unless block.settings.description == "" and block.settings.description_page == "" and block.settings.title == "Size Chart" and pages[block.settings.description_page].content == "" %}
+{% unless block.settings.description == "" and block.settings.description_page == "" and block.settings.title == "Size Chart" and pages[block.settings.description_page].content != "" %}
 <div 
   class="product-block-collapse {{ pt }} {{ pb }}" 
   {{ block.shopify_attributes }}>
