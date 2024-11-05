@@ -52,7 +52,7 @@
         "095886ab-f46a-4a25-9d3d-e7c79235921b": {
           "type": "price",
           "settings": {
-            "font_size": "fs-xl",
+            "font_size": "fs-xxl",
             "badge_discount_type": "percentage",
             "pt": 0,
             "pb": 3
