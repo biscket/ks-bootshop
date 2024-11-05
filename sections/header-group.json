@@ -29,7 +29,7 @@
         "slide_j46kwk": {
           "type": "slide",
           "settings": {
-            "announcement": "27/4 customer support available."
+            "announcement": "24/7 customer support available."
           }
         }
       },
@@ -91,7 +91,7 @@
         "069e870e-aed4-4929-bf73-c0daca8be18e"
       ],
       "custom_css": [
-        ".nav-link{font-weight:bold;}"
+        ".nav-link {font-weight: bold;}"
       ],
       "settings": {
         "bg_color": "bg-body",
