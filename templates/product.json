@@ -105,7 +105,8 @@
             "text_2": "<p><strong>100% Love It Guranteed</strong></p>",
             "img_3": "shopify://shop_images/headset.svg",
             "text_3": "<p><strong>24/7 Customer Service Available</strong></p>",
-            "text_4": "",
+            "img_4": "shopify://shop_images/credit-card.svg",
+            "text_4": "<p><strong>Multiple Secure Payments</strong></p>",
             "pt": 7,
             "pb": 7
           }
