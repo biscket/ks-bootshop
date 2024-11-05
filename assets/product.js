@@ -68,7 +68,7 @@ class ProductForm extends HTMLElement {
     const soldOutBadge = this.form.querySelector('.product-sold-out-badge')
 
     if (selectedVariant.compare_at_price > selectedVariant.price) {
-     // comparePrice.textContent = window.Shopify.formatMoney(selectedVariant.compare_at_price)
+      comparePrice.textContent = window.Shopify.formatMoney(selectedVariant.compare_at_price)
       comparePrice.removeAttribute('hidden')
       finalPrice.innerHTML = `<span class="visually-hidden">${window.theme.locales.product.sale_price}</span>${window.Shopify.formatMoney(selectedVariant.price)}`
       finalPrice.classList.add('product-price-final-sale')
