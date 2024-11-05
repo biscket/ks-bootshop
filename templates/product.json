@@ -98,12 +98,15 @@
           "settings": {
             "label": "What we promise",
             "max_width": "460",
-            "img_size": 24,
-            "text_1": "<p>Commitment to<br/>Excellence</p>",
-            "text_2": "<p>100% Satisfaction<br/>Guarantee</p>",
-            "text_3": "<p>Free Shipping<br/>On All Orders</p>",
+            "img_size": 25,
+            "img_1": "shopify://shop_images/truck.svg",
+            "text_1": "<p><strong>Free Shipping Orders Over $50</strong></p>",
+            "img_2": "shopify://shop_images/heart.svg",
+            "text_2": "<p><strong>100% Love It Guranteed</strong></p>",
+            "img_3": "shopify://shop_images/headset.svg",
+            "text_3": "<p><strong>24/7 Customer Service Available</strong></p>",
             "text_4": "",
-            "pt": 0,
+            "pt": 7,
             "pb": 7
           }
         },
