@@ -148,7 +148,7 @@
             "title_font_size": "fs-md",
             "title_text_transform": "text-capitalize",
             "title_letter_spacing": 0,
-            "description": "<p>[page:about]</p>",
+            "description": "<p>[page:About Us]</p>",
             "description_page": "{{ product.metafields.custom.size_chart.value }}",
             "product_description": false,
             "description_font_size": "fs-md",
