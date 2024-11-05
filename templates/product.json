@@ -324,6 +324,13 @@
             "title": "What is the \"Love It Guaranteed\" policy?",
             "description": "<p>Our \"Love It Guaranteed\" policy means that if you're not completely satisfied with your purchase, we'll issue a full refund. We want you to love every product you buy from us.</p><p>Please note that the refund will not include any shipping fees, and this policy does not apply to free items or gifts. Additionally, a small restocking charge, depending on the item, will be deducted from the refund amount.</p><p>Please contact customer service team to get more information.</p>"
           }
+        },
+        "item_gRDUxd": {
+          "type": "item",
+          "settings": {
+            "title": "How do I contact you?",
+            "description": "<p>Please access the <a href=\"/pages/contact\" title=\"Contact\">contact us</a> page to submit your inquiries. We are accessible 24/7 to assist with your shopping needs.</p>"
+          }
         }
       },
       "block_order": [
@@ -333,7 +340,8 @@
         "item_banhjK",
         "item_Q6acEY",
         "item_bXNaym",
-        "item_34Aew8"
+        "item_34Aew8",
+        "item_gRDUxd"
       ],
       "settings": {
         "bg_color": "bg-body",
