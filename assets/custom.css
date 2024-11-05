@@ -22,3 +22,7 @@
   border-radius: 3px !important;
   font-size: 0.8rem !important;
 }
+.product-main .product-price {
+  font-weight: bold !important;
+  font-size: 110% !important;
+}
