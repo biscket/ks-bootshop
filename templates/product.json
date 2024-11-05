@@ -270,6 +270,79 @@
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
         "pt": 13,
+        "pb": 0
+      }
+    },
+    "faq_V3wr9b": {
+      "type": "faq",
+      "blocks": {
+        "item_bVFLMA": {
+          "type": "item",
+          "settings": {
+            "title": "Where do you ship?",
+            "description": "<p>We ship all around the world... Please provide here you own shipping information, including times, prices, options etc.</p>"
+          }
+        },
+        "item_Kw6gpJ": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to receive my order",
+            "description": "<p>This depends on whether it is an International or a Domestic order. All orders within the U.S. are considered domestic orders and they are shipped and delivered within 2-5 business days. Please see International Orders for more details.</p>"
+          }
+        },
+        "item_hQWJGC": {
+          "type": "item",
+          "settings": {
+            "title": "What payment methods do you support?",
+            "description": "<p>We accept PayPal, Visa, MasterCard, Discover, and American Express but feel free to contact us for other payment options.</p>"
+          }
+        },
+        "item_L7TMtx": {
+          "type": "item",
+          "settings": {
+            "title": "How can I track my order?",
+            "description": "<p>We will send tracking information to the e-mail address associated with your order once the item has shipped. If you have not received your tracking information and it has been over 2 business day, please contact us at (012) 123 - 4567</p>"
+          }
+        },
+        "item_4neywm": {
+          "type": "item",
+          "settings": {
+            "title": "Can I order as a gift for someone else?",
+            "description": "<p>When ordering as a gift for someone, be sure to enter in your email address to receive all summary information but enter in the recipient’s name and shipping information. We will be sure to keep all prices and receipts out of the package.</p>"
+          }
+        },
+        "item_mfmQxg": {
+          "type": "item",
+          "settings": {
+            "title": "How can I get a refund for my order?",
+            "description": "<p>If for any reason you are not completely satisfied with your purchase, within 30 days of placing your order, we will refund you for your purchase with no questions asked.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_bVFLMA",
+        "item_Kw6gpJ",
+        "item_hQWJGC",
+        "item_L7TMtx",
+        "item_4neywm",
+        "item_mfmQxg"
+      ],
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "open_first_item": true,
+        "header_title": "FAQs",
+        "header_title_font_size": "h3",
+        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description_font_size": "fs-md",
+        "pt": 0,
         "pb": 13
       }
     }
@@ -277,6 +350,7 @@
   "order": [
     "8f4f1b58-133b-491a-a7b2-8bf2e6fbc583",
     "1710322973d29fae05",
-    "8b8acb35-e69e-4471-a6cb-d0a09485fb41"
+    "8b8acb35-e69e-4471-a6cb-d0a09485fb41",
+    "faq_V3wr9b"
   ]
 }
