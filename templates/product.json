@@ -69,7 +69,6 @@
         },
         "a277dbff-85ae-4c5e-ad26-4f7bb2cadc74": {
           "type": "stock_indicator",
-          "disabled": true,
           "settings": {
             "low_stock_threshold": 10,
             "low_stock_bg_color": "bg-primary",
@@ -198,25 +197,6 @@
             "pt": 0,
             "pb": 0
           }
-        },
-        "separator_cWJNG3": {
-          "type": "separator",
-          "settings": {
-            "bg_color": "bg-body",
-            "bg_opacity": 10,
-            "height": 1,
-            "pt": 3,
-            "pb": 3
-          }
-        },
-        "liquid_iDU3Rg": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<p class=\"bg-primary text-white rounded p-5\">Today's date: <b>{{ 'now' | date: \"%b %d, %Y\" }}</b></p>",
-            "pt": 3,
-            "pb": 3
-          }
         }
       },
       "block_order": [
@@ -231,9 +211,7 @@
         "11016cfc-fdff-46f2-9b6b-26a6e68b7653",
         "collapse_bXPTAN",
         "9ecd1e68-8c4b-4330-ac14-7459a1896521",
-        "0f571c64-329e-4ea3-9c76-ebf86266226a",
-        "separator_cWJNG3",
-        "liquid_iDU3Rg"
+        "0f571c64-329e-4ea3-9c76-ebf86266226a"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -294,24 +272,11 @@
         "pt": 13,
         "pb": 13
       }
-    },
-    "20426219-2b04-4ec4-9f23-1ed81a76c181": {
-      "type": "separator",
-      "settings": {
-        "bg_color": "bg-body text-body",
-        "bg_opacity": 10,
-        "height": 1,
-        "container": "container-fluid",
-        "container_max_width": "",
-        "pt": 0,
-        "pb": 0
-      }
     }
   },
   "order": [
     "8f4f1b58-133b-491a-a7b2-8bf2e6fbc583",
     "1710322973d29fae05",
-    "8b8acb35-e69e-4471-a6cb-d0a09485fb41",
-    "20426219-2b04-4ec4-9f23-1ed81a76c181"
+    "8b8acb35-e69e-4471-a6cb-d0a09485fb41"
   ]
 }
