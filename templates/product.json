@@ -289,11 +289,19 @@
             "title": "How much does shipping cost?",
             "description": "<p>Shipping costs vary based on your location and the size of your order. You'll see the final shipping cost at checkout.</p>"
           }
+        },
+        "item_QHBh39": {
+          "type": "item",
+          "settings": {
+            "title": "Do you offer free shipping?",
+            "description": "<p>Yes, domestic UK & USA orders receive free shipping when the total oder value is over $50.</p>"
+          }
         }
       },
       "block_order": [
         "item_bVFLMA",
-        "item_mH3DBf"
+        "item_mH3DBf",
+        "item_QHBh39"
       ],
       "settings": {
         "bg_color": "bg-body",
