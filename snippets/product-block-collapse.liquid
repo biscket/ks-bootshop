@@ -55,9 +55,9 @@
           {{ block.settings.description }}
         {% endif %}
 
-      <div>xxxx: {{ block.settings.description_page }}</div>
-        <div>{{ pages[block.settings.description_page].content }}</div>       
-        
+        {% if block.settings.description_page %}
+          {{ pages[block.settings.description_page].content }} 
+        {% endif %}        
       </div>
     </div>
   </div>
