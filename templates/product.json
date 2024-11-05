@@ -288,7 +288,8 @@
         "judge_me_reviews_review_widget_dfKpGb"
       ],
       "custom_css": [
-        ".jdgm-rev-widg {padding: 60px 0 0 0;}"
+        ".jdgm-rev-widg {padding: 60px 0 0 0;}",
+        "jdgm-row-stars {padding-bottom: 40px;}"
       ],
       "settings": {
       }
