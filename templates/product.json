@@ -303,13 +303,21 @@
             "title": "Can I track my order?",
             "description": "<p>Yes, once your order ships, we'll send you a tracking number via email.</p>"
           }
+        },
+        "item_Q6acEY": {
+          "type": "item",
+          "settings": {
+            "title": "Do you offer international shipping?",
+            "description": "<p>Absolutely! We ship worldwide. Shipping times and costs will vary based on your location.</p>"
+          }
         }
       },
       "block_order": [
         "item_bVFLMA",
         "item_mH3DBf",
         "item_QHBh39",
-        "item_banhjK"
+        "item_banhjK",
+        "item_Q6acEY"
       ],
       "settings": {
         "bg_color": "bg-body",
