@@ -55,10 +55,10 @@
           {{ block.settings.description }}
         {% endif %}
 
-        {% if block.settings.description_page contains '[page' %}
+        {% if block.settings.description_page %}
           {% assign page_handle = block.settings.description_page | split: '[page:' | last | split: ']' | first %}
           {{ pages[page_handle].content }}
- {% endif %}
+       {% endif %}
         
       </div>
     </div>
