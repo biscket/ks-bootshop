@@ -165,7 +165,7 @@
             "title_font_size": "fs-md",
             "title_text_transform": "text-capitalize",
             "title_letter_spacing": 1,
-            "description": "<p><strong>Processing Times:</strong></p><p>Orders are typically processed within 1-2 business days before shipping.</p><p><strong>Estimated Delivery Times:</strong></p><ul><li> USA / UK / EU Shipping: 3-5 business days.</li><li> Rest of the World: 5-15 business days.</li></ul><p><a href=\"/pages/faqs\" target=\"_blank\" title=\"FAQs\">More Details</a></p>",
+            "description": "<p><strong>Processing Times:<br/></strong>Orders are typically processed within 1-2 business days before shipping.</p><p><strong>Estimated Delivery Times:</strong><br/>USA / UK / EU Shipping: 3-5 business days.<br/>Rest of the World: 5-15 business days.</p><p><a href=\"/pages/faqs\" target=\"_blank\" title=\"FAQs\">More Details &gt;&gt;</a></p>",
             "product_description": false,
             "description_font_size": "fs-md",
             "border_top_width": 1,
