@@ -70,7 +70,7 @@ class ProductForm extends HTMLElement {
     if (selectedVariant.compare_at_price > selectedVariant.price) {
       comparePrice.textContent = window.Shopify.formatMoney(selectedVariant.compare_at_price)
       comparePrice.removeAttribute('hidden')
-      finalPrice.innerHTML = `<span class="visually-hidden">${window.theme.locales.product.sale_price}}</span>${window.Shopify.formatMoney(selectedVariant.price)}`
+      finalPrice.innerHTML = `<span class="visually-hidden">${window.theme.locales.product.sale_price}</span>${window.Shopify.formatMoney(selectedVariant.price)}`
       finalPrice.classList.add('product-price-final-sale')
       compareBadge.removeAttribute('hidden')
       if (compareBadge.dataset.discountType === 'percentage') {
