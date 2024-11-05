@@ -3,7 +3,7 @@
   assign pb = block.settings.pb | prepend: 'pb-'
 %}
 
-{% if  block.settings.description !="" and  block.settings.description_page != "" %}
+{% if  block.settings.description and block.settings.description !="" and block.settings.description_page and block.settings.description_page != "" %}
 <div 
   class="product-block-collapse {{ pt }} {{ pb }}" 
   {{ block.shopify_attributes }}>
@@ -63,4 +63,4 @@
     </div>
   </div>
 </div>
-        {% endif %}   
+{% endif %}   
