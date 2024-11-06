@@ -87,14 +87,14 @@
           "type": "item",
           "settings": {
             "title": "Unisex Adult T-Shirt",
-            "description": "<p>[page:'size-chart-adult-sweatshirt']</p>"
+            "description": "<p>[page:size-chart-adult-tshirt]</p>"
           }
         },
         "item_xXMekx": {
           "type": "item",
           "settings": {
             "title": "Unisex Adult Sweatshit",
-            "description": ""
+            "description": "<p>[page:size-chart-adult-sweatshirt]</p>"
           }
         },
         "item_k6Aap8": {
@@ -109,14 +109,14 @@
           "type": "item",
           "settings": {
             "title": "Youth T-Shirt",
-            "description": ""
+            "description": "<p>[page:size-chart-youth-tshirt]</p>"
           }
         },
         "item_mPDFn9": {
           "type": "item",
           "settings": {
             "title": "Youth Sweatshirt",
-            "description": ""
+            "description": "<p>[page:size-chart-youth-sweatshirt]</p>"
           }
         },
         "item_FPz8cc": {
@@ -131,14 +131,14 @@
           "type": "item",
           "settings": {
             "title": "Toddler T-Shirt",
-            "description": ""
+            "description": "<p>[page:size-chart-toddler-tshirt]</p>"
           }
         },
         "item_iJUP7i": {
           "type": "item",
           "settings": {
             "title": "Baby Bodysuit",
-            "description": ""
+            "description": "<p>[page:size-chart-baby-bodysuit]</p>"
           }
         }
       },
