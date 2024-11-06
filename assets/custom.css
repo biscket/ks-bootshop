@@ -29,10 +29,10 @@
   border-radius:1rem;
 }
 
-.faq .accordion-button .svg-icon-plus{
+.faq .accordion-button .span-svg-icon-plus{
   display:none;
 }
 
-.faq .accordion-button.collapsed .svg-icon-plus {
+.faq .accordion-button.collapsed .span-svg-icon-plus {
   display:block;
 }
