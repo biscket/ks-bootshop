@@ -43,7 +43,7 @@
         {% endunless %}
         {{ block.settings.title }}
       </div>
-      {% render 'svg-icons', icon: 'chevron-down', size: 18 %}
+      {% render 'svg-icons', icon: 'plus', size: 18 %}
     </button>
     <div id="collapse-{{ block.id }}" class="collapse {% if block.settings.open_by_default %}show{% endif %}">
       <div class="collapse-inner description rte mb-0 {{ block.settings.description_font_size }}">
