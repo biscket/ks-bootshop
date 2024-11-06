@@ -38,9 +38,9 @@
 }
 
 .faq .accordion-button.collapsed .span-svg-icon-plus {
-  display:none;
+  display:block;
 }
 
 .faq .accordion-button.collapsed .span-svg-icon-minus {
-  display:block;
+  display:none;
 }
