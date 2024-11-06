@@ -172,10 +172,10 @@
             "external_video": "",
             "text_align_mobile": "text-center",
             "text_align_desktop": "text-desktop-start",
-            "subtitle": "Limited Time Offer",
-            "title": "50% Off Everything.",
+            "subtitle": "Up to 50% Off",
+            "title": "New Christmas Collection",
             "title_font_size": "h1",
-            "description": "<p>A limited time offer: Save 50% on your favourite designs. Enhance your collection with top designs at half the price thanks to this special offer.</p>",
+            "description": "<p>Unveil the holiday magic with our New Christmas Collection! Our t-shirts and sweatshirts feature one-of-a-kind, eye-catching designs that bring festive cheer to your wardrobe. Celebrate the season in style with apparel that's as unique as your holiday spirit! </p>",
             "description_font_size": "fs-md",
             "btn_primary_text": "Shop Now",
             "btn_primary_url": "shopify://collections/all",
@@ -183,8 +183,8 @@
             "btn_secondary_text": "",
             "btn_secondary_url": "",
             "btn_secondary_color": "btn-outline-primary",
-            "pt": 13,
-            "pb": 13
+            "pt": 0,
+            "pb": 0
           }
         }
       },
