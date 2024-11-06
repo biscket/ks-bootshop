@@ -29,18 +29,23 @@
   border-radius:1rem;
 }
 
+/* faq */
 .faq .accordion-button .span-svg-icons-plus{
   display:none;
+  margin-right: 5px;
 }
 
 .faq .accordion-button .span-svg-icons-minus{
   display:block;
+  margin-right: 5px;
 }
 
 .faq .accordion-button.collapsed .span-svg-icons-plus {
   display:block;
+  margin-right: 5px;
 }
 
 .faq .accordion-button.collapsed .span-svg-icons-minus {
   display:none;
+  margin-right: 5px;
 }
