@@ -29,18 +29,18 @@
   border-radius:1rem;
 }
 
-.faq .accordion-button .span-svg-icon-plus{
+.faq .accordion-button .span-svg-icons-plus{
   display:none;
 }
 
-.faq .accordion-button .span-svg-icon-minus{
+.faq .accordion-button .span-svg-icons-minus{
   display:block;
 }
 
-.faq .accordion-button.collapsed .span-svg-icon-plus {
+.faq .accordion-button.collapsed .span-svg-icons-plus {
   display:block;
 }
 
-.faq .accordion-button.collapsed .span-svg-icon-minus {
+.faq .accordion-button.collapsed .span-svg-icons-minus {
   display:none;
 }
