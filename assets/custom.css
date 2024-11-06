@@ -28,6 +28,10 @@
 .product-main .product-options .size-buttons input + label{
   border-radius:1rem;
 }
+.product-main .product-sold-out-badge{
+  border-radius: 3px !important;
+  font-size: 0.8rem !important;
+}
 
 /* faq */
 .faq .accordion-button .span-svg-icons-plus{
