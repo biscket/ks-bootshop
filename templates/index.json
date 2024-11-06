@@ -15,7 +15,7 @@
         "slide_Q4UPQq": {
           "type": "slide",
           "settings": {
-            "img_mobile": "shopify://shop_images/abstract-purple-light-shapes.jpg",
+            "img_mobile": "shopify://shop_images/hero-1.png",
             "img_desktop": "shopify://shop_images/hero-1.png",
             "overlay_color": "#000000",
             "overlay_opacity": 10,
