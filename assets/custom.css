@@ -33,6 +33,14 @@
   display:none;
 }
 
+.faq .accordion-button .span-svg-icon-minus{
+  display:block;
+}
+
 .faq .accordion-button.collapsed .span-svg-icon-plus {
+  display:none;
+}
+
+.faq .accordion-button.collapsed .span-svg-icon-minus {
   display:block;
 }
