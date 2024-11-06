@@ -28,3 +28,11 @@
 .product-main .product-options .size-buttons input + label{
   border-radius:1rem;
 }
+
+.faq .accordion-button .svg-icon{
+  display:none;
+}
+
+.faq .accordion-button.collapsed .svg-icon{
+  display:block;
+}
