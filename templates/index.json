@@ -17,10 +17,10 @@
           "settings": {
             "img_mobile": "shopify://shop_images/hero-2.png",
             "img_desktop": "shopify://shop_images/hero-2.png",
-            "overlay_color": "#000000",
+            "overlay_color": "#4000be",
             "overlay_opacity": 10,
             "overlay_blur": 2,
-            "subtitle": "50% Off Limited time offer",
+            "subtitle": "Up To 50% Off Limited time offer",
             "title": "NEW CHRISTMAS COLLECTION",
             "description": "<p>Fresh Christmas Designs Now Available!</p>",
             "btn_primary_text": "Explore Products",
