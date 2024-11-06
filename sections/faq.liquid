@@ -1,56 +1,68 @@
 <div
-  id="faq-{{ section.id }}" 
+  id="faq-{{ section.id }}"
   class="
-    faq 
-    {{ section.settings.bg_color }} 
+    faq
+    {{ section.settings.bg_color }}
     {{ section.settings.bg_gradient }}
     {{ section.settings.text_color }}
     {{ section.settings.border_top_width | prepend: 'border-top-' }}
     {{ section.settings.border_bottom_width | prepend: 'border-bottom-' }}
-    {{ section.settings.border_color }} 
-    {{ section.settings.pt | prepend: 'pt-' }} 
+    {{ section.settings.border_color }}
+    {{ section.settings.pt | prepend: 'pt-' }}
     {{ section.settings.pb | prepend: 'pb-' }}
   "
   style="
     --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
     --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
-  ">
-  <div 
-    class="container" 
-    style="max-width: {{ section.settings.container_max_width }}px">
+  "
+>
+  <div
+    class="container"
+    style="max-width: {{ section.settings.container_max_width }}px"
+  >
     <div class="row align-items-center">
       <div class="col-desktop-8">
         {% render 'section-header' %}
       </div>
       <div class="col-desktop-10">
-        <div 
-          id="faq-accordion-{{ section.id }}" 
-          class="accordion">
+        <div
+          id="faq-accordion-{{ section.id }}"
+          class="accordion"
+        >
           {% for block in section.blocks %}
-            <div 
-              class="accordion-item" 
+            <div
+              class="accordion-item"
               data-index="{{ forloop.index0 }}"
-              {{ block.shopify_attributes }}>
-              <h3 
-                id="faq-accordion-{{ section.id }}-heading-{{ forloop.index }}" 
-                class="accordion-header">
-                <button 
-                  class="accordion-button {% unless section.settings.open_first_item == true and forloop.first %}collapsed{% endunless %}" 
-                  type="button" 
-                  data-bs-toggle="collapse" 
-                  data-bs-target="#faq-accordion-{{ section.id }}-collapse-{{ forloop.index }}" 
-                  aria-expanded="{% if section.settings.open_first_item == true and forloop.first %}true{% else %}false{% endif %}" 
-                  aria-controls="faq-accordion-{{ section.id }}-collapse-{{ forloop.index }}">
+              {{ block.shopify_attributes }}
+            >
+              <h3
+                id="faq-accordion-{{ section.id }}-heading-{{ forloop.index }}"
+                class="accordion-header"
+              >
+                <button
+                  class="accordion-button {% unless section.settings.open_first_item == true and forloop.first %}collapsed{% endunless %}"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-accordion-{{ section.id }}-collapse-{{ forloop.index }}"
+                  aria-expanded="{% if section.settings.open_first_item == true and forloop.first %}true{% else %}false{% endif %}"
+                  aria-controls="faq-accordion-{{ section.id }}-collapse-{{ forloop.index }}"
+                >
                   {{ block.settings.title | escape }}
                 </button>
               </h3>
-              <div 
-                id="faq-accordion-{{ section.id }}-collapse-{{ forloop.index }}" 
-                class="accordion-collapse collapse {% if section.settings.open_first_item == true and forloop.first %}show{% endif %}" 
-                aria-labelledby="faq-accordion-{{ section.id }}-heading-{{ forloop.index }}" 
-                data-bs-parent="#faq-accordion-{{ section.id }}">
+              <div
+                id="faq-accordion-{{ section.id }}-collapse-{{ forloop.index }}"
+                class="accordion-collapse collapse {% if section.settings.open_first_item == true and forloop.first %}show{% endif %}"
+                aria-labelledby="faq-accordion-{{ section.id }}-heading-{{ forloop.index }}"
+                data-bs-parent="#faq-accordion-{{ section.id }}"
+              >
                 <div class="accordion-body rte">
-                  {{ block.settings.description }}
+                  {% if block.settings.description contains '[page' %}
+                    {% assign page_handle = block.settings.description | split: '[page:' | last | split: ']' | first %}
+                    {{ pages[page_handle].content }}
+                  {% else %}
+                    {{ block.settings.description }}
+                  {% endif %}
                 </div>
               </div>
             </div>
