@@ -38,8 +38,7 @@
         },
         "judge_me_reviews_preview_badge_zxyNq8": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "bf49a5ff-d625-4485-a09c-44d883547f90": {
           "type": "richtext",
@@ -104,13 +103,13 @@
             "max_width": "560",
             "img_size": 25,
             "img_1": "shopify://shop_images/truck.svg",
-            "text_1": "<p><strong>Free Shipping Orders <br/>Over $50</strong></p>",
+            "text_1": "<p><strong>Free Shipping Orders Over $50</strong></p>",
             "img_2": "shopify://shop_images/heart.svg",
-            "text_2": "<p><strong>100% Love It <br/>Guranteed</strong></p>",
+            "text_2": "<p><strong>100% Love It Guranteed</strong></p>",
             "img_3": "shopify://shop_images/headset.svg",
-            "text_3": "<p><strong>24/7 Customer <br/>Service Available</strong></p>",
+            "text_3": "<p><strong>24/7 Customer Service Available</strong></p>",
             "img_4": "shopify://shop_images/credit-card.svg",
-            "text_4": "<p><strong>Multiple Secure <br/>Payments</strong></p>",
+            "text_4": "<p><strong>Multiple Secure Payments</strong></p>",
             "pt": 7,
             "pb": 7
           }
@@ -257,9 +256,7 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "",
-        "products": [
-
-        ],
+        "products": [],
         "collection": "",
         "limit": 12,
         "recommended_mode": true,
@@ -287,8 +284,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_dfKpGb": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -299,8 +295,7 @@
         ".jdgm-row-stars {padding-bottom: 40px;}",
         ".jdgm-row-media {padding-top: 10px;}"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "faq_V3wr9b": {
       "type": "faq",
