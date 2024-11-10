@@ -24,7 +24,7 @@
                   value="{{ value | escape }}"
                   {% if option.selected_value == value %}checked{% endif %}>
                 <label for="option-{{ option.name | handleize }}-{{ value | handleize }}">
-                  {{ value }} Colo: {{ option.color }}
+                  {{ value }}
                 </label>
               </li>
             {% endfor %}
@@ -49,3 +49,5 @@
     {% endfor %}
   </ul>  
 {% endunless %}
+
+{% if product.metafields.shopify.color-pattern %} <p>Color Pattern: {{ product.metafields.shopify.color-pattern }}</p> {% endif %}
