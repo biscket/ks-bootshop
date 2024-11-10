@@ -62,7 +62,7 @@
   position: relative;
 }
 
-.color-swatch-label:before {
+.color-swatch-label::before {
   border-color: #fff;
   border-radius: 9999px;
   border-style: solid;
