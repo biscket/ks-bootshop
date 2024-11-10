@@ -13,7 +13,7 @@
         {% if block.settings.options_style == 'buttons' %}
           <p class="mb-1">
             {{ option.name }}
-            {% if block.settings.color_swatches contains option.name and option.values.length > 0 %}
+            {% if block.settings.color_swatches contains option.name and option.values.count > 0 %}
               <span id='selected-option-name'>: {{ option.values[0] }}</span>
             {% endif %}            
           </p>
