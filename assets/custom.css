@@ -56,8 +56,8 @@
 
 /* color swatch */
 .color-swatch-color {
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   border-radius: 100% !important;
   border:none!important;
   position: relative;
@@ -65,8 +65,8 @@
 }
 
 .product-options .size-buttons input:checked + label.color-swatch-color {
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
 }
 
 
