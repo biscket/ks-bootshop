@@ -52,8 +52,13 @@
 
 {% if product.metafields.shopify.color-pattern %} <p>Color Pattern: {{ product.metafields.shopify.color-pattern }}</p> {% endif %}
 
-{% for metaobject in product.metafields.shopify.color-pattern %}
- <p>{{ metaobject.field }} </p>
- <p>{{ metaobject.field.value }}</p>
-{% endfor %}
+{% assign swatches = product.metafields.shopify.color-pattern.value %}
+
+                {% for swatch in swatches %}  
+                  <div>
+                      <span>
+                          {{ swatch.name.value }}
+                      </span>
+                  </div>
+                {% endfor %}
 
