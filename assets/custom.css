@@ -55,8 +55,14 @@
 }
 
 /* color swatch */
+
 .size-buttons{
   align-items:center;
+}
+
+.product-options .size-buttons input + label {
+  min-width: 30px;
+  text-align: center;
 }
 
 .color-swatch-color {
