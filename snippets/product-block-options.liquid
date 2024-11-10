@@ -34,7 +34,7 @@
                     class="color-swatch-color"
                     style="background-color:{{ value.swatch.color }}!important"
                     title="{{ value }}"
-                    onclick="document.getElementById('selected-option-name').innerHTML('{{ value }}')"
+                    onclick="document.getElementById('selected-option-name').innerHTML = '{{ value }}';"
                   >
                   </label>
                 {% else %}
