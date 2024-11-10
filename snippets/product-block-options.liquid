@@ -29,7 +29,9 @@
                 >
 
                 {% if block.settings.color_swatches contains option.name %}
-                  cc: {{ value.swatch.color }}
+                   <label for="option-{{ option.name | handleize }}-{{ value | handleize }}">
+                    {{ value.swatch.color }}
+                  </label>
                 {% else %}
                   <label for="option-{{ option.name | handleize }}-{{ value | handleize }}">
                     {{ value }}
