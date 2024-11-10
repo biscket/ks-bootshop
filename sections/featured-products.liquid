@@ -104,17 +104,17 @@
               {% render 'product-card', product: product %}
             </div>
           {% endfor %}
-        {% endif %}<div class="swiper-button-prev">
+        {% endif %}
+      </div>
+      <div class="swiper-controls">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-scrollbar"></div>
+        <div class="swiper-button-prev">
           {% render 'svg-icons', icon: 'arrow-left', size: 24 %}
         </div>
         <div class="swiper-button-next">
           {% render 'svg-icons', icon: 'arrow-right', size: 24 %}
         </div>
-      </div>
-      <div class="swiper-controls">
-        <div class="swiper-pagination"></div>
-        <div class="swiper-scrollbar"></div>
-        
       </div>
     </div>
   </div>
