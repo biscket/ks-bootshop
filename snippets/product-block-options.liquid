@@ -15,12 +15,8 @@
             {{ option.name }}
           </p>
           <ul class="size-buttons list-unstyled">
-            {% if block.settings.color_swatches contains option.name %}
-                  cc: {{ value.swatch.color }}
-            {% endif %}
-
             {% for value in option.values %}
-              <li>            
+              <li>
                 <input
                   class="visually-hidden"
                   type="radio"
@@ -31,9 +27,14 @@
                     checked
                   {% endif %}
                 >
-                <label for="option-{{ option.name | handleize }}-{{ value | handleize }}">
-                  {{ value }}
-                </label>
+
+                {% if block.settings.color_swatches contains option.name %}
+                  cc: {{ value.swatch.color }}
+                {% else %}
+                  <label for="option-{{ option.name | handleize }}-{{ value | handleize }}">
+                    {{ value }}
+                  </label>
+                {% endif %}
               </li>
             {% endfor %}
           </ul>
