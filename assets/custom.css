@@ -97,6 +97,11 @@
   border-color: #444;
 }
 
+.color-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .color-swatch {
   display: inline-block;
   width: 20px;
@@ -104,4 +109,11 @@
   border-radius: 50%;
   margin-right: 5px;
   border: 1px solid #ddd;
+  position: relative;
 }
+
+.color-swatch:nth-child(even) {
+  margin-top: -10px; /* Adjust this value as needed */
+  transform: translateX(10px); /* Adjust this value as needed */
+}
+
