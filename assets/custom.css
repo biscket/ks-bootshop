@@ -54,10 +54,10 @@
   margin-right: 5px;
 }
 
-/* color swatch */
+/* color swatch product details */
 
-.product-main .size-buttons{
-  align-items:center;
+.product-main .size-buttons {
+  align-items: center;
 }
 
 .product-main .product-options .size-buttons input + label {
@@ -69,9 +69,9 @@
   width: 30px;
   height: 30px;
   border-radius: 100% !important;
-  border:none!important;
+  border: none !important;
   position: relative;
-  padding:0!important;
+  padding: 0 !important;
   margin: 0.35rem !important;
 }
 
@@ -81,14 +81,27 @@
   border-style: solid;
   border-width: 2px;
   content: "";
-  height: 38px;  
+  height: 38px;
   width: 38px;
-  left: 0;  
+  left: 0;
   top: 0;
   position: absolute;
   margin: -4px;
 }
 
-.product-main .product-options .size-buttons input:checked + label.color-swatch-color:before {
+.product-main
+  .product-options
+  .size-buttons
+  input:checked
+  + label.color-swatch-color:before {
   border-color: #444;
+}
+
+.color-swatch {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  border: 1px solid #ddd;
 }
