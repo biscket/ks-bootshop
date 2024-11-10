@@ -65,6 +65,7 @@
   border:none!important;
   position: relative;
   padding:0!important;
+  margin: 0.35rem !important;
 }
 
 .color-swatch-color:before {
