@@ -55,14 +55,14 @@
 }
 
 /* color swatch */
-.color-swatch-label {
+.color-swatch-color {
   width: 30px;
   height: 30px;
   border-radius: 100% !important;
   position: relative;
 }
 
-.color-swatch-label::before {
+.color-swatch-color:before {
   border-color: #fff;
   border-radius: 9999px;
   border-style: solid;
