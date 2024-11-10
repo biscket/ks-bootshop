@@ -49,3 +49,11 @@
     {% endfor %}
   </ul>  
 {% endunless %}
+
+
+{% assign color_from_metafield = product.metafields.shopify.color-pattern %}
+{% if color_from_metafield %}
+{% assign swatch_height = 30 %}
+{% assign swatch_width = 30 %}
+ <div class="color-swatch"><span>Check out the cool color:</span><br><div style="display: inline-block; background-color:{{ color_from_metafield }};height:{{swatch_height}}px;width:{{swatch_width}}px">&nbsp;</div></div>
+{% endif %}
