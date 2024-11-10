@@ -16,7 +16,6 @@
           </p>
           <ul class="size-buttons list-unstyled">
             {% for value in option.values %}
-              {% assign tmpValue = value %}
               <li>
                 <input
                   class="visually-hidden"
@@ -32,8 +31,8 @@
                   <label
                     for="option-{{ option.name | handleize }}-{{ value | handleize }}"
                     class="color-swatch-color"
-                    style="background-color:{{ tmpValue.swatch.color }}!important"
-                    title="{{ tmpValue.swatch.color }}"
+                    style="background-color:{{ value.swatch.color }}!important"
+                    title="{{ value.swatch.color }}"
                   >
                   </label>
                 {% else %}
