@@ -65,6 +65,7 @@
 
 .product-options .size-buttons input:checked + label.color-swatch-color{
   border:2px solid red;
+  border-radius:100%!important; 
 }
 
 
