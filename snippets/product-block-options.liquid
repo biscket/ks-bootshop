@@ -1,31 +1,38 @@
-{% liquid 
+{% liquid
   assign pt = block.settings.pt | prepend: 'pt-'
   assign pb = block.settings.pb | prepend: 'pb-'
 %}
 
 {% unless product.has_only_default_variant %}
-  <ul 
+  <ul
     class="product-options list-unstyled mb-0 {{ pt }} {{ pb }}"
-    aria-label="{{ 'product.product_options' | t }}">
+    aria-label="{{ 'product.product_options' | t }}"
+  >
     {% for option in product.options_with_values %}
       <li class="py-3">
-        {% if block.settings.options_style == 'buttons' %}       
+        {% if block.settings.options_style == 'buttons' %}
           <p class="mb-1">
             {{ option.name }}
           </p>
           <ul class="size-buttons list-unstyled">
+            {% if block.settings.color_swatches contains option.name %}
+                  cc: {{ value.swatch.color }}
+            {% endif %}
+
             {% for value in option.values %}
-              <li>
-                 cc: {{ value.swatch.image }}
-                <input 
-                  class="visually-hidden" 
-                  type="radio" 
-                  name="option-{{ option.name | handleize }}" 
-                  id="option-{{ option.name | handleize }}-{{ value | handleize }}" 
+              <li>            
+                <input
+                  class="visually-hidden"
+                  type="radio"
+                  name="option-{{ option.name | handleize }}"
+                  id="option-{{ option.name | handleize }}-{{ value | handleize }}"
                   value="{{ value | escape }}"
-                  {% if option.selected_value == value %}checked{% endif %}>
+                  {% if option.selected_value == value %}
+                    checked
+                  {% endif %}
+                >
                 <label for="option-{{ option.name | handleize }}-{{ value | handleize }}">
-                  {{ value }}                 
+                  {{ value }}
                 </label>
               </li>
             {% endfor %}
@@ -37,10 +44,15 @@
           <select
             id="option-{{ option.name | handleize }}"
             name="option-{{ option.name | handleize }}"
-            class="form-select">
+            class="form-select"
+          >
             {% for value in option.values %}
-              <option 
-                value="{{ value | escape }}" {% if value == option.selected_value %}selected{% endif %}>
+              <option
+                value="{{ value | escape }}"
+                {% if value == option.selected_value %}
+                  selected
+                {% endif %}
+              >
                 {{ value }}
               </option>
             {% endfor %}
@@ -48,6 +60,5 @@
         {% endif %}
       </li>
     {% endfor %}
-  </ul>  
+  </ul>
 {% endunless %}
-
