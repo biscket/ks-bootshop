@@ -63,6 +63,13 @@
   border-radius:100%!important;  
 }
 
+.color-swatch-label{
+  display:block;
+  width:30px;
+  height:30px;
+  border-radius:100%!important;  
+}
+
 .product-options .size-buttons input:checked + label.color-swatch-color{
   border:2px solid red;
   border-radius:100%!important; 
