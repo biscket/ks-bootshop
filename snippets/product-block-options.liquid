@@ -32,8 +32,7 @@
                    <label for="option-{{ option.name | handleize }}-{{ value | handleize }}" 
                      class="color-swatch-color" 
                      style="background-color:{{ value.swatch.color }}"
-                     title="{{ value.swatch.color }}">
-                    
+                     title="{{ value }}">                    
                   </label>
                 {% else %}
                   <label for="option-{{ option.name | handleize }}-{{ value | handleize }}">
