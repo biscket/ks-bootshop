@@ -51,3 +51,9 @@
 {% endunless %}
 
 {% if product.metafields.shopify.color-pattern %} <p>Color Pattern: {{ product.metafields.shopify.color-pattern }}</p> {% endif %}
+
+{% for metaobject in product.metafields.shopify.color-pattern.values %}
+{{ metaobject.field }}
+{{ metaobject.field.value }}
+{% endfor %}
+
