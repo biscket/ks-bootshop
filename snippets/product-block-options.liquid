@@ -50,15 +50,5 @@
   </ul>  
 {% endunless %}
 
-{% if product.metafields.shopify.color-pattern %} <p>Color Pattern: {{ product.metafields.shopify.color-pattern.value[0].value }}</p> {% endif %}
-
-{% assign swatches = product.metafields.color-pattern.value %}
-
-                {% for swatch in swatches %}  
-                  <div>
-                      <span>
-                          {{ swatch.name.value }}
-                      </span>
-                  </div>
-                {% endfor %}
+{% for pattern in product.metafields.shopify.color-pattern %} <div>{{ pattern }}</div> {% endfor %}
 
