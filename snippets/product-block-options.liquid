@@ -30,8 +30,10 @@
 
                 {% if block.settings.color_swatches contains option.name %}
                    <label for="option-{{ option.name | handleize }}-{{ value | handleize }}" 
-                     class="color-swatch-color" style="background-color:{{ value.swatch.color }} ">
-                    {{ value.swatch.color }}
+                     class="color-swatch-color" 
+                     style="background-color:{{ value.swatch.color }}"
+                     title="{{ value.swatch.color }}">
+                    
                   </label>
                 {% else %}
                   <label for="option-{{ option.name | handleize }}-{{ value | handleize }}">
