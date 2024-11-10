@@ -56,7 +56,8 @@
 
 
 /* color swatch */
-.color-swatch-color{
+.color-swatch-span{
+  display:block;
   width:30px;
   height:30px;
   border-radius:100%!important;  
