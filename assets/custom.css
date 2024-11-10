@@ -77,30 +77,15 @@
   left: 0;
   position: absolute;
   top: 0;
-  transform: scale(.9);
   width: 38px;
   display: flex;
   margin: -4px;
 }
 
 .product-options .size-buttons input:checked + label.color-swatch-color {
-  width: 36px;
-  height: 36px;
   transition:none;
 }
 
 .product-options .size-buttons input:checked + label.color-swatch-color:before {
   border-color: #444;
-  border-radius: 9999px;
-  border-style: solid;
-  border-width: 1px;
-  content: "";
-  height: 38px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  transform: scale(.9);
-  width: 38px;
-  display: flex;
-  margin: -4px;
 }
