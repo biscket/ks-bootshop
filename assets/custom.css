@@ -55,6 +55,9 @@
 }
 
 /* color swatch */
+.size-buttons{
+  align-items:center;
+}
 .color-swatch-color {
   width: 30px;
   height: 30px;
