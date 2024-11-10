@@ -64,9 +64,11 @@
   padding:0!important;
 }
 
-.color-swatch-color:before {
-
+.product-options .size-buttons input:checked + label.color-swatch-color {
+  width: 32px;
+  height: 32px;
 }
+
 
 .product-options .size-buttons input:checked + label.color-swatch-color:before {
   border-color: #fff;
