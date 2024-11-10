@@ -13,6 +13,7 @@
         {% if block.settings.options_style == 'buttons' %}
           <p class="mb-1">
             {{ option.name }}
+            <span class='selected-option-name'></span>
           </p>
           <ul class="size-buttons list-unstyled">
             {% for value in option.values %}
