@@ -68,17 +68,19 @@
 }
 
 .color-swatch-color:before {
-  border-color: #fff;
+  border-color: #ddd;
   border-radius: 9999px;
   border-style: solid;
-  border-width: 3px;
+  border-width: 1px;
   content: "";
-  height: 100%;
+  height: 38px;
   left: 0;
   position: absolute;
   top: 0;
-  transform: scale(0.9);
-  width: 100%;
+  transform: scale(.9);
+  width: 38px;
+  display: flex;
+  margin: -4px;
 }
 
 .product-options .size-buttons input:checked + label.color-swatch-color {
@@ -88,15 +90,17 @@
 }
 
 .product-options .size-buttons input:checked + label.color-swatch-color:before {
-  border-color: #000;
+  border-color: #444;
   border-radius: 9999px;
   border-style: solid;
-  border-width: 3px;
+  border-width: 1px;
   content: "";
-  height: 100%;
+  height: 38px;
   left: 0;
   position: absolute;
   top: 0;
-  transform: scale(0.9);
-  width: 100%;
+  transform: scale(.9);
+  width: 38px;
+  display: flex;
+  margin: -4px;
 }
