@@ -58,6 +58,7 @@
 .size-buttons{
   align-items:center;
 }
+
 .color-swatch-color {
   width: 30px;
   height: 30px;
@@ -80,10 +81,6 @@
   top: 0;
   position: absolute;
   margin: -4px;
-}
-
-.product-options .size-buttons input:checked + label.color-swatch-color {
-
 }
 
 .product-options .size-buttons input:checked + label.color-swatch-color:before {
