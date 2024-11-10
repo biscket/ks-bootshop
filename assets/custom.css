@@ -64,6 +64,20 @@
   padding:0!important;
 }
 
+.color-swatch-color:before {
+  border-color: transparent;
+  border-radius: 9999px;
+  border-style: solid;
+  border-width: 3px;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0.9);
+  width: 100%;
+}
+
 .product-options .size-buttons input:checked + label.color-swatch-color {
   width: 36px;
   height: 36px;
