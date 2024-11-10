@@ -65,7 +65,7 @@
       {% if option.name == 'Color' or option.name == 'Colors' %}
         <div class="color-options">
           {% for value in option.values %}
-            <div class="color-swatch" style="background-color: {{ value.swatch.color }};">{{ value.swatch.color }}</div>
+            <div class="color-swatch" style="background-color: {{ value.swatch.color }};"></div>
           {% endfor %}
         </div>
       {% endif %}
