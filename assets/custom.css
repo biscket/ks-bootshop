@@ -83,7 +83,7 @@
 }
 
 .product-options .size-buttons input:checked + label.color-swatch-color {
-  transition:none;
+
 }
 
 .product-options .size-buttons input:checked + label.color-swatch-color:before {
