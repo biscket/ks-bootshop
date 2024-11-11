@@ -15,7 +15,12 @@
             {{ option.name }}
             {% if block.settings.color_swatches contains option.name and option.values.size > 0 %}
               <span id='selected-option-name'>: {{ option.values[0] }}</span>
-            {% endif %}            
+            {% endif %}      
+
+            {% if option.name contains "size" or option.name contains "Size" %}
+              <a href="#">Size Chart</a>
+            {% endif %}
+            
           </p>
           <ul class="size-buttons list-unstyled">
             {% for value in option.values %}
