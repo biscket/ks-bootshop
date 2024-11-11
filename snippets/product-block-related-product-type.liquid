@@ -1,6 +1,10 @@
 {% liquid
   assign pt = block.settings.pt | prepend: 'pt-'
   assign pb = block.settings.pb | prepend: 'pb-'
+  
+  assign raw_product_types = block.settings.product_types | downcase
+  assign product_types = raw_product_types | split: ','
+  
 %}
 
 <div
@@ -13,13 +17,11 @@
     </h2>
   {% endunless %}
 
-  {% assign raw_product_types = block.settings.product_types | downcase %}
-  {% assign product_types = raw_product_types | split: ',' %}
-
   {% unless product_types == blank %}
     {% assign current_handle = product.handle %}
     {% assign search_term = current_handle %}
     {% assign related_products = '' %}
+    {% assign related_products_array = '' %}
 
     {% for type in product_types %}
       {% assign search_term = search_term | remove: type %}
@@ -37,9 +39,7 @@
 
     {% assign related_products_array = related_products | split: ',' %}
 
-    {% if related_products_array.size == 0 %}
-      <h1>No related products found</h1>
-    {% else %}
+    {% if related_products_array.size > 0 %}
       {% for handle in related_products_array %}
         {% assign related_product = all_products[handle] %}
         {% if related_product != blank %}
@@ -48,10 +48,9 @@
               {% render 'product-card', product: related_product %}
             </div>
           </div>
-          
-      <div class="row mx-n4">
-          {% for i in (1..6) %}
-      
+
+          <div class="row mx-n4">
+            {% for i in (1..6) %}
               <div class="col-desktop-9 p-3">
                 <a
                   href="{{ related_product.url | within: collection }}"
@@ -74,11 +73,8 @@
                   </div>
                 </a>
               </div>
-     
-          {% endfor %}
-       </div>
-
-          
+            {% endfor %}
+          </div>
         {% endif %}
       {% endfor %}
     {% endif %}
