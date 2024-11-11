@@ -101,6 +101,9 @@
   .product-block-related-product-type .product-title {
     font-size: 0.8rem !important;
   }
+  .product-block-related-product-type .product-price{
+        font-size: 0.8rem !important;
+  }
 }
 
 /* faq */
