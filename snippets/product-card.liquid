@@ -59,6 +59,11 @@
       {% for option in product.options_with_values %}
         {% if option.name == 'Color' or option.name == 'Colors' %}
           {% if option.values.size > 1 %}
+            <div>
+              {% for value in option.values %}
+                <div class="color-swatch" style="background-color: {{ value }};">{{ value }}</div>
+              {% endfor %}
+            </div>
             <div class="color-count badge">{{ option.values.size }}+ Colors</div>
           {% endif %}
         {% endif %}
