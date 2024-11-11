@@ -3,30 +3,51 @@
   assign pb = block.settings.pb | prepend: 'pb-'
 %}
 
-{% assign current_handle = product.handle %}
-{% assign product_types = 't-shirt,sweatshirt,hoodie' | split: ',' %}
-{% assign search_term = current_handle %}
-{% for type in product_types %}
-  {% assign search_term = search_term | remove: type %}
-{% endfor %}
-{% assign related_products = '' %}
-{% for type in product_types %}
-  {% assign related_product_handle = search_term | append: type %}
-  {% if related_product_handle != current_handle %}
-    {% assign related_product = all_products[related_product_handle] %}
-    {% if related_product != blank %}
-      {% assign related_products = related_products | append: related_product.handle | append: ',' %}
-    {% endif %}
+<div
+  class="product-block-related-product-type {{ pt }} {{ pb }}"
+  {{ block.shopify_attributes }}
+>
+  {% unless block.settings.title == blank %}
+    <h2 class="title {{ block.settings.title_font_size }}">
+      {{ block.settings.title }}
+    </h2>
+  {% endunless %}
+  {% if block.settings.description != blank or block.settings.product_description != false %}
+    <div class="description rte mb-0 {{ block.settings.description_font_size }} {{ block.settings.description_classes }}">
+      {{ block.settings.description }}
+      {% if block.settings.product_description %}
+        {{ product.description }}
+      {% endif %}
+    </div>
   {% endif %}
-{% endfor %}
-{% assign related_products_array = related_products | split: ',' %}
-{% if related_products_array.size == 0 %}
-  <h1>No related products found</h1>
-{% else %}
-  {% for handle in related_products_array %}
-    {% assign related_product = all_products[handle] %}
-    {% if related_product != blank %}
-      <h1>{{ related_product.title }}</h1>
+</div>
+
+{% assign current_handle = product.handle %}
+{% assign product_types = block.settings.product_types | split: ',' %}
+{% unless product_types == blank %}
+  {% assign search_term = current_handle %}
+  {% for type in product_types %}
+    {% assign search_term = search_term | remove: type %}
+  {% endfor %}
+  {% assign related_products = '' %}
+  {% for type in product_types %}
+    {% assign related_product_handle = search_term | append: type %}
+    {% if related_product_handle != current_handle %}
+      {% assign related_product = all_products[related_product_handle] %}
+      {% if related_product != blank %}
+        {% assign related_products = related_products | append: related_product.handle | append: ',' %}
+      {% endif %}
     {% endif %}
   {% endfor %}
-{% endif %}
+  {% assign related_products_array = related_products | split: ',' %}
+  {% if related_products_array.size == 0 %}
+    <h1>No related products found</h1>
+  {% else %}
+    {% for handle in related_products_array %}
+      {% assign related_product = all_products[handle] %}
+      {% if related_product != blank %}
+        <h1>{{ related_product.title }}</h1>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endunless %}
