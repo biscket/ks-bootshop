@@ -120,25 +120,14 @@
   margin-right: 5px;
 }
 
-
-
 .shopify-section {
-  .swiper-controls{
-     position:unset;
+  .swiper-controls {
+    position: unset;
+    margin: 0;
+    height: 0;
   }
-  .swiper-button-prev, .swiper-button-next{
-    top:40%;
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 33%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
