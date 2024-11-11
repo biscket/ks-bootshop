@@ -18,16 +18,20 @@
   border-radius: 0px !important;
 }
 .product-card .color-count{
-  position:absolute;
-  bottom:0;
-  right:0;
-  top:auto;
-  padding:4px 5px;
-  background-color:#ffffffcf;
-  color:#222;
-  font-size:12px;
-  border-radius:0;
-  font-weight: normal;
+  position: static;
+  padding: 4px 5px;
+  background-color: #b6b6b6;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 0;
+  font-weight: 400;
+  width: 100%;
+  margin-top: 0px;
+  line-height: unset;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 
