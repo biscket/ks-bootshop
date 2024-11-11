@@ -4,8 +4,8 @@ setTimeout(() => {
     const firstImage = card.querySelector(".first");
     const secondImage = card.querySelector(".second");
 
-    if (secondImage) { 
-      card.addEventListener("mouseenter", () => {
+    if (secondImage) {
+      const showSecondaryImage = () => {
         firstImage.style.transitionDelay = "1s";
         secondImage.style.transitionDelay = "0s";
 
@@ -14,9 +14,9 @@ setTimeout(() => {
 
         secondImage.style.marginLeft = "0";
         secondImage.style.opacity = "1";
-      });
+      };
 
-      card.addEventListener("mouseleave", () => {
+      const hideSecondaryImage = () => {
         firstImage.style.transitionDelay = "0s";
         secondImage.style.transitionDelay = "0s";
 
@@ -25,7 +25,13 @@ setTimeout(() => {
 
         secondImage.style.marginLeft = "100%";
         secondImage.style.opacity = "0";
-      });
+      };
+
+      card.addEventListener("mouseenter", showSecondaryImage);
+      card.addEventListener("mouseleave", hideSecondaryImage);
+
+      card.addEventListener("touchstart", showSecondaryImage);
+      card.addEventListener("touchend", hideSecondaryImage);
     }
   });
 }, 1000);
