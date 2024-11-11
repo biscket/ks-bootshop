@@ -12,7 +12,8 @@
 .product-card .product-sale-badge {
 
   font-size: 0.8rem !important;
-  height: 1.5rem !important;
+  height: 1.3rem !important;
+  width: 2.5rem!important;
   background-color: #e12727;
   border-radius: 0px !important;
 }
@@ -21,7 +22,7 @@
   bottom:0;
   right:0;
   top:auto;
-  padding:5px 5px;
+  padding:4px 5px;
   background-color:#ffffffcf;
   color:#222;
   font-size:12px;
