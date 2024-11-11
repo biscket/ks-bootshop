@@ -50,29 +50,31 @@
           </div>
 
           {% for i in (1..6) %}
-                    <a
-            href="{{ related_product.url | within: collection }}"
-            class="product-card-link"
-          >
-            <div class="d-flex align-items-center bg-light border border-secondary mb-3">
-              <div>
-                {% render 'image-url',
-                  img: related_product.featured_image,
-                  orientation: settings.product_card_img_orientation,
-                  class: settings.product_card_img_border
-                %}
-              </div>
-              <div class="ms-5">
-                <h6 class="fs-sm mb-2">{{ related_product.title }}</h6>
-                <div class="fs-sm">
-                  {% render 'product-card-price', product: related_product %}
-                </div>
+            <div class="row">
+              <div class="col-8">
+                <a
+                  href="{{ related_product.url | within: collection }}"
+                  class="product-card-link"
+                >
+                  <div class="d-flex align-items-center bg-light border border-secondary mb-3">
+                    <div>
+                      {% render 'image-url',
+                        img: related_product.featured_image,
+                        orientation: settings.product_card_img_orientation,
+                        class: settings.product_card_img_border
+                      %}
+                    </div>
+                    <div class="ms-5">
+                      <h6 class="fs-sm mb-2">{{ related_product.title }}</h6>
+                      <div class="fs-sm">
+                        {% render 'product-card-price', product: related_product %}
+                      </div>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
-          </a>
           {% endfor %}
-
-
         {% endif %}
       {% endfor %}
     {% endif %}
