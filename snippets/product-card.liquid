@@ -50,7 +50,7 @@
         </span>
       {% endif %}
 
-      <div class="image-wrapper reveal">
+      <div class="image-wrapper">
         {% assign combined_classes = settings.product_card_img_border | append: ' first' %}
         {% render 'image-url',
           img: product.featured_image,
@@ -58,11 +58,11 @@
           class: combined_classes
         %}
 
-        {% assign combined_classes = settings.product_card_img_border | append: ' second' %}
+        {% assign combined_classes_second = settings.product_card_img_border | append: ' second' %}
         {% render 'image-url',
           img: product.images[1],
           orientation: settings.product_card_img_orientation,
-          class: combined_classes
+          class: combined_classes_second
         %}
       </div>
 
