@@ -1,10 +1,13 @@
 {% liquid
   assign pt = block.settings.pt | prepend: 'pt-'
   assign pb = block.settings.pb | prepend: 'pb-'
-  
+
   assign raw_product_types = block.settings.product_types | downcase
   assign product_types = raw_product_types | split: ','
-  
+  assign current_handle = product.handle
+  assign search_term = current_handle
+  assign related_products = ''
+  assign related_products_array = ''
 %}
 
 <div
@@ -18,11 +21,6 @@
   {% endunless %}
 
   {% unless product_types == blank %}
-    {% assign current_handle = product.handle %}
-    {% assign search_term = current_handle %}
-    {% assign related_products = '' %}
-    {% assign related_products_array = '' %}
-
     {% for type in product_types %}
       {% assign search_term = search_term | remove: type %}
     {% endfor %}
