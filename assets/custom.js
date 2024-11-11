@@ -1,31 +1,31 @@
-/*
-  Add here your own custom javascript codes
-*/
-setTimeout(function () {
-  document
-    .querySelectorAll(".product-card .image-wrapper")
-    .forEach(function (card) {
-      card.addEventListener("mouseenter", function () {
-        card.querySelector(".first").style.transitionDelay = "1s";
-        card.querySelector(".second").style.transitionDelay = "0s";
+// product card show the secondary image
+setTimeout(() => {
+  document.querySelectorAll(".product-card .image-wrapper").forEach(card => {
+    const firstImage = card.querySelector(".first");
+    const secondImage = card.querySelector(".second");
 
-        card.querySelector(".first").style.marginLeft = "-100%";
-        card.querySelector(".first").style.opacity = "0";
+    if (secondImage) { 
+      card.addEventListener("mouseenter", () => {
+        firstImage.style.transitionDelay = "1s";
+        secondImage.style.transitionDelay = "0s";
 
-        card.querySelector(".second").style.marginLeft = "0";
-        card.querySelector(".second").style.opacity = "1";
+        firstImage.style.marginLeft = "-100%";
+        firstImage.style.opacity = "0";
+
+        secondImage.style.marginLeft = "0";
+        secondImage.style.opacity = "1";
       });
 
-      card.addEventListener("mouseleave", function () {
-        card.querySelector(".first").style.transitionDelay = "0s";
-        card.querySelector(".second").style.transitionDelay = "0s";
+      card.addEventListener("mouseleave", () => {
+        firstImage.style.transitionDelay = "0s";
+        secondImage.style.transitionDelay = "0s";
 
-        card.querySelector(".first").style.marginLeft = "0";
-        card.querySelector(".first").style.opacity = "1";
+        firstImage.style.marginLeft = "0";
+        firstImage.style.opacity = "1";
 
-        card.querySelector(".second").style.marginLeft = "100%";
-        card.querySelector(".second").style.opacity = "0";
-        setTimeout(function () {}, 2000);
+        secondImage.style.marginLeft = "100%";
+        secondImage.style.opacity = "0";
       });
-    });
+    }
+  });
 }, 1000);
