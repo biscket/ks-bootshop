@@ -49,6 +49,14 @@
           {% endif %}
         </span>
       {% endif %}
+      
+      {% for option in product.options_with_values %}
+        {% if option.name == 'Color' or option.name == 'Colors' %}
+          {% if option.values.size > 0 %}
+            <div class="color-count">{{ option.values.size }}+ Colors</div>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
 
       {% render 'image-url',
         img: product.featured_image,
@@ -61,18 +69,8 @@
     </h3>
     {% render 'product-rating-badge', product: product %}
     {% render 'product-card-price', product: product %}
-
-    {% for option in product.options_with_values %}
-      {% if option.name == 'Color' or option.name == 'Colors' %}
-        {% if option.values.size > 0 %}
-          <div class="color-count">
-            {{ option.values.size }}+ Colors
-          </div>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-    
   </a>
+
   {% if settings.product_card_show_atc_form %}
     {% render 'product-card-form', product: product %}
   {% endif %}
