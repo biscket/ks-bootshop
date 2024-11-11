@@ -290,7 +290,7 @@
         "slider_navigation": true,
         "slider_pagination": false,
         "slider_pagination_type": "bullets",
-        "slider_scrollbar": false,
+        "slider_scrollbar": true,
         "slider_partial_slides_mobile": true,
         "slider_autoplay": 0,
         "breakpoint_mobile": 2,
