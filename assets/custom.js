@@ -1,7 +1,7 @@
 /*
   Add here your own custom javascript codes
 */
-document.querySelectorAll(".product-card.image-wrapper").forEach(function (card) {
+document.querySelectorAll(".product-card .image-wrapper").forEach(function (card) {
   card.addEventListener("mouseover", function () {
     card.querySelector(".first").style.marginLeft = "-100%";
     card.querySelector(".second").style.marginLeft = "0";
