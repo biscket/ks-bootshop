@@ -88,7 +88,7 @@
     class="container"
     style="max-width: {{ section.settings.container_max_width | append: 'px' }};">
     {% render 'section-header' %}
-    <div class="swiper mx-n4 mx-desktop-n5 mt-n3 mt-desktop-n5">
+    <div class=" mx-n4 mx-desktop-n5 mt-n3 mt-desktop-n5">
       <div class="swiper-wrapper">
         {% if section.settings.recommended_mode and request.path contains 'recommendations' %}
           {% for product in recommendations.products %}
