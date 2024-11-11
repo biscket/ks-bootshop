@@ -61,7 +61,7 @@
           {% if option.values.size > 1 %}
             <div>
               {% for value in option.values %}
-                <div class="color-swatch" style="background-color: {{ value }};">{{ value }}</div>
+                <div class="color-swatch" style="background-color: {{ value.swatch.color }};"></div>
               {% endfor %}
             </div>
             <div class="color-count badge">{{ option.values.size }}+ Colors</div>
