@@ -15,7 +15,7 @@
 
   {% assign raw_product_types = block.settings.product_types | downcase %}
   {% assign product_types = raw_product_types | split: ',' %}
-  
+
   {% unless product_types == blank %}
     {% assign current_handle = product.handle %}
     {% assign search_term = current_handle %}
@@ -46,10 +46,10 @@
           <h1>{{ related_product.title }} xx</h1>
 
           <div class="product-list mx-n4 mx-desktop-n5 mb-0 row">
-                      {% render 'product-card' product: related_product  %}
+            <div class="p-4 p-desktop-5 mb-4 mb-desktop-5" role="list-item">
+              {% render 'product-card', product: related_product %}
+            </div>
           </div>
-          
-
           
         {% endif %}
       {% endfor %}
