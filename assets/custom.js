@@ -2,7 +2,7 @@
   Add here your own custom javascript codes
 */
 setTimeout(function () {
-  document.querySelectorAll(".image-wrapper").forEach(function (card) {
+  document.querySelectorAll(".product-card .image-wrapper").forEach(function (card) {
     card.addEventListener("mouseover", function () {
       card.querySelector(".first").style.marginLeft = "-100%";
       card.querySelector(".second").style.marginLeft = "0";
@@ -17,4 +17,4 @@ setTimeout(function () {
       card.querySelector(".second").style.transitionDelay = "0s";
     });
   });
-}, 3000);
+}, 1000);
