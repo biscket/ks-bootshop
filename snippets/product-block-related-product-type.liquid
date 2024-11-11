@@ -43,20 +43,20 @@
       {% for handle in related_products_array %}
         {% assign related_product = all_products[handle] %}
         {% if related_product != blank %}
-          <div class="product-list mx-n4 mx-desktop-n5 mb-0 row">
-            <div class="p-4 p-desktop-5 mb-0 mb-desktop-0 col-6" role="list-item">
+          <div class="product-list mx-n5 mx-desktop-n6 mb-0 row">
+            <div class="p-3 p-desktop-4 mb-0 mb-desktop-0 col-6" role="list-item">
               {% render 'product-card', product: related_product %}
             </div>
-            <div class="p-4 p-desktop-5 mb-0 mb-desktop-0 col-6" role="list-item">
+           <div class="p-3 p-desktop-4 mb-0 mb-desktop-0 col-6" role="list-item">
               {% render 'product-card', product: related_product %}
             </div>
-            <div class="p-4 p-desktop-5 mb-0 mb-desktop-0 col-6" role="list-item">
+          <div class="p-3 p-desktop-4 mb-0 mb-desktop-0 col-6" role="list-item">
               {% render 'product-card', product: related_product %}
             </div>
-            <div class="p-4 p-desktop-5 mb-0 mb-desktop-0 col-6" role="list-item">
+       <div class="p-3 p-desktop-4 mb-0 mb-desktop-0 col-6" role="list-item">
               {% render 'product-card', product: related_product %}
             </div>
-            <div class="p-4 p-desktop-5 mb-0 mb-desktop-0 col-6" role="list-item">
+ <div class="p-3 p-desktop-4 mb-0 mb-desktop-0 col-6" role="list-item">
               {% render 'product-card', product: related_product %}
             </div>
           </div>
