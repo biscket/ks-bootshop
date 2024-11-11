@@ -57,7 +57,7 @@
       %}
 
       {% render 'image-url',
-        img: product.featured_image.alt,
+        img: product.images[1],
         orientation: settings.product_card_img_orientation,
         class: {{ settings.product_card_img_border | append: ' second' }}
       %}
