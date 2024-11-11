@@ -215,21 +215,12 @@
             "pb": 0
           }
         },
-        "liquid_HHdwpp": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "{% assign current_handle = product.handle %} {% assign product_types = \"t-shirt,sweatshirt,hoodie\" | split: ',' %} {% assign search_term = current_handle %} {% for type in product_types %} {% assign search_term = search_term | remove: type %} {% endfor %} {% assign related_products = '' %} {% for type in product_types %} {% assign related_product_handle = search_term | append: type %} {% if related_product_handle != current_handle %} {% assign related_product = all_products[related_product_handle] %} {% if related_product != blank %} {% assign related_products = related_products | append: related_product.handle | append: ',' %} {% endif %} {% endif %} {% endfor %} {% assign related_products_array = related_products | split: ',' %} {% if related_products_array.size == 0 %} <h1>No related products found</h1> {% else %} {% for handle in related_products_array %} {% assign related_product = all_products[handle] %} {% if related_product != blank %} <h1>{{ related_product.title }}</h1> {% endif %} {% endfor %} {% endif %}",
-            "pt": 3,
-            "pb": 3
-          }
-        },
         "related_product_types_qLHdfi": {
           "type": "related_product_types",
           "settings": {
             "title": "Also Availabe On",
             "title_font_size": "h4",
-            "product_types": "T-Shirt,Sweatshirt,Hoodie",
+            "product_types": "",
             "pt": 10,
             "pb": 0
           }
@@ -250,7 +241,6 @@
         "collapse_bXPTAN",
         "9ecd1e68-8c4b-4330-ac14-7459a1896521",
         "0f571c64-329e-4ea3-9c76-ebf86266226a",
-        "liquid_HHdwpp",
         "related_product_types_qLHdfi"
       ],
       "custom_css": [
