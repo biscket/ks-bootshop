@@ -1,6 +1,6 @@
 /* product card */
-.product-card{
-  position:relative;
+.product-card {
+  position: relative;
 }
 .product-card .product-price-final-sale {
   color: #e12727 !important;
@@ -10,14 +10,13 @@
   font-size: 110% !important;
 }
 .product-card .product-sale-badge {
-
   font-size: 0.8rem !important;
   height: 1.3rem !important;
-  width: 2.5rem!important;
+  width: 2.5rem !important;
   background-color: #e12727;
   border-radius: 0px !important;
 }
-.product-card .color-count{
+.product-card .color-count {
   position: static;
   padding: 4px 5px;
   background-color: #666;
@@ -34,10 +33,17 @@
   text-align: center;
 }
 
-.product-card .color-swatch{
-  display: inline-block; width: 20px; height: 20px; border-radius: 50%; margin-right: 5px; border: 1px solid #ddd;
+.product-card .color-swatch-wrapper {
+  background-color: #ddd;
+  paddint-top:5px;
 }
-
+.product-card .color-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 0px;
+}
 
 /* product details page */
 .product-main .product-price-final-sale {
@@ -59,8 +65,6 @@
   font-size: 0.8rem !important;
 }
 
-
-
 /* faq */
 .faq .accordion-button .span-svg-icons-plus {
   display: none;
@@ -78,8 +82,6 @@
   display: none;
   margin-right: 5px;
 }
-
-
 
 /* color swatch product details */
 .product-main .size-buttons {
