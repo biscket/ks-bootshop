@@ -48,6 +48,22 @@
               {% render 'product-card', product: related_product %}
             </div>
           </div>
+
+          <div class="d-flex">
+            <div>
+                      {% assign combined_classes_first = settings.product_card_img_border | append: ' first' %}
+        {% render 'image-url',
+          img: product.featured_image,
+          orientation: settings.product_card_img_orientation,
+          class: combined_classes_first
+        %}
+            </div>
+            <div>
+              
+            </div>
+          </div>
+          
+          
         {% endif %}
       {% endfor %}
     {% endif %}
