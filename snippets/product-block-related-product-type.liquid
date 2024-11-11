@@ -48,10 +48,11 @@
               {% render 'product-card', product: related_product %}
             </div>
           </div>
-
+          
+      <div class="row">
           {% for i in (1..6) %}
-            <div class="0">
-              <div class="d-flex">
+      
+              <div class="col-8">
                 <a
                   href="{{ related_product.url | within: collection }}"
                   class="product-card-link"
@@ -73,8 +74,11 @@
                   </div>
                 </a>
               </div>
-            </div>
+     
           {% endfor %}
+       </div>
+
+          
         {% endif %}
       {% endfor %}
     {% endif %}
