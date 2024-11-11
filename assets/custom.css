@@ -19,10 +19,12 @@
   position:absolute;
   bottom:0;
   right:0;
+  top:auto;
   padding:1px 5px;
   background-color:#fff;
   color:#444;
   font-size:13px;
+  border-radius:0;
 }
 
 
