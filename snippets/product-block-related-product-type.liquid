@@ -12,7 +12,7 @@
       {{ block.settings.title }}
     </h2>
   {% endunless %}
-{{ block.settings.product_types }}
+{{ block.settings.product_types | downcase}}
   {% assign product_types = block.settings.product_types | split: ',' %}
   {% unless product_types == blank %}
     {% assign current_handle = product.handle %}
