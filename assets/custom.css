@@ -10,8 +10,8 @@
   font-size: 110% !important;
 }
 .product-card .product-sale-badge {
-  right:0;
-  top:0;
+  right:0!important;
+  top:0!important;
   font-size: 0.8rem !important;
   height: 1.5rem !important;
   background-color: #e12727;
