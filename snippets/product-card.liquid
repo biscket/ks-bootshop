@@ -56,6 +56,12 @@
         class: settings.product_card_img_border
       %}
 
+      {% render 'image-url',
+        img: product.featured_image,
+        orientation: settings.product_card_img_orientation,
+        class: settings.product_card_img_border
+      %}
+
       {% for option in product.options_with_values %}
         {% if option.name == 'Color' or option.name == 'Colors' %}
           {% if option.values.size > 1 %}
