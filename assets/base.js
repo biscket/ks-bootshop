@@ -199,7 +199,6 @@ class SwiperSlider extends HTMLElement {
       rewind: true,
       slidesPerView: 1.5,
     centeredSlides: true,
-    spaceBetween: 100,
     })
   }
 
