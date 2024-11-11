@@ -94,6 +94,11 @@
   border-color: #444;
 }
 
+.product-block-related-product-type .color-swatch-wrapper {
+  display:none;
+}
+
+
 /* faq */
 .faq .accordion-button .span-svg-icons-plus {
   display: none;
