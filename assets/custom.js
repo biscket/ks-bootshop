@@ -1,7 +1,7 @@
 /*
   Add here your own custom javascript codes
 */
-document.querySelectorAll('.image-wrapper').forEach(function(card) {
+document.querySelectorAll('.product-card').forEach(function(card) {
   card.addEventListener('mouseenter', function() {
     setTimeout(function() {
       card.querySelector('.second').style.opacity = '0';
@@ -9,6 +9,10 @@ document.querySelectorAll('.image-wrapper').forEach(function(card) {
     }, 3000); // 3 seconds delay
   });
 
-
+  card.addEventListener('mouseout', function() {
+    card.querySelector('.first').style.opacity = '1';
+    card.querySelector('.second').style.opacity = '0';
+    card.querySelector('.third').style.opacity = '0';
+  });
 });
 
