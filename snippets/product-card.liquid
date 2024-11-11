@@ -57,7 +57,7 @@
       %}
 
       {% render 'image-url',
-        img: product.featured_image,
+        img: product.images.last,
         orientation: settings.product_card_img_orientation,
         class: settings.product_card_img_border
       %}
