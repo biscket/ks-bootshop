@@ -80,9 +80,7 @@
         "border_color": "border-primary",
         "border_opacity": 100,
         "container_max_width": "",
-        "products": [
-
-        ],
+        "products": [],
         "collection": "frontpage",
         "limit": 12,
         "recommended_mode": true,
@@ -98,7 +96,7 @@
         "slider_scrollbar": false,
         "slider_partial_slides_mobile": false,
         "slider_autoplay": 0,
-        "breakpoint_mobile": 1,
+        "breakpoint_mobile": 2,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
         "pt": 13,
@@ -121,9 +119,7 @@
         "border_color": "border-body",
         "border_opacity": 10,
         "container_max_width": "",
-        "products": [
-
-        ],
+        "products": [],
         "collection": "frontpage",
         "limit": 12,
         "recommended_mode": true,
