@@ -7,20 +7,19 @@ setTimeout(function () {
     .forEach(function (card) {
       card.addEventListener("mouseover", function () {
         card.querySelector(".second").style.display = "block";
-        setTimeout(function () {
-          card.querySelector(".first").style.marginLeft = "-100%";
-          //card.querySelector(".second").style.marginLeft = "0";
-        }, 1000);
+        
+        card.querySelector(".first").style.marginLeft = "-100%";
+        //card.querySelector(".second").style.marginLeft = "0";        
 
-        // card.querySelector(".first").style.transitionDelay = "1s";
-        //card.querySelector(".second").style.transitionDelay = "0s";
+        card.querySelector(".first").style.transitionDelay = "1s";
+        card.querySelector(".second").style.transitionDelay = "0s";
       });
 
       card.addEventListener("mouseout", function () {
         card.querySelector(".first").style.marginLeft = "0";
         card.querySelector(".second").style.marginLeft = "100%";
-        // card.querySelector(".first").style.transitionDelay = "0s";
-        //card.querySelector(".second").style.transitionDelay = "0s";
+        card.querySelector(".first").style.transitionDelay = "0s";
+        card.querySelector(".second").style.transitionDelay = "0s";
         setTimeout(function () {
           card.querySelector(".second").style.display = "none";
         }, 2000);
