@@ -2,7 +2,7 @@
   Add here your own custom javascript codes
 */
 document.querySelectorAll('.product-card').forEach(function(card) {
-  card.addEventListener('mouseenter', function() {
+  card.addEventListener('mouseover', function() {
     setTimeout(function() {
       card.querySelector('.second').style.opacity = '0';
       card.querySelector('.third').style.opacity = '1';
