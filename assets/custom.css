@@ -1,4 +1,7 @@
 /* product card */
+.product-card{
+  position:relative;
+}
 .product-card .product-price-final-sale {
   color: #e12727 !important;
 }
@@ -12,6 +15,17 @@
   background-color: #e12727;
   border-radius: 3px !important;
 }
+.product-card .color-count{
+  position:absolute;
+  bottom:0;
+  right:0;
+  padding:1px 5px;
+  background-color:#fff;
+  color:#444;
+  font-size:13px;
+}
+
+
 
 /* product details page */
 .product-main .product-price-final-sale {
@@ -33,38 +47,36 @@
   font-size: 0.8rem !important;
 }
 
+
+
 /* faq */
 .faq .accordion-button .span-svg-icons-plus {
   display: none;
   margin-right: 5px;
 }
-
 .faq .accordion-button .span-svg-icons-minus {
   display: block;
   margin-right: 5px;
 }
-
 .faq .accordion-button.collapsed .span-svg-icons-plus {
   display: block;
   margin-right: 5px;
 }
-
 .faq .accordion-button.collapsed .span-svg-icons-minus {
   display: none;
   margin-right: 5px;
 }
 
-/* color swatch product details */
 
+
+/* color swatch product details */
 .product-main .size-buttons {
   align-items: center;
 }
-
 .product-main .product-options .size-buttons input + label {
   min-width: 30px;
   text-align: center;
 }
-
 .product-main .color-swatch-color {
   width: 30px;
   height: 30px;
@@ -74,7 +86,6 @@
   padding: 0 !important;
   margin: 0.35rem !important;
 }
-
 .product-main .color-swatch-color:before {
   border-color: #ddd;
   border-radius: 100%;
@@ -88,7 +99,6 @@
   position: absolute;
   margin: -4px;
 }
-
 .product-main
   .product-options
   .size-buttons
@@ -96,24 +106,3 @@
   + label.color-swatch-color:before {
   border-color: #444;
 }
-
-.color-options {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.color-swatch {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  margin-right: 5px;
-  border: 1px solid #ddd;
-  position: relative;
-}
-
-.color-swatch:nth-child(even) {
-  margin-top: -10px; /* Adjust this value as needed */
-  transform: translateX(10px); /* Adjust this value as needed */
-}
-
