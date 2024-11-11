@@ -117,7 +117,7 @@
         "liquid_JHHDTq": {
           "type": "liquid",
           "settings": {
-            "liquid": "<img class=\"img-fluid mr-3\" src=\"//supirix.com/cdn/shop/files/truck.svg?v=1730491681&amp;width=25\" alt=\"\" width=\"25\" height=\"25\" loading=\"lazy\">\nFree delivery on all orders over <span class=\"money\">$50</span>. \n<br/>\n<img class=\"img-fluid mr-3\" src=\"//supirix.com/cdn/shop/files/truck.svg?v=1730491681&amp;width=25\" alt=\"\" width=\"25\" height=\"25\" loading=\"lazy\">\nProduct is in stock / delivered in 3-5 business days.",
+            "liquid": "<img class=\"img-fluid mr-3\" src=\"//supirix.com/cdn/shop/files/truck.svg?v=1730491681&amp;width=25\" alt=\"\" width=\"25\" height=\"25\" loading=\"lazy\">\nFree delivery on all orders over <span class=\"money\">$50</span>. \n<br/>\n<img class=\"img-fluid mr-3\" src=\"//supirix.com/cdn/shop/files/truck.svg?v=1730491681&amp;width=25\" alt=\"\" width=\"25\" height=\"25\" loading=\"lazy\">\nIn stock / delivered in 3-5 business days.",
             "pt": 3,
             "pb": 3
           }
