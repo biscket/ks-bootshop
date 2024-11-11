@@ -13,8 +13,8 @@
     </h2>
   {% endunless %}
 
-  {% assign raw_product_types = block.settings.product_types %}
-  {% assign product_types = raw_product_types | downcase | split: ',' %}
+  {% assign raw_product_types = block.settings.product_types | downcase %}
+  {% assign product_types = raw_product_types | split: ',' %}
   
   {% unless product_types == blank %}
     {% assign current_handle = product.handle %}
