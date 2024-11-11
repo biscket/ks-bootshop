@@ -98,6 +98,7 @@
         },
         "08894b72-c532-44db-9228-5f14c9841895": {
           "type": "trust_icons",
+          "disabled": true,
           "settings": {
             "label": "What we promise",
             "max_width": "560",
@@ -118,7 +119,7 @@
           "type": "liquid",
           "settings": {
             "liquid": "{% render 'svg-icons' icon: 'truck', size: 20, stroke_width: 2, class: \"m-3\"  %}\nFree shipping on all orders over <span class=\"money\">$50</span>. \n<br/>\n{% render 'svg-icons' icon: 'live', size: 20, stroke_width: 2, class: \"m-3 text-success\"  %}\nIn stock / delivered in 3-5 business days.",
-            "pt": 3,
+            "pt": 5,
             "pb": 3
           }
         },
