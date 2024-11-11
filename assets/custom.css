@@ -51,7 +51,7 @@
 }
 
 .product-card .image-wrapper img:hover{
-
+transform: translate3d(-600px,0, 0);
 }
 
 /* product details page */
