@@ -227,10 +227,10 @@
         "related_product_types_qLHdfi": {
           "type": "related_product_types",
           "settings": {
-            "title": "Also Availabe In",
-            "title_font_size": "h6",
+            "title": "Also Availabe On",
+            "title_font_size": "h5",
             "product_types": "T-Shirt,Sweatshirt,Hoodie",
-            "pt": 0,
+            "pt": 8,
             "pb": 0
           }
         }
