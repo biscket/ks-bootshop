@@ -21,7 +21,7 @@ setTimeout(function () {
         card.querySelector(".second").style.transitionDelay = "0s";
         setTimeout(function () {
           card.querySelector(".second").style.display = "none";
-        }, 1000);
+        }, 1500);
       });
     });
 }, 1000);
