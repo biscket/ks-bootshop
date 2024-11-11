@@ -1139,42 +1139,63 @@
         }
       ]
     },
-        {
+    {
       "type": "related_product_type",
       "name": "Related Product Types",
       "settings": [
         {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Richtext Title"
+        },
+        {
           "type": "select",
-          "id": "bg_color",
-          "label": "Background color",
-          "default": "bg-primary",
+          "id": "title_font_size",
+          "label": "Title font-size",
+          "default": "h6",
           "options": [
-            { "value": "bg-primary", "label": "Primary" },
-            { "value": "bg-secondary", "label": "Secondary" },
-            { "value": "bg-body", "label": "Body" },
-            { "value": "bg-white", "label": "White" }
+            { "value": "h1", "label": "H1" },
+            { "value": "h2", "label": "H2" },
+            { "value": "h3", "label": "H3" },
+            { "value": "h4", "label": "H4" },
+            { "value": "h5", "label": "H5" },
+            { "value": "h6", "label": "H6" }
           ]
         },
         {
-          "type": "range",
-          "id": "bg_opacity",
-          "label": "Background opacity",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "default": 10,
-          "unit": "%"
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Richtext description goes here</p>"
         },
         {
-          "type": "range",
-          "id": "height",
-          "label": "Height",
-          "min": 0,
-          "max": 16,
-          "default": 1,
-          "step": 1,
-          "unit": "px"
+          "type": "select",
+          "id": "description_font_size",
+          "label": "Description font-size",
+          "default": "fs-md",
+          "options": [
+            { "value": "fs-sm", "label": "sm" },
+            { "value": "fs-md", "label": "md" },
+            { "value": "fs-lg", "label": "lg" },
+            { "value": "fs-xl", "label": "xl" },
+            { "value": "fs-xxl", "label": "xxl" }
+          ]
         },
+        {
+          "type": "checkbox",
+          "id": "product_description",
+          "label": "Product description",
+          "info": "Show the actual product description",
+          "default": false
+        },
+        {
+          "type": "html",
+          "id": "description_classes",
+          "label": "Description classes",
+          "info": "A space-separated list of classes to apply (E.g. opacity-70 text-primary small)"
+        },
+
         {
           "type": "header",
           "content": "Spacing"
@@ -1196,13 +1217,7 @@
           "max": 20,
           "step": 1,
           "default": 0
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Also Available In"
-        },
+        }
       ]
     },
     {
