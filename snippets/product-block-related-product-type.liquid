@@ -44,6 +44,9 @@
         {% assign related_product = all_products[handle] %}
         {% if related_product != blank %}
           <h1>{{ related_product.title }} xx</h1>
+
+{% render 'product-card' product: related_product  %}
+          
         {% endif %}
       {% endfor %}
     {% endif %}
