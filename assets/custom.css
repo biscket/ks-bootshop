@@ -109,7 +109,9 @@
   .product-block-related-product-type .title {
   }
 }
-
+  .product-block-related-product-type img {
+    width:100px;
+  }
 
 /* faq */
 .faq .accordion-button .span-svg-icons-plus {
