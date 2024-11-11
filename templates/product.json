@@ -118,7 +118,7 @@
         "liquid_JHHDTq": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"small\">\n{% render 'svg-icons' icon: 'live', size: 18, stroke_width: 2, class: \"m-3 text-success\"  %}\nIn stock / delivered in 3-5 business days.\n<br/>\n{% render 'svg-icons' icon: 'truck', size: 18, stroke_width: 2, class: \"m-3 text-muted\"  %}\nFree shipping on all orders over <span class=\"money\">$50</span>. \n</div>",
+            "liquid": "<div class=\"small text-muted\">\n<div class=\"mb-3\">\n{% render 'svg-icons' icon: 'live', size: 18, stroke_width: 2, class: \"me-3 text-success\"  %}\nIn stock / delivered in 3-5 business days.\n</div>\n<div>\n{% render 'svg-icons' icon: 'truck', size: 18, stroke_width: 2, class: \"me-3 text-muted\"  %}\nFree shipping on all orders over <span class=\"money\">$50</span>. \n</div>\n</div>",
             "pt": 5,
             "pb": 3
           }
