@@ -50,6 +50,10 @@
   display:flex;
 }
 
+.product-card .image-wrapper .img:hover{
+  margin-left:100%;
+}
+
 /* product details page */
 .product-main .product-price-final-sale {
   color: #e12727 !important;
