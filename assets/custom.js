@@ -9,7 +9,7 @@ setTimeout(function () {
         card.querySelector(".second").style.display = "block";
         setTimeout(function () {
           card.querySelector(".first").style.marginLeft = "-100%";
-          card.querySelector(".second").style.marginLeft = "0";
+          //card.querySelector(".second").style.marginLeft = "0";
         }, 1000);
 
         // card.querySelector(".first").style.transitionDelay = "1s";
