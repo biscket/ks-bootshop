@@ -55,7 +55,8 @@
         orientation: settings.product_card_img_orientation,
         class: settings.product_card_img_border
       %}
-    {% assign combined_classes = settings.product_card_img_border | append: ' second' %}
+      
+      {% assign combined_classes = settings.product_card_img_border | append: ' second' %}      
       {% render 'image-url',
         img: product.images[1],
         orientation: settings.product_card_img_orientation,
