@@ -16,22 +16,6 @@
   background-color: #e12727;
   border-radius: 0px !important;
 }
-.product-card .color-count {
-  position: static;
-  padding: 4px 5px;
-  background-color: #666;
-  color: #fff;
-  font-size: 12px;
-  border-radius: 0;
-  font-weight: 400;
-  width: 100%;
-  margin-top: 0px;
-  line-height: unset;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  text-align: center;
-}
 .product-card .color-swatch-wrapper {
   background-color: #ddd;
   paddint-top: 5px;
