@@ -59,7 +59,7 @@
       {% render 'image-url',
         img: product.images[1],
         orientation: settings.product_card_img_orientation,
-        class: settings.product_card_img_border
+        class: {{ settings.product_card_img_border  }} + ' second'
       %}
 
       {% for option in product.options_with_values %}
