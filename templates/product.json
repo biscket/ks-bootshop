@@ -228,7 +228,7 @@
           "type": "related_product_types",
           "settings": {
             "title": "Also Availabe On",
-            "title_font_size": "h3",
+            "title_font_size": "h4",
             "product_types": "T-Shirt,Sweatshirt,Hoodie",
             "pt": 8,
             "pb": 0
