@@ -49,7 +49,8 @@
             </div>
           </div>
 
-          <a
+          {% for i in (1..6) %}
+                    <a
             href="{{ related_product.url | within: collection }}"
             class="product-card-link"
           >
@@ -69,6 +70,9 @@
               </div>
             </div>
           </a>
+          {% endfor %}
+
+
         {% endif %}
       {% endfor %}
     {% endif %}
