@@ -95,7 +95,8 @@
 }
 
 @media (max-width: 599px) {
-  .product-block-related-product-type .color-swatch-wrapper {
+  .product-block-related-product-type .color-swatch-wrapper,
+  .product-block-related-product-type .badge{
     display: none;
   }
   .product-block-related-product-type .product-title {
