@@ -197,8 +197,9 @@ class SwiperSlider extends HTMLElement {
       scrollbar: this.scrollbar,
       breakpoints: this.breakpoints,
       rewind: true,
-      slidesPerView: 1.2,
-      spaceBetween: 20,
+      slidesPerView: 1.1,
+    centeredSlides: true,
+    spaceBetween: 10,
     })
   }
 
