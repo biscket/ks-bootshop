@@ -45,6 +45,11 @@
   margin-right: -1px;
 }
 
+.product-card .image-wrapper{
+  overflow:hidden;
+  display:flex;
+}
+
 /* product details page */
 .product-main .product-price-final-sale {
   color: #e12727 !important;
