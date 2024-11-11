@@ -5,7 +5,7 @@ setTimeout(function () {
   document
     .querySelectorAll(".product-card .image-wrapper")
     .forEach(function (card) {
-      card.addEventListener("mouseover", function () {    
+      card.addEventListener("mouseenter", function () {    
         card.querySelector(".first").style.marginLeft = "-100%";
         card.querySelector(".second").style.marginLeft = "0";   
            card.querySelector(".second").style.opacity = "1";
