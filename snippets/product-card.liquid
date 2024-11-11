@@ -59,7 +59,7 @@
       {% for option in product.options_with_values %}
         {% if option.name == 'Color' or option.name == 'Colors' %}
           {% if option.values.size > 1 %}
-            <div>
+            <div class="color-swatch-wrapper">
               {% for value in option.values %}
                 <div class="color-swatch" style="background-color: {{ value.swatch.color }};"></div>
               {% endfor %}
