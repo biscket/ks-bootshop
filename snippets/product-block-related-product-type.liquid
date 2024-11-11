@@ -8,67 +8,67 @@
   assign search_term = current_handle
   assign related_products = ''
   assign related_products_array = ''
+
+  unless product_types == blank
+    for type in product_types
+      assign search_term = search_term | remove: type
+    endfor
+
+    for type in product_types
+      assign related_product_handle = search_term | append: type
+      if related_product_handle != current_handle
+        assign related_product = all_products[related_product_handle]
+        if related_product != blank
+          assign related_products = related_products | append: related_product.handle | append: ','
+        endif
+      endif
+    endfor
+
+    assign related_products_array = related_products | split: ','
+  endunless
 %}
 
-<div
-  class="product-block-related-product-type {{ pt }} {{ pb }}"
-  {{ block.shopify_attributes }}
->
-  {% unless block.settings.title == blank %}
-    <h2 class="title mb-5 {{ block.settings.title_font_size }}">
-      {{ block.settings.title }}
-    </h2>
-  {% endunless %}
+{% if related_products_array.size > 0 %}
+  <div
+    class="product-block-related-product-type {{ pt }} {{ pb }}"
+    {{ block.shopify_attributes }}
+  >
+    {% unless block.settings.title == blank %}
+      <h2 class="title mb-5 {{ block.settings.title_font_size }}">
+        {{ block.settings.title }}
+      </h2>
+    {% endunless %}
 
-  {% unless product_types == blank %}
-    {% for type in product_types %}
-      {% assign search_term = search_term | remove: type %}
-    {% endfor %}
-
-    {% for type in product_types %}
-      {% assign related_product_handle = search_term | append: type %}
-      {% if related_product_handle != current_handle %}
-        {% assign related_product = all_products[related_product_handle] %}
-        {% if related_product != blank %}
-          {% assign related_products = related_products | append: related_product.handle | append: ',' %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-    {% assign related_products_array = related_products | split: ',' %}
-
-    {% if related_products_array.size > 0 %}
-      {% for handle in related_products_array %}
-        {% assign related_product = all_products[handle] %}
-        {% if related_product != blank %}
-          <div class="row mx-n4">
-            {% for i in (1..6) %}
-              <div class="col-desktop-9 p-3">
-                <a
-                  href="{{ related_product.url | within: collection }}"
-                  class="product-card-link"
-                >
-                  <div class="d-flex align-items-center shadow-xs overflow-hidden rounded-2 border border-default">
-                    <div>
-                      {% render 'image-url',
-                        img: related_product.featured_image,
-                        orientation: settings.product_card_img_orientation,
-                        class: settings.product_card_img_border
-                      %}
-                    </div>
-                    <div class="ms-5">
-                      <h6 class="fs-sm mb-2">{{ related_product.title }}</h6>
-                      <div class="fs-sm">
-                        {% render 'product-card-price', product: related_product %}
-                      </div>
+    {% for handle in related_products_array %}
+      {% assign related_product = all_products[handle] %}
+      {% if related_product != blank %}
+        <div class="row mx-n4">
+          {% for i in (1..6) %}
+            <div class="col-desktop-9 p-3">
+              <a
+                href="{{ related_product.url | within: collection }}"
+                class="product-card-link"
+              >
+                <div class="d-flex align-items-center shadow-xs overflow-hidden rounded-2 border border-default">
+                  <div>
+                    {% render 'image-url',
+                      img: related_product.featured_image,
+                      orientation: settings.product_card_img_orientation,
+                      class: settings.product_card_img_border
+                    %}
+                  </div>
+                  <div class="ms-5">
+                    <h6 class="fs-sm mb-2">{{ related_product.title }}</h6>
+                    <div class="fs-sm">
+                      {% render 'product-card-price', product: related_product %}
                     </div>
                   </div>
-                </a>
-              </div>
-            {% endfor %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  {% endunless %}
-</div>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
