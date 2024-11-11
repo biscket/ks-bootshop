@@ -50,7 +50,7 @@
   display:flex;
 }
 
-.product-card .image-wrapper .img:hover{
+.product-card .image-wrapper img:hover{
   margin-left:100%;
 }
 
