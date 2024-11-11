@@ -122,17 +122,16 @@
 
 .shopify-section {
   .swiper-controls {
-    position: unset;
+
   }
   .swiper-button-prev,
   .swiper-button-next {
-    top: 33%;
-    background-color: #ffffff;
+
   }
   .swiper-button-prev {
-    left: 0;
+
   }
   .swiper-button-next {
-    right: 0;
+
   }
 }
