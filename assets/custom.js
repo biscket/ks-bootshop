@@ -13,6 +13,14 @@ setTimeout(function () {
         card.querySelector(".second").style.opacity = "1";
       });
 
-
+      card.addEventListener("mouseout", function () {
+        card.querySelector(".first").style.marginLeft = "0";
+        card.querySelector(".second").style.marginLeft = "100%";
+        card.querySelector(".first").style.transitionDelay = "0s";
+        card.querySelector(".second").style.transitionDelay = "0s";
+        setTimeout(function () {
+          card.querySelector(".second").style.opacity = "0";
+        }, 2000);
+      });
     });
 }, 1000);
