@@ -1,7 +1,7 @@
 /*
   Add here your own custom javascript codes
 */
-document.querySelectorAll('.product-card').forEach(function(card) {
+document.querySelectorAll('.product-card .image-wrapper').forEach(function(card) {
   card.addEventListener('mouseenter', function() {
     setTimeout(function() {
       card.querySelector('.second').style.opacity = '0';
