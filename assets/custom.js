@@ -17,6 +17,7 @@ setTimeout(function () {
       card.querySelector(".second").style.marginLeft = "100%";
       card.querySelector(".first").style.transitionDelay = "0s";
       card.querySelector(".second").style.transitionDelay = "0s";
+      card.querySelector(".second").style.display = "none";
     });
   });
 }, 1000);
