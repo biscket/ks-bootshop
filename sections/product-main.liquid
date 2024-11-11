@@ -2,34 +2,37 @@
   assign variants_json = product.variants | json
 %}
 
-<section 
-  id="product-main{{ product.id }}" 
+<section
+  id="product-main{{ product.id }}"
   class="
     product-main
-    {{ section.settings.bg_color }} 
+    {{ section.settings.bg_color }}
     {{ section.settings.bg_gradient }}
-    {{ section.settings.text_color }} 
+    {{ section.settings.text_color }}
     {{ section.settings.border_top_width | prepend: 'border-top-' }}
     {{ section.settings.border_bottom_width | prepend: 'border-bottom-' }}
-    {{ section.settings.border_color }} 
+    {{ section.settings.border_color }}
     {{ section.settings.pt | prepend: 'pt-0 pt-tablet-' }}
     {{ section.settings.pb | prepend: 'pb-' }}
   "
   style="
     --bs-bg-opacity: {{ section.settings.bg_opacity | append: '%' }};
     --bs-border-opacity: {{ section.settings.border_opacity | append: '%' }};
-  ">
-  <div 
-    class="container" 
-    style="max-width: {{ section.settings.container_max_width | append: 'px' }};">
-    <div 
+  "
+>
+  <div
+    class="container"
+    style="max-width: {{ section.settings.container_max_width | append: 'px' }};"
+  >
+    <div
       class="product-contents position-relative"
       data-quick-view-contents
       data-recently-viewed-set
-      data-product-url="{{ product.url }}">
+      data-product-url="{{ product.url }}"
+    >
       <a class="visually-hidden-focusable" href="#product-inner-{{ product.id }}">
         {{ 'general.accessibility.skip_product_content' | t }}
-      </a>      
+      </a>
       <div class="row">
         <div class="col-desktop-9 mb-5 mb-desktop-0">
           {% render 'product-block-media-gallery' %}
@@ -38,7 +41,12 @@
           <div id="product-inner-{{ product.id }}">
             <product-form>
               {% form 'product', product, data-productid: product.id, data-variants: variants_json %}
-                <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+                <input
+                  type="hidden"
+                  name="id"
+                  data-productid="{{ product.id }}"
+                  value="{{ product.selected_or_first_available_variant.id }}"
+                >
                 {% liquid
                   for block in section.blocks
                     case block.type
@@ -242,7 +250,7 @@
           "type": "select",
           "id": "effect",
           "label": "Effect",
-          "default": "slide", 
+          "default": "slide",
           "options": [
             { "value": "slide", "label": "Slide" },
             { "value": "fade", "label": "Fade" },
@@ -265,7 +273,7 @@
         },
         {
           "type": "select",
-          "id": "controls_color", 
+          "id": "controls_color",
           "label": "Controls color",
           "options": [
             { "value": "primary", "label": "Primary" },
@@ -279,7 +287,7 @@
           "type": "select",
           "id": "pagination_type",
           "label": "Pagination type",
-          "default": "fraction", 
+          "default": "fraction",
           "options": [
             { "value": "bullets", "label": "Bullets" },
             { "value": "fraction", "label": "Fraction" }
@@ -722,7 +730,7 @@
               { "value": "text-capitalize", "label": "Capitalize" },
               { "value": "text-lowercase", "label": "Lowercase" },
               { "value": "text-uppercase", "label": "Uppercase" }
-    
+
           ]
         },
         {
@@ -1129,6 +1137,73 @@
           "step": 1,
           "default": 0
         }
+      ]
+    },
+        {
+      "type": "related_product_type",
+      "name": "Related Product Types",
+      "settings": [
+        {
+          "type": "select",
+          "id": "bg_color",
+          "label": "Background color",
+          "default": "bg-primary",
+          "options": [
+            { "value": "bg-primary", "label": "Primary" },
+            { "value": "bg-secondary", "label": "Secondary" },
+            { "value": "bg-body", "label": "Body" },
+            { "value": "bg-white", "label": "White" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "bg_opacity",
+          "label": "Background opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 10,
+          "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "height",
+          "label": "Height",
+          "min": 0,
+          "max": 16,
+          "default": 1,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "header",
+          "content": "Spacing"
+        },
+        {
+          "type": "range",
+          "id": "pt",
+          "label": "Top",
+          "min": 0,
+          "max": 20,
+          "step": 1,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "pb",
+          "label": "Bottom",
+          "min": 0,
+          "max": 20,
+          "step": 1,
+          "default": 0
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "What we promise",
+          "info": "Used for accessibility purposes"
+        },
       ]
     },
     {
