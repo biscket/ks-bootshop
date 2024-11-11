@@ -95,12 +95,13 @@
 }
 
 @media (max-width: 599px) {
-.product-block-related-product-type .color-swatch-wrapper {
-  display:none;
+  .product-block-related-product-type .color-swatch-wrapper {
+    display: none;
+  }
+  .product-block-related-product-type .product-title {
+    font-size: 0.8rem !important;
+  }
 }
-}
-
-
 
 /* faq */
 .faq .accordion-button .span-svg-icons-plus {
