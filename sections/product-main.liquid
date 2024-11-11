@@ -70,6 +70,8 @@
                         render 'product-block-separator', block: block
                       when 'stock_indicator'
                         render 'product-block-stock-indicator', block: block
+                      when 'stock_indicator'
+                        render 'product-block-stock-indicator', block: block
                       when '@app'
                         render block
                     endcase
@@ -1140,7 +1142,7 @@
       ]
     },
     {
-      "type": "related_product_type",
+      "type": "related_product_types",
       "name": "Related Product Types",
       "settings": [
         {
