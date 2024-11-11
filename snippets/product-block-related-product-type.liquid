@@ -1,0 +1,32 @@
+{% liquid
+  assign pt = block.settings.pt | prepend: 'pt-'
+  assign pb = block.settings.pb | prepend: 'pb-'
+%}
+
+{% assign current_handle = product.handle %}
+{% assign product_types = 't-shirt,sweatshirt,hoodie' | split: ',' %}
+{% assign search_term = current_handle %}
+{% for type in product_types %}
+  {% assign search_term = search_term | remove: type %}
+{% endfor %}
+{% assign related_products = '' %}
+{% for type in product_types %}
+  {% assign related_product_handle = search_term | append: type %}
+  {% if related_product_handle != current_handle %}
+    {% assign related_product = all_products[related_product_handle] %}
+    {% if related_product != blank %}
+      {% assign related_products = related_products | append: related_product.handle | append: ',' %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign related_products_array = related_products | split: ',' %}
+{% if related_products_array.size == 0 %}
+  <h1>No related products found</h1>
+{% else %}
+  {% for handle in related_products_array %}
+    {% assign related_product = all_products[handle] %}
+    {% if related_product != blank %}
+      <h1>{{ related_product.title }}</h1>
+    {% endif %}
+  {% endfor %}
+{% endif %}
