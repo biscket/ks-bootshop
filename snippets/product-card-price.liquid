@@ -11,12 +11,12 @@
 
 <p class="product-card-price product-price mb-4">
   {% if product.compare_at_price > product.price %}
-    <s class="product-card-price-compare">
+    <span class="product-card-price-compare">
       <span class="visually-hidden">
         {{ 'product.regular_price' | t }} 
       </span>
       {{ product.compare_at_price | money_without_trailing_zeros }}
-    </s>
+    </span>
     <span class="product-card-price-final product-price-final-sale">
       <span class="visually-hidden">
         {{ 'product.sale_price' | t }} 
