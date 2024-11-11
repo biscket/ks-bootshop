@@ -49,7 +49,7 @@
           {% endif %}
         </span>
       {% endif %}
-      
+
       {% render 'image-url',
         img: product.featured_image,
         orientation: settings.product_card_img_orientation,
@@ -63,10 +63,12 @@
     {% render 'product-card-price', product: product %}
 
     {% for option in product.options_with_values %}
-      {% if (option.name == 'Color' or option.name == 'Colors') and option.values.size > 0 %}
-        <div class="color-count">
-          {{ option.values.size }}
-        </div>
+      {% if option.name == 'Color' or option.name == 'Colors' %}
+        {% if option.values.size > 0 %}
+          <div class="color-count">
+            {{ option.values.size }}
+          </div>
+        {% endif %}
       {% endif %}
     {% endfor %}
     
