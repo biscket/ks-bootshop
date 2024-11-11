@@ -10,6 +10,8 @@ setTimeout(function () {
         card.querySelector(".second").style.transitionDelay = "0s";
 
         card.querySelector(".first").style.marginLeft = "-100%";
+        card.querySelector(".first").style.opacity = "0";
+
         card.querySelector(".second").style.marginLeft = "0";
         card.querySelector(".second").style.opacity = "1";
       });
@@ -19,6 +21,8 @@ setTimeout(function () {
         card.querySelector(".second").style.transitionDelay = "0s";
 
         card.querySelector(".first").style.marginLeft = "0";
+        card.querySelector(".first").style.opacity = "1";
+
         card.querySelector(".second").style.marginLeft = "100%";
         card.querySelector(".second").style.opacity = "0";
         setTimeout(function () {}, 2000);
