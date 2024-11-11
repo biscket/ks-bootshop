@@ -13,7 +13,7 @@ setTimeout(function () {
         card.querySelector(".second").style.opacity = "1";
       });
 
-      card.addEventListener("mouseout", function () {
+      card.addEventListener("mouseleave", function () {
         card.querySelector(".first").style.marginLeft = "0";
         card.querySelector(".second").style.marginLeft = "100%";
         card.querySelector(".first").style.transitionDelay = "0s";
