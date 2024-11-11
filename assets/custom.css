@@ -94,7 +94,7 @@
   border-color: #444;
 }
 
-/* also available on in the product details page */
+/* also available on in the product details page 
 @media (max-width: 599px) {
   .product-block-related-product-type .color-swatch-wrapper,
   .product-block-related-product-type .product-sale-badge {
@@ -109,6 +109,8 @@
   .product-block-related-product-type .title {
   }
 }
+*/
+
   .product-block-related-product-type img {
     width:100px;
   }
