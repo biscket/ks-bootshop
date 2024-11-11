@@ -35,7 +35,7 @@
 
 .product-card .color-swatch-wrapper {
   background-color: #ddd;
-  paddint-top:5px;
+  paddint-top: 5px;
 }
 .product-card .color-swatch {
   display: inline-block;
@@ -45,13 +45,13 @@
   margin-right: -1px;
 }
 
-.product-card .image-wrapper{
-  overflow:hidden;
-  display:flex;
+.product-card .image-wrapper {
+  overflow: hidden;
+  display: flex;
 }
 
-.product-card .image-wrapper img:hover{
-
+.product-card .image-wrapper img.second {
+  display: none;
 }
 
 /* product details page */
