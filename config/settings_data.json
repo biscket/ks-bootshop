@@ -18,7 +18,7 @@
     "logo": "shopify://shop_images/supirix_logo_black.png",
     "favicon": "shopify://shop_images/supirix_logo_black.png",
     "font_body": "cabin_n4",
-    "font_headings": "bitter_n4",
+    "font_headings": "righteous_n4",
     "btn_font_size": 1,
     "btn_text_transform": "text-uppercase",
     "btn_font_family": "var(--bs-body-font-family)",
