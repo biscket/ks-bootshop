@@ -94,28 +94,12 @@
   border-color: #444;
 }
 
-/* also available on in the product details page 
-@media (max-width: 599px) {
-  .product-block-related-product-type .color-swatch-wrapper,
-  .product-block-related-product-type .product-sale-badge {
-    display: none !important;
-  }
-  .product-block-related-product-type .product-title {
-    font-size: 0.8rem !important;
-  }
-  .product-block-related-product-type .product-price {
-    font-size: 0.8rem !important;
-  }
-  .product-block-related-product-type .title {
-  }
+/* also available on in the product details page */
+.product-block-related-product-type img {
+  width: 85px;
 }
-*/
-
-  .product-block-related-product-type img {
-    width:80px;
-  }
- .product-block-related-product-type .product-price{
-  margin:0!important;
+.product-block-related-product-type .product-price {
+  margin: 0 !important;
 }
 
 /* faq */
