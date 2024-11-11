@@ -11,17 +11,18 @@
   {% render 'svg-icons' icon: 'menu', size: 24, stroke_width: 2, class: "m-3"  %}
 {% endcomment %}
 
-<svg 
-  xmlns="http://www.w3.org/2000/svg" 
-  width="{{ size | default: 22 }}" 
-  height="{{ size | default: 22 }}" 
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="{{ size | default: 22 }}"
+  height="{{ size | default: 22 }}"
   class="{{ 'svg-icon-' | append: icon }} {{ class }}"
-  viewBox="0 0 24 24" 
-  fill="none" 
-  stroke="currentColor" 
-  stroke-width="{{ stroke_width | default: 2 }}" 
-  stroke-linecap="round" 
-  stroke-linejoin="round">
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="{{ stroke_width | default: 2 }}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
   {% case icon %}
     {% when 'cart' %}
       {% if settings.cart_icon == 'cart' %}
@@ -92,6 +93,7 @@
     {% when 'time' %}
       <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
     {% when 'live' %}
-      <path d="M6 10c0-.93 0-1.395.102-1.776a3 3 0 0 1 2.121-2.122C8.605 6 9.07 6 10 6c.93 0 1.395 0 1.776.102a3 3 0 0 1 2.122 2.122C14 8.605 14 9.07 14 10s0 1.395-.102 1.777a3 3 0 0 1-2.122 2.12C11.395 14 10.93 14 10 14s-1.395 0-1.777-.102a3 3 0 0 1-2.12-2.121C6 11.395 6 10.93 6 10Z"></path>
-  {% endcase %}
-</svg> 
+  <circle cx="25" cy="25" r="15" fill="currentColor" />
+  <circle cx="25" cy="25" r="20" fill="none" stroke="currentColor" stroke-width="3" />
+    {% endcase %}
+</svg>
