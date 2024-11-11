@@ -51,11 +51,11 @@
 
           <div class="d-flex">
             <div>
-        {% render 'image-url',
-          img: product.featured_image,
-          orientation: settings.product_card_img_orientation,
-          class: settings.product_card_img_border
-        %}
+              {% render 'image-url',
+                img: related_product.featured_image,
+                orientation: settings.product_card_img_orientation,
+                class: settings.product_card_img_border
+              %}
             </div>
             <div>
               
