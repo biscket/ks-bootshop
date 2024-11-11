@@ -35,3 +35,17 @@ setTimeout(() => {
     }
   });
 }, 1000);
+
+
+function openModal(title, content) {
+  // Set the modal title and content
+  document.getElementById("modalTitle").innerHTML = title;
+  document.getElementById("modalPageContent").innerHTML = content;
+
+  // Show the modal
+  var myModal = new bootstrap.Modal(document.getElementById('pageModal'), {
+    keyboard: true
+  });
+  myModal.show();
+}
+
