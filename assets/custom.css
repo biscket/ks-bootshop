@@ -94,6 +94,7 @@
   border-color: #444;
 }
 
+/* also available on in the product details page */
 @media (max-width: 599px) {
   .product-block-related-product-type .color-swatch-wrapper,
   .product-block-related-product-type .product-sale-badge {
@@ -109,6 +110,7 @@
     text-align: center !important;
   }
 }
+
 
 /* faq */
 .faq .accordion-button .span-svg-icons-plus {
