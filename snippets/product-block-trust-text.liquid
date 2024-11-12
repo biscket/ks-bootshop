@@ -1,14 +1,14 @@
 <div class="small text-muted mx-3">
   <div class="mb-3 d-flex align-items-center">
     <div>
-      {% render 'svg-icons', icon: 'live', size: 18, stroke_width: 2, class: 'me-2 text-success ms-1' %}
+      {% render 'svg-icons', icon: 'live', size: 18, stroke_width: 2, class: 'text-success ms-1' %}
     </div>
     <div>In stock / delivery in 3-5 business days.</div>
   </div>
 
   <div class="mb-3 d-flex align-items-center">
     <div>
-      {% render 'svg-icons', icon: 'fire', size: 17, stroke_width: 0, fill: 'currentColor', class: 'me-4 text-danger' %}
+      {% render 'svg-icons', icon: 'fire', size: 17, stroke_width: 0, fill: 'currentColor', class: 'text-danger' %}
     </div>
     <div>
       {% assign product_title = product.title | downcase %}
@@ -24,7 +24,7 @@
 
   <div class="d-flex align-items-center">
     <div>
-      {% render 'svg-icons', icon: 'truck', size: 17, stroke_width: 2, class: 'me-4 text-secondary' %}
+      {% render 'svg-icons', icon: 'truck', size: 17, stroke_width: 2, class: 'text-secondary' %}
     </div>
     Free shipping on all orders over <span class="money">{{ 5000 | money_without_trailing_zeros }}</span>.
   </div>
