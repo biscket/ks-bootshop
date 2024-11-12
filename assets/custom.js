@@ -47,5 +47,6 @@ function openModal(title, content) {
     keyboard: true
   });
   myModal.show();
+  return false;
 }
 
