@@ -21,17 +21,17 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "600",
-        "img_show": true,
+        "img_show": false,
         "img_overlay_color": "#000000",
         "img_overlay_opacity": 30,
         "img_overlay_blur": 0,
         "title_font_size": "h2",
         "description_show": true,
         "description_font_size": "fs-md",
-        "pt": 10,
-        "pb": 10,
-        "pt_desktop": 10,
-        "pb_desktop": 10
+        "pt": 5,
+        "pb": 5,
+        "pt_desktop": 5,
+        "pb_desktop": 5
       }
     },
     "collection_products_Fx3hb6": {
