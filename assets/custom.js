@@ -39,11 +39,11 @@ setTimeout(() => {
 
 function openModal(title, content) {
   // Set the modal title and content
-  document.getElementById("modalTitle").innerHTML = title;
-  document.getElementById("modalPageContent").innerHTML = content;
+  document.getElementById("customModalTitle").innerHTML = title;
+  document.getElementById("customModalPageContent").innerHTML = content;
 
   // Show the modal
-  var myModal = new bootstrap.Modal(document.getElementById('pageModal'), {
+  var myModal = new bootstrap.Modal(document.getElementById('customPageModal'), {
     keyboard: true
   });
   myModal.show();
