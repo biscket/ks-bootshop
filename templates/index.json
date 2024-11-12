@@ -53,7 +53,7 @@
             "img_mobile": "shopify://shop_images/hero-2_0d2ad95a-c17a-40cf-ad34-e12c37c4b1e5.png",
             "img_desktop": "shopify://shop_images/hero-2_0d2ad95a-c17a-40cf-ad34-e12c37c4b1e5.png",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 50,
             "overlay_blur": 0,
             "subtitle": "LIMITED TIME OFFER",
             "title": "",
