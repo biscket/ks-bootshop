@@ -11,6 +11,46 @@
   "type": "footer",
   "name": "Footer Group",
   "sections": {
+    "announcement_bar_LHcct9": {
+      "type": "announcement-bar",
+      "blocks": {
+        "slide_RB3KbH": {
+          "type": "slide",
+          "settings": {
+            "announcement": "2 T-Shirts for $50. <a href=\"/collections/t-shirts\" title=\"T-Shirts\">Shop Now</a>"
+          }
+        },
+        "slide_jdxw4z": {
+          "type": "slide",
+          "settings": {
+            "announcement": "Free shipping over $100 USD"
+          }
+        }
+      },
+      "block_order": [
+        "slide_RB3KbH",
+        "slide_jdxw4z"
+      ],
+      "settings": {
+        "bg_color": "bg-secondary",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-white",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "600",
+        "font_size": "fs-xs",
+        "font_size_desktop": "fs-desktop-sm",
+        "text_transform": "text-capitalize",
+        "letter_spacing": 0,
+        "carousel_autoplay": 5,
+        "carousel_vertical": true,
+        "pt": 3,
+        "pb": 3
+      }
+    },
     "newsletter_fL4LWF": {
       "type": "newsletter",
       "custom_css": [
@@ -103,6 +143,7 @@
     }
   },
   "order": [
+    "announcement_bar_LHcct9",
     "newsletter_fL4LWF",
     "footer"
   ]
