@@ -6,18 +6,21 @@
     <div>In stock / delivery in 3-5 business days.</div>
   </div>
 
-  <div class="mb-3">
-    {% render 'svg-icons', icon: 'fire', size: 18, stroke_width: 0, fill: 'currentColor', class: 'me-3 text-danger' %}
-    {% assign product_title = product.title | downcase %}
-    {% if product_title contains 'sweatshirt' %}
-      2 Sweatshirts for {{ 7000 | money_without_trailing_zeros }} + Free shipping.
-    {% elsif product_title contains 't-shirt' %}
-      2 T-Shirts for {{ 5000 | money_without_trailing_zeros }} + Free shipping.
-    {% else %}
-      Selling fast! Up to 50% off everything.
-    {% endif %}
+  <div class="mb-3 d-flex align-items-center">
+    <div>
+      {% render 'svg-icons', icon: 'fire', size: 18, stroke_width: 0, fill: 'currentColor', class: 'me-3 text-danger' %}
+    </div>
+    <div>
+      {% assign product_title = product.title | downcase %}
+      {% if product_title contains 'sweatshirt' %}
+        2 Sweatshirts for {{ 7000 | money_without_trailing_zeros }} + Free shipping.
+      {% elsif product_title contains 't-shirt' %}
+        2 T-Shirts for {{ 5000 | money_without_trailing_zeros }} + Free shipping.
+      {% else %}
+        Selling fast! Up to 50% off everything.
+      {% endif %}
+    </div>
   </div>
-
   <div>
     {% render 'svg-icons', icon: 'truck', size: 18, stroke_width: 2, class: 'me-3 text-secondary' %}
     Free shipping on all orders over <span class="money">{{ 5000 | money_without_trailing_zeros }}</span>.
