@@ -58,13 +58,13 @@
         "slide_jdxw4z"
       ],
       "settings": {
-        "bg_color": "bg-primary",
+        "bg_color": "bg-secondary",
         "bg_opacity": 100,
         "bg_gradient": "",
         "text_color": "text-white",
         "border_top_width": 0,
         "border_bottom_width": 0,
-        "border_color": "border-body",
+        "border_color": "border-secondary",
         "border_opacity": 100,
         "container_max_width": "",
         "font_size": "fs-xs",
@@ -73,8 +73,8 @@
         "letter_spacing": 0,
         "carousel_autoplay": 5,
         "carousel_vertical": true,
-        "pt": 3,
-        "pb": 3
+        "pt": 5,
+        "pb": 5
       }
     },
     "footer": {
