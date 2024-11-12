@@ -30,7 +30,7 @@
         "header_title_font_size": "h3",
         "header_description": "<p><em>Sign up now, enjoy 20% OFF Everything on our website.</em></p>",
         "header_description_font_size": "fs-md",
-        "btn_color": "btn-primary",
+        "btn_color": "btn-secondary",
         "btn_size": "",
         "notice": "<p>By signing up for email, you agree to our <a href=\"/policies/terms-of-service\">Terms of Service</a> and <a href=\"/policies/privacy-policy\">Privacy Policy</a>.</p>",
         "pt": 13,
