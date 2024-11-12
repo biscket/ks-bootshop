@@ -91,9 +91,9 @@
   .product-options
   .size-buttons
   input:checked
-  + label.color-swatch-color:before {
+  + label.color-swatch-color {
   border-color: #444;
-    box-shadow: 0 0 0 2px #fff,0 0 0 4px #444;
+  box-shadow: 0 0 0 2px #fff,0 0 0 4px #444;
 }
 
 /* also available on in the product details page */
