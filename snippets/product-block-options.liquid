@@ -19,11 +19,10 @@
 
             {% if option.name contains 'size' or option.name contains 'Size' %}
               {% unless product.metafields.custom.size_chart == blank %}
-                {% assign page_content = {{ pages[product.metafields.custom.size_chart].content | escape}} %}
                 <a
                   href="javascript:void(0);"
                   class="float-end"
-                  onclick="openModal('Size Chart', '{{ page_content }}');"
+                  onclick="openModal('Size Chart', '{{ pages[product.metafields.custom.size_chart].content | escape}}');"
                   >Size Chart</a
                 >
               {% endunless %}
