@@ -21,8 +21,11 @@
       {% endif %}
     </div>
   </div>
-  <div>
-    {% render 'svg-icons', icon: 'truck', size: 18, stroke_width: 2, class: 'me-3 text-secondary' %}
+
+  <div class="d-flex align-items-center">
+    <div>
+      {% render 'svg-icons', icon: 'truck', size: 18, stroke_width: 2, class: 'me-3 text-secondary' %}
+    </div>
     Free shipping on all orders over <span class="money">{{ 5000 | money_without_trailing_zeros }}</span>.
   </div>
 </div>
