@@ -11,6 +11,32 @@
   "type": "footer",
   "name": "Footer Group",
   "sections": {
+    "newsletter_fL4LWF": {
+      "type": "newsletter",
+      "custom_css": [
+        "@media (max-width: 599px) {.pt-13 {padding-top: 40px !important; } .pb-13 {padding-bottom: 50px !important; } .section-header {margin-bottom: 20px; }}"
+      ],
+      "settings": {
+        "bg_color": "bg-secondary",
+        "bg_opacity": 5,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 1,
+        "border_bottom_width": 0,
+        "border_color": "border-secondary",
+        "border_opacity": 10,
+        "container_max_width": "600",
+        "header_title": "JOIN THE VIP CLUB / 20% OFF",
+        "header_title_font_size": "h3",
+        "header_description": "<p><em>Sign up now, enjoy 20% OFF everything.</em></p>",
+        "header_description_font_size": "fs-md",
+        "btn_color": "btn-secondary",
+        "btn_size": "",
+        "notice": "<p>By signing up for email, you agree to our <a href=\"/policies/terms-of-service\">Terms of Service</a> and <a href=\"/policies/privacy-policy\">Privacy Policy</a>.</p>",
+        "pt": 13,
+        "pb": 13
+      }
+    },
     "announcement_bar_LHcct9": {
       "type": "announcement-bar",
       "blocks": {
@@ -49,32 +75,6 @@
         "carousel_vertical": true,
         "pt": 3,
         "pb": 3
-      }
-    },
-    "newsletter_fL4LWF": {
-      "type": "newsletter",
-      "custom_css": [
-        "@media (max-width: 599px) {.pt-13 {padding-top: 40px !important; } .pb-13 {padding-bottom: 50px !important; } .section-header {margin-bottom: 20px; }}"
-      ],
-      "settings": {
-        "bg_color": "bg-secondary",
-        "bg_opacity": 5,
-        "bg_gradient": "",
-        "text_color": "text-body",
-        "border_top_width": 1,
-        "border_bottom_width": 0,
-        "border_color": "border-secondary",
-        "border_opacity": 10,
-        "container_max_width": "600",
-        "header_title": "JOIN THE VIP CLUB / 20% OFF",
-        "header_title_font_size": "h3",
-        "header_description": "<p><em>Sign up now, enjoy 20% OFF everything.</em></p>",
-        "header_description_font_size": "fs-md",
-        "btn_color": "btn-secondary",
-        "btn_size": "",
-        "notice": "<p>By signing up for email, you agree to our <a href=\"/policies/terms-of-service\">Terms of Service</a> and <a href=\"/policies/privacy-policy\">Privacy Policy</a>.</p>",
-        "pt": 13,
-        "pb": 13
       }
     },
     "footer": {
@@ -143,8 +143,8 @@
     }
   },
   "order": [
-    "announcement_bar_LHcct9",
     "newsletter_fL4LWF",
+    "announcement_bar_LHcct9",
     "footer"
   ]
 }
