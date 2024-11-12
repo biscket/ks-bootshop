@@ -21,7 +21,7 @@
     "font_headings": "righteous_n4",
     "btn_font_size": 1,
     "btn_text_transform": "text-uppercase",
-    "btn_font_family": "var(--bs-body-font-family)",
+    "btn_font_family": "var(--bs-headings-font-family)",
     "btn_font_weight": "500",
     "btn_letter_spacing": 1,
     "btn_bg_gradient": false,
