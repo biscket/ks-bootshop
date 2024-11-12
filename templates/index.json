@@ -166,6 +166,7 @@
         "collection_Bh9zKQ",
         "collection_LgnBNf"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
