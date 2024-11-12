@@ -31,12 +31,19 @@
           "settings": {
             "announcement": "2 T-Shirts for $50! <a href=\"/collections/t-shirts\" title=\"T-Shirts\">Shop Now</a>"
           }
+        },
+        "slide_zckTfU": {
+          "type": "slide",
+          "settings": {
+            "announcement": "2 Sweatshirts for $70! <a href=\"/collections/t-shirts\" title=\"T-Shirts\">Shop Now</a>"
+          }
         }
       },
       "block_order": [
         "slide_NDniAn",
         "slide_mwF4Tk",
-        "slide_j46kwk"
+        "slide_j46kwk",
+        "slide_zckTfU"
       ],
       "settings": {
         "bg_color": "bg-primary",
