@@ -46,11 +46,29 @@
             "btn_secondary_text": "",
             "btn_secondary_url": ""
           }
+        },
+        "slide_6N4NQU": {
+          "type": "slide",
+          "settings": {
+            "img_mobile": "shopify://shop_images/hero-2_0d2ad95a-c17a-40cf-ad34-e12c37c4b1e5.png",
+            "img_desktop": "shopify://shop_images/hero-2_0d2ad95a-c17a-40cf-ad34-e12c37c4b1e5.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "overlay_blur": 0,
+            "subtitle": "LIMITED TIME OFFER",
+            "title": "",
+            "description": "",
+            "btn_primary_text": "Shop Now",
+            "btn_primary_url": "shopify://collections/t-shirts",
+            "btn_secondary_text": "",
+            "btn_secondary_url": ""
+          }
         }
       },
       "block_order": [
         "slide_Q4UPQq",
-        "slide_wH7TiM"
+        "slide_wH7TiM",
+        "slide_6N4NQU"
       ],
       "settings": {
         "bg_color": "bg-body",
