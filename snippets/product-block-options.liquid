@@ -18,7 +18,7 @@
             {% endif %}      
 
             {% if option.name contains "size" or option.name contains "Size" %}
-              <a href="#" class="float-end" onclick="openModal('Page Details', '{{ pages[product.metafields.custom.size_chart].content | escape}}');">Size Chart</a>
+              <a href="#" class="float-end" onclick="openModal('Size Chart', '{{ pages[product.metafields.custom.size_chart].content | escape}}');">Size Chart</a>
               
             {% endif %}
             
