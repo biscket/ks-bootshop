@@ -412,7 +412,7 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "",
-        "open_first_item": true,
+        "open_first_item": false,
         "header_title": "FAQ Answered",
         "header_title_font_size": "h1",
         "header_description": "<p><em>Find answers to your questions here. </em><a href=\"/pages/faqs\" title=\"FAQs\"><em>Visit Help Center</em></a></p>",
