@@ -28,10 +28,28 @@
             "btn_secondary_text": "",
             "btn_secondary_url": ""
           }
+        },
+        "slide_wH7TiM": {
+          "type": "slide",
+          "settings": {
+            "img_mobile": "shopify://shop_images/Hero.png",
+            "img_desktop": "shopify://shop_images/Hero.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "overlay_blur": 0,
+            "subtitle": "",
+            "title": "",
+            "description": "",
+            "btn_primary_text": "",
+            "btn_primary_url": "",
+            "btn_secondary_text": "",
+            "btn_secondary_url": ""
+          }
         }
       },
       "block_order": [
-        "slide_Q4UPQq"
+        "slide_Q4UPQq",
+        "slide_wH7TiM"
       ],
       "settings": {
         "bg_color": "bg-body",
