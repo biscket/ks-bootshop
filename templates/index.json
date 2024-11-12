@@ -95,7 +95,7 @@
         "slider_pagination_type": "bullets",
         "slider_scrollbar": false,
         "slider_partial_slides_mobile": false,
-        "slider_autoplay": 0,
+        "slider_autoplay": 3,
         "breakpoint_mobile": 2,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
