@@ -188,7 +188,7 @@
         "row_JkMDbM"
       ],
       "custom_css": [
-        "@media (max-width: 599px) {.mb-desktop-0 {padding-top: 30px !important; } .col-desktop-9:nth-child(1) {padding-bottom: 30px !important; }}"
+        "@media (max-width: 599px) {.col-desktop-9:nth-child(2) {padding-top: 15px !important; } .col-desktop-9:nth-child(2) {padding-bottom: 30px !important; } img{max-width: calc(100% + 15%); }}"
       ],
       "settings": {
         "container_max_width": ""
