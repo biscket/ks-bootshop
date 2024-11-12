@@ -73,20 +73,6 @@
   padding: 0 !important;
   margin: 0.35rem !important;
 }
-.product-main .color-swatch-color:before {
-  border-color: #ddd;
-  border-radius: 100%;
-  border-style: solid;
-  border-width: 2px;
-  content: "";
-  height: 32px;
-  width: 32px;
-  left: 0;
-  top: 0;
-  position: absolute;
-  margin: -4px;
-  display:none;
-}
 .product-main
   .product-options
   .size-buttons
