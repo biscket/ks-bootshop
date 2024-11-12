@@ -14,14 +14,20 @@
           <p class="mb-1">
             {{ option.name }}
             {% if block.settings.color_swatches contains option.name and option.values.size > 0 %}
-              <span id='selected-option-name'>: {{ option.values[0] }}</span>
-            {% endif %}      
-
-            {% if option.name contains "size" or option.name contains "Size" %}
-              <a href="javascript:void(0);" class="float-end" onclick="openModal('Size Chart', '{{ pages[product.metafields.custom.size_chart].content | escape}}');">Size Chart</a>
-              
+              <span id="selected-option-name">: {{ option.values[0] }}</span>
             {% endif %}
-            
+
+            {% if option.name contains 'size' or option.name contains 'Size' %}
+              {% unless product.metafields.custom.size_chart == blank %}
+                {% assign page_content = {{ pages[product.metafields.custom.size_chart].content | escape}} %}
+                <a
+                  href="javascript:void(0);"
+                  class="float-end"
+                  onclick="openModal('Size Chart', '{{ page_content }}');"
+                  >Size Chart</a
+                >
+              {% endunless %}
+            {% endif %}
           </p>
           <ul class="size-buttons list-unstyled">
             {% for value in option.values %}
