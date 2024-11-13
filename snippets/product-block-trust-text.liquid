@@ -13,9 +13,9 @@
     <div>
       {% assign product_title = product.title | downcase %}
       {% if product_title contains 'sweatshirt' %}
-        2 Sweatshirts for <strong>{{ 7000 | money_without_trailing_zeros }}</strong> + Free shipping.
+        2 Sweatshirts for <strong>{{ 7000 | money_without_trailing_zeros }} + Free shipping.</strong>
       {% elsif product_title contains 't-shirt' %}
-        2 T-Shirts for <strong> {{ 5000 | money_without_trailing_zeros }} </strong> + Free shipping.
+        2 T-Shirts for <strong> {{ 5000 | money_without_trailing_zeros }}  + Free shipping.</strong>
       {% else %}
         Selling fast! Up to 50% off everything.
       {% endif %}
