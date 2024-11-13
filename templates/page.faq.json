@@ -24,7 +24,7 @@
         "text_align": "text-center",
         "title": "Help Center",
         "title_font_size": "h2",
-        "description": "<p>Please contact us anytime. We will get back to you within 24 hours.</p>",
+        "description": "<p>If further help is required, feel free to contact us.</p>",
         "description_font_size": "fs-md",
         "btn_primary_text": "Contact Us",
         "btn_primary_url": "shopify://pages/contact",
