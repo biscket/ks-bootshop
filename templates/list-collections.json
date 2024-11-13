@@ -47,6 +47,9 @@
         "collection_DtdwhX",
         "collection_iwW8RK"
       ],
+      "custom_css": [
+        ".collection-card-title{margin-top:1rem;}"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -57,9 +60,9 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "",
-        "header_title": "Featured Collections",
+        "header_title": "Latest Collections",
         "header_title_font_size": "h2",
-        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description": "<p>Get up to 50% off everything.</p>",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
         "slider_navigation": true,
@@ -74,11 +77,11 @@
         "collection_card_show_title": true,
         "collection_card_title_font_size": "fs-lg",
         "collection_card_title_position": "collection-card-title-bottom",
-        "collection_card_show_product_count": true,
-        "breakpoint_mobile": 1,
+        "collection_card_show_product_count": false,
+        "breakpoint_mobile": 2,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
-        "pt": 10,
+        "pt": 13,
         "pb": 10
       }
     }
