@@ -142,6 +142,7 @@
     },
     "featured_products_PMiqaR": {
       "type": "featured-products",
+      "disabled": true,
       "custom_css": [
         ".section-header {margin-bottom: 60px;}",
         "@media (max-width: 599px) {.pt-13 {padding-top: 30px !important; } .pb-13 {padding-bottom: 30px !important; } .section-header {margin-bottom: 20px; }}"
@@ -186,7 +187,7 @@
           "type": "collection",
           "settings": {
             "collection": "ugly-christmas-t-shirts",
-            "img": "shopify://shop_images/merry_swishmas_-_dark_bg_-_tshirt-blue_-_13.jpg",
+            "img": "shopify://shop_images/collection-ugly-tshirt.png",
             "title": ""
           }
         },
@@ -194,16 +195,33 @@
           "type": "collection",
           "settings": {
             "collection": "ugly-christmas-sweatshirts",
-            "img": "shopify://shop_images/bestnanaever-sweatshirt-sand-05.jpg",
+            "img": "shopify://shop_images/collection-ugly-sweatshirt.png",
+            "title": ""
+          }
+        },
+        "collection_mDEqxk": {
+          "type": "collection",
+          "settings": {
+            "collection": "sweatshirts",
+            "img": "shopify://shop_images/collection-sweatshirt.png",
+            "title": ""
+          }
+        },
+        "collection_NLefy3": {
+          "type": "collection",
+          "settings": {
+            "collection": "t-shirts",
+            "img": "shopify://shop_images/collection-tshirt.png",
             "title": ""
           }
         }
       },
       "block_order": [
         "collection_Bh9zKQ",
-        "collection_LgnBNf"
+        "collection_LgnBNf",
+        "collection_mDEqxk",
+        "collection_NLefy3"
       ],
-      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -216,7 +234,7 @@
         "container_max_width": "",
         "header_title": "Featured Collections",
         "header_title_font_size": "h2",
-        "header_description": "<p><em>Explore the new collection. </em><a href=\"https://supirix.com/collections/all\" title=\"All products\"><em>Shop All</em></a></p>",
+        "header_description": "<p><em>Get up to 50% off everything.</em></p>",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
         "slider_navigation": true,
