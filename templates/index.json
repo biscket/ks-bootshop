@@ -238,7 +238,7 @@
         "border_opacity": 10,
         "container_max_width": "",
         "header_title": "Featured Collections",
-        "header_title_font_size": "h2",
+        "header_title_font_size": "h1",
         "header_description": "<p><em>Get up to 50% off everything.</em></p>",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
