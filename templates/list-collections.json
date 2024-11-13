@@ -9,6 +9,33 @@
  */
 {
   "sections": {
+    "richtext_69NHHD": {
+      "type": "richtext",
+      "settings": {
+        "bg_color": "bg-primary",
+        "bg_opacity": 10,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container_max_width": "900",
+        "text_align": "text-center",
+        "title": "Latest Collections",
+        "title_font_size": "h2",
+        "description": "<p>Get up to 50% off everything.</p>",
+        "description_font_size": "fs-md",
+        "btn_primary_text": "",
+        "btn_primary_url": "",
+        "btn_primary_color": "btn-primary",
+        "btn_secondary_text": "",
+        "btn_secondary_url": "",
+        "btn_secondary_color": "btn-secondary",
+        "pt": 8,
+        "pb": 8
+      }
+    },
     "featured_collections_CGE4nM": {
       "type": "featured-collections",
       "blocks": {
@@ -64,9 +91,9 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "",
-        "header_title": "Latest Collections",
+        "header_title": "",
         "header_title_font_size": "h2",
-        "header_description": "<p>Get up to 50% off everything.</p>",
+        "header_description": "",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
         "slider_navigation": true,
@@ -86,11 +113,12 @@
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
         "pt": 13,
-        "pb": 10
+        "pb": 13
       }
     }
   },
   "order": [
+    "richtext_69NHHD",
     "featured_collections_CGE4nM"
   ]
 }
