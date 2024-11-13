@@ -116,7 +116,10 @@
 
 
 /* klavio sticky offer button*/
-button.needsclick {
-  width:auto!important;
+button[class^="kl-teaser"] {
+    width:auto!important;
   top:75%!important;
+}
+button.needsclick {
+
 }
