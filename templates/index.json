@@ -222,6 +222,9 @@
         "collection_mDEqxk",
         "collection_NLefy3"
       ],
+      "custom_css": [
+        ".collection-card-title{margin-top:1rem;}"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
