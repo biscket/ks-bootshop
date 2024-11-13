@@ -118,4 +118,5 @@
 /* klavio sticky offer button*/
 button.needsclick {
   width:auto!important;
+  top:80%;
 }
