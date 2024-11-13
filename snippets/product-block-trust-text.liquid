@@ -13,9 +13,11 @@
     <div>
       {% assign product_title = product.title | downcase %}
       {% if product_title contains 'sweatshirt' %}
-        2 Sweatshirts for <strong>{{ 7000 | money_without_trailing_zeros }} + Free shipping.</strong>
+        <strong>2</strong>strong> Sweatshirts for
+        <strong>{{ 7000 | money_without_trailing_zeros }} + Free shipping.</strong>
       {% elsif product_title contains 't-shirt' %}
-        2 T-Shirts for <strong> {{ 5000 | money_without_trailing_zeros }}  + Free shipping.</strong>
+        <strong>2</strong>strong> T-Shirts for
+        <strong>{{ 5000 | money_without_trailing_zeros }} + Free shipping.</strong>
       {% else %}
         Selling fast! Up to 50% off everything.
       {% endif %}
@@ -26,6 +28,8 @@
     <div style="width:27px;">
       {% render 'svg-icons', icon: 'truck', size: 17, stroke_width: 2, class: 'text-secondary' %}
     </div>
-    Free shipping on all orders over <span class="money">{{ 5000 | money_without_trailing_zeros }}</span>.
+    <div>
+      Free shipping on all orders over <span class="money">{{ 5000 | money_without_trailing_zeros }}</span>.
+    </div>
   </div>
 </div>
