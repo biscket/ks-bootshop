@@ -1,6 +1,6 @@
 <div class="small text-muted mx-3">
   <div class="mb-3 d-flex align-items-center">
-    <div>
+    <div style="width:25px;">
       {% render 'svg-icons', icon: 'live', size: 18, stroke_width: 2, class: 'text-success ms-1' %}
     </div>
     <div>In stock / delivery in 3-5 business days.</div>
@@ -23,7 +23,7 @@
   </div>
 
   <div class="d-flex align-items-center">
-    <div>
+    <div style="width:25px;">
       {% render 'svg-icons', icon: 'truck', size: 17, stroke_width: 2, class: 'text-secondary' %}
     </div>
     Free shipping on all orders over <span class="money">{{ 5000 | money_without_trailing_zeros }}</span>.
