@@ -37,46 +37,6 @@
         "pb": 13
       }
     },
-    "announcement_bar_LHcct9": {
-      "type": "announcement-bar",
-      "blocks": {
-        "slide_RB3KbH": {
-          "type": "slide",
-          "settings": {
-            "announcement": "2 T-Shirts for $50. <a href=\"/collections/t-shirts\" title=\"T-Shirts\">Shop Now</a>"
-          }
-        },
-        "slide_jdxw4z": {
-          "type": "slide",
-          "settings": {
-            "announcement": "2 Sweatshirts for $70. <a href=\"/collections/sweatshirts\" title=\"Sweatshirts\">Shop Now</a>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_RB3KbH",
-        "slide_jdxw4z"
-      ],
-      "settings": {
-        "bg_color": "bg-secondary",
-        "bg_opacity": 100,
-        "bg_gradient": "",
-        "text_color": "text-white",
-        "border_top_width": 0,
-        "border_bottom_width": 0,
-        "border_color": "border-secondary",
-        "border_opacity": 100,
-        "container_max_width": "",
-        "font_size": "fs-xs",
-        "font_size_desktop": "fs-desktop-sm",
-        "text_transform": "text-capitalize",
-        "letter_spacing": 0,
-        "carousel_autoplay": 5,
-        "carousel_vertical": true,
-        "pt": 5,
-        "pb": 5
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -144,7 +104,6 @@
   },
   "order": [
     "newsletter_fL4LWF",
-    "announcement_bar_LHcct9",
     "footer"
   ]
 }
