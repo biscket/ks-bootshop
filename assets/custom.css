@@ -119,6 +119,6 @@
   width: auto !important;
   top: 75% !important;
 }
-div.needsclick svg {
+div.needsclick a svg {
   display:none!important;
 }
