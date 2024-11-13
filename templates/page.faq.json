@@ -345,7 +345,7 @@
         "description_font_size": "fs-md",
         "btn_primary_text": "Contact Us",
         "btn_primary_url": "shopify://pages/contact",
-        "btn_primary_color": "btn-primary",
+        "btn_primary_color": "btn-secondary",
         "btn_secondary_text": "",
         "btn_secondary_url": "",
         "btn_secondary_color": "btn-secondary",
