@@ -24,6 +24,7 @@
           "type": "collection",
           "settings": {
             "collection": "t-shirts",
+            "img": "shopify://shop_images/collection-tshirt.png",
             "title": ""
           }
         },
