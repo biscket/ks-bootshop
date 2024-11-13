@@ -13,11 +13,11 @@
     <div>
       {% assign product_title = product.title | downcase %}
       {% if product_title contains 'sweatshirt' %}
-        <strong>2</strong> Sweatshirts for
-        <strong>{{ 7000 | money_without_trailing_zeros }} + Free shipping.</strong>
+        2 Sweatshirts for
+        {{ 7000 | money_without_trailing_zeros }} + Free shipping.
       {% elsif product_title contains 't-shirt' %}
-        <strong>2</strong> T-Shirts for
-        <strong>{{ 5000 | money_without_trailing_zeros }} + Free shipping.</strong>
+        2 T-Shirts for
+        {{ 5000 | money_without_trailing_zeros }} + Free shipping.
       {% else %}
         Selling fast! Up to 50% off everything.
       {% endif %}
