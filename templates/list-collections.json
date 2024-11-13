@@ -48,7 +48,7 @@
         "collection_iwW8RK"
       ],
       "custom_css": [
-        ".collection-card-title{margin-top:1rem;}"
+        ".collection-card-title {margin-top: 1rem;}"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -72,7 +72,7 @@
         "slider_partial_slides_mobile": false,
         "slider_autoplay": 0,
         "collection_card_text_align": "text-center",
-        "collection_card_img_orientation": "ratio-4x3",
+        "collection_card_img_orientation": "ratio-3x4",
         "collection_card_img_border": "img-thumbnail",
         "collection_card_show_title": true,
         "collection_card_title_font_size": "fs-lg",
