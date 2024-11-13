@@ -1,7 +1,52 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "featured_collections_CGE4nM": {
       "type": "featured-collections",
+      "blocks": {
+        "collection_BLLjyg": {
+          "type": "collection",
+          "settings": {
+            "collection": "sweatshirts",
+            "title": ""
+          }
+        },
+        "collection_MmTaHW": {
+          "type": "collection",
+          "settings": {
+            "collection": "t-shirts",
+            "title": ""
+          }
+        },
+        "collection_DtdwhX": {
+          "type": "collection",
+          "settings": {
+            "collection": "ugly-christmas-sweatshirts",
+            "title": ""
+          }
+        },
+        "collection_iwW8RK": {
+          "type": "collection",
+          "settings": {
+            "collection": "ugly-christmas-t-shirts",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BLLjyg",
+        "collection_MmTaHW",
+        "collection_DtdwhX",
+        "collection_iwW8RK"
+      ],
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -14,13 +59,13 @@
         "container_max_width": "",
         "header_title": "Featured Collections",
         "header_title_font_size": "h2",
-        "header_description": "<p>Add on optional description for this section<\/p>",
+        "header_description": "<p>Add on optional description for this section</p>",
         "header_description_font_size": "fs-md",
         "slider_speed": 300,
         "slider_navigation": true,
         "slider_pagination": true,
         "slider_pagination_type": "bullets",
-        "slider_scrollbar": true,
+        "slider_scrollbar": false,
         "slider_partial_slides_mobile": false,
         "slider_autoplay": 0,
         "collection_card_text_align": "text-center",
