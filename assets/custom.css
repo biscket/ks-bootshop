@@ -68,7 +68,7 @@
   width: 24px;
   height: 24px;
   border-radius: 100% !important;
-  border:1px solid #00000030 !important;
+  border: 1px solid #00000030 !important;
   position: relative;
   padding: 0 !important;
   margin: 0.35rem !important;
@@ -78,8 +78,8 @@
   .size-buttons
   input:checked
   + label.color-swatch-color {
-  border:1px solid #444!important;
-  box-shadow: 0 0 0 2px #fff,0 0 0 4px #444;
+  border: 1px solid #444 !important;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #444;
 }
 
 /* also available on in the product details page */
@@ -114,12 +114,11 @@
   }
 }
 
-
 /* klavio sticky offer button*/
 .kl-teaser-X6xkTu {
-    width:auto!important;
-  top:75%!important;
+  width: auto !important;
+  top: 75% !important;
 }
-button.needsclick {
-
+div.needsclick svg {
+  display:none!important;
 }
