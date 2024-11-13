@@ -71,7 +71,7 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "",
-        "open_first_item": true,
+        "open_first_item": false,
         "header_title": "Product",
         "header_title_font_size": "h3",
         "header_description": "<p>T-Shirts, Sweatshirts, Hoodies & etc.</p>",
