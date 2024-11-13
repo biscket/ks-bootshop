@@ -32,6 +32,7 @@
           "type": "collection",
           "settings": {
             "collection": "ugly-christmas-sweatshirts",
+            "img": "shopify://shop_images/collection-ugly-sweatshirt.png",
             "title": ""
           }
         },
@@ -39,6 +40,7 @@
           "type": "collection",
           "settings": {
             "collection": "ugly-christmas-t-shirts",
+            "img": "shopify://shop_images/collection-ugly-tshirt.png",
             "title": ""
           }
         }
