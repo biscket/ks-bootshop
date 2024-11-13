@@ -223,7 +223,9 @@
         "collection_NLefy3"
       ],
       "custom_css": [
-        ".collection-card-title{margin-top:1rem;}"
+        ".collection-card-title {margin-top: 1rem;}",
+        ".section-header {margin-bottom: 60px;}",
+        "@media (max-width: 599px) {.pt-13 {padding-top: 30px !important; } .pb-13 {padding-bottom: 30px !important; } .section-header {margin-bottom: 20px; }}"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -253,7 +255,7 @@
         "collection_card_title_font_size": "fs-lg",
         "collection_card_title_position": "collection-card-title-bottom",
         "collection_card_show_product_count": false,
-        "breakpoint_mobile": 1,
+        "breakpoint_mobile": 2,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
         "pt": 13,
