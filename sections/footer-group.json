@@ -11,6 +11,10 @@
   "type": "footer",
   "name": "Footer Group",
   "sections": {
+    "17315224517136217e": {
+      "type": "apps",
+      "settings": {}
+    },
     "newsletter_fL4LWF": {
       "type": "newsletter",
       "custom_css": [
@@ -103,6 +107,7 @@
     }
   },
   "order": [
+    "17315224517136217e",
     "newsletter_fL4LWF",
     "footer"
   ]
