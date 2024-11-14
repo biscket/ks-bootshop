@@ -198,9 +198,8 @@ class SwiperSlider extends HTMLElement {
       breakpoints: this.breakpoints,
       rewind: true,
       grid: {
-          rows: 3,
+          rows: 1,
         },
-        spaceBetween: 30,
     })
   }
 
