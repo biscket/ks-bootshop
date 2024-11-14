@@ -201,6 +201,9 @@ class SwiperSlider extends HTMLElement {
           rows: 2, fill:'row'
       },
     })
+
+    var  x = this.dataset.sliderPartialSlidesMobile
+  alert(x)
   }
 
   speed = Number(this.dataset.sliderSpeed)
@@ -237,8 +240,7 @@ class SwiperSlider extends HTMLElement {
     600: { slidesPerView: Number(this.dataset.breakpointTablet) },
     1200: { slidesPerView: Number(this.dataset.breakpointDesktop) }
   }
- x = this.dataset.sliderPartialSlidesMobile
-  alert(x)
+
 }
 customElements.define('swiper-slider', SwiperSlider)
 
