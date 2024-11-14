@@ -264,7 +264,7 @@ class SwiperSlider extends HTMLElement {
   };
 
   rows = {
-      rows: this.dataset.sliderRows && this.dataset.sliderRows != undefined ? Number(this.dataset.sliderRows) : 3,
+      rows: this.dataset.sliderRows && this.dataset.sliderRows != undefined ? Number(this.dataset.sliderRows) : 1,
       fill: "row",
   };
 }
