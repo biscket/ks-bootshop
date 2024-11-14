@@ -196,7 +196,8 @@ class SwiperSlider extends HTMLElement {
       pagination: this.pagination,
       scrollbar: this.scrollbar,
       breakpoints: this.breakpoints,
-      rewind: true
+      rewind: true,
+      grid:{rows:2},
     })
   }
 
@@ -217,7 +218,7 @@ class SwiperSlider extends HTMLElement {
     el: '.swiper-pagination',
     type: 'bullets',
     dynamicBullets: true,
-    dynamicMainBullets: 2, grid:{rows:2},
+    dynamicMainBullets: 2,
     renderFraction: function (currentClass, totalClass) {
       return `<span class="${currentClass}"></span>/<span class="${totalClass}"></span>`
     }
