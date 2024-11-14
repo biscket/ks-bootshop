@@ -238,7 +238,7 @@ class SwiperSlider extends HTMLElement {
     1200: { slidesPerView: Number(this.dataset.breakpointDesktop) }
   }
 
-  alert(this.dataset.sliderPartialSlidesMobile)
+  alert(this.dataset.breakpointMobile)
 }
 customElements.define('swiper-slider', SwiperSlider)
 
