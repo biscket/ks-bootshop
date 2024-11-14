@@ -268,7 +268,7 @@ class SwiperSlider extends HTMLElement {
 
   rows = {
     grid: {
-      rows: this.dataset.sliderRows ? Number(this.dataset.sliderRows) : 1,
+      rows: this.dataset.sliderRows && this.dataset.sliderRows != undefined ? Number(this.dataset.sliderRows) : 1,
       fill: "row",
     },
   };
