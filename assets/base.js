@@ -231,7 +231,7 @@ class SwiperSlider extends HTMLElement {
     el: this.querySelector('.swiper-scrollbar'),
     draggable: true
   }
-
+alert(sliderPartialSlidesMobile)
   breakpoints = {
     0: { slidesPerView: Number(this.dataset.breakpointMobile) },
     600: { slidesPerView: Number(this.dataset.breakpointTablet) },
