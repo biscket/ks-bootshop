@@ -387,7 +387,7 @@
         "slider_pagination": false,
         "slider_pagination_type": "bullets",
         "slider_scrollbar": false,
-        "slider_partial_slides_mobile": true,
+        "slider_partial_slides_mobile": false,
         "slider_autoplay": 3,
         "card_bg_color": "bg-white",
         "card_bg_opacity": 2,
