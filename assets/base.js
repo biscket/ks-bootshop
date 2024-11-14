@@ -233,7 +233,7 @@ class SwiperSlider extends HTMLElement {
   }
 
   breakpoints = {
-    0: { slidesPerView: this.dataset.sliderPartialSlidesMobile  === 'true' ? Number(this.dataset.breakpointMobile) + 0.2 : Number(this.dataset.breakpointMobile) },
+    0: { slidesPerView: this.dataset.sliderPartialSlidesMobile  === 'true' ? Number(this.dataset.breakpointMobile) + 0.15 : Number(this.dataset.breakpointMobile) },
     600: { slidesPerView: Number(this.dataset.breakpointTablet) },
     1200: { slidesPerView: Number(this.dataset.breakpointDesktop) }
   }
