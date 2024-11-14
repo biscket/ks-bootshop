@@ -131,7 +131,7 @@
         "slider_pagination": true,
         "slider_pagination_type": "bullets",
         "slider_scrollbar": false,
-        "slider_partial_slides_mobile": false,
+        "slider_partial_slides_mobile": true,
         "slider_autoplay": 6,
         "breakpoint_mobile": 2,
         "breakpoint_tablet": 2,
