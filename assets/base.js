@@ -199,7 +199,7 @@ class SwiperSlider extends HTMLElement {
       rewind: true,
       grid: {
           rows: 2, fill:'row'
-        },
+      },
     })
   }
 
