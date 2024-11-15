@@ -60,15 +60,4 @@ document.addEventListener('DOMContentLoaded', function() {
       })
       .catch(error => console.error('Error updating cart goal snippet:', error));
   }
-
-  // Function to monitor cart changes
-  function monitorCartChanges() {
-    document.querySelectorAll('button, input, a').forEach(element => {
-      element.addEventListener('click', function() {
-        setTimeout(updateCartGoalSnippet, 1000); // Adjust timing as needed
-      });
-    });
-  }
-
-  monitorCartChanges();
 });
