@@ -115,17 +115,17 @@
    (function () {  
     async function insertSection() {
 
-      const cartDrawerItems = document.querySelector('#CartDrawer cart-drawer-items')
+      const cartDrawerItems = document.querySelector('#offcanvas-cart cart-item')
 
       if (cartDrawerItems.classList.contains('is-empty')) return
-      if (document.querySelector('#CartDrawer #ks-cart-goal')) return
+      if (document.querySelector('#offcanvas-cart #cart-goal')) return
 
-      const wrapper = document.querySelector('#ks-cart-goal-wrapper')
+      const wrapper = document.querySelector('#cart-goal-wrapper')
 
       cartDrawerItems.insertAdjacentHTML('beforebegin', wrapper.innerHTML) 
 
       setTimeout(() => {
-        const progressBar = document.querySelector('#ks-cart-goal .progress-bar')
+        const progressBar = document.querySelector('#cart-goal .progress-bar')
         progressBar.style.width = progressBar.dataset.width
       }, 250)
 
