@@ -33,7 +33,7 @@
   display: flex;
   transition: opacity 0.3s ease;
 }
-.product-card .image-wrapper img:hover{
+.product-card .image-wrapper img:hover {
   opacity: 1;
 }
 .product-card .image-wrapper:hover {
@@ -92,18 +92,19 @@
 
 /* also available in the product details page */
 .product-block-related-product-type {
-  transition: all 0.3s ease;
   img {
     width: 100px;
   }
   .product-price {
     margin: 0 !important;
   }
-  .product-card-link:hover {
-    opacity: 0.9;
+  .product-card-link {
+    transition: all 0.3s ease;
+    &:hover {
+      opacity: 0.9;
+    }
   }
 }
-
 
 /* faq */
 .faq .accordion-button .span-svg-icons-plus {
@@ -151,7 +152,7 @@ div.needsclick a svg {
     }
     img:hover {
       transform: scale(1.1);
-      opacity:0.9;
+      opacity: 0.9;
     }
   }
 }
