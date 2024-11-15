@@ -34,6 +34,20 @@
 .product-card .image-wrapper img.second {
   opacity: 0;
 }
+.product-card {
+ .image-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+
+    img {
+      transition: transform 0.3s ease;
+      vertical-align: middle;
+    }
+    img:hover {
+      transform: scale(1.1);
+    }
+  }}
 
 /* product details page */
 .product-main .product-price-final-sale {
