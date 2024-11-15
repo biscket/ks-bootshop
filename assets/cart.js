@@ -137,7 +137,7 @@ class Cart extends HTMLElement {
         document.getElementById('cart-goal-container').innerHTML = data;
       })
       .catch(error => console.error('Error updating cart goal snippet:', error));
-    }, 1000);
+    }, 2000);
     
 
   }
