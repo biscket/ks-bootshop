@@ -129,11 +129,8 @@ div.needsclick a svg {
 }
 
 .collection-card-img-wrapper img {
-{ 
-  transition: transform 0.3s ease; 
-  object-fit: cover; /* Ensures the image covers the container area */
-  width: 100%; /* Keeps the image within the bounds of the container */
-  height: 100%
+  transition: transform 0.3s ease;
+  vertical-align: middle;
 }
 
 .collection-card-img-wrapper:hover img {
