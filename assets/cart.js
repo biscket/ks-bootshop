@@ -9,8 +9,7 @@ class Cart extends HTMLElement {
 
     this.querySelectorAll('[name="updates[]"]').forEach(input =>
       input.addEventListener('change', () =>
-        this.change(input.dataset.lineItemKey, Number(input.value));
-                             alert(0)
+        this.change(input.dataset.lineItemKey, Number(input.value))
       )
     )
 
