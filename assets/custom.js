@@ -49,25 +49,3 @@ function openModal(title, content) {
   myModal.show();
   return false;
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-  function updateCartGoalSnippet() {
-    fetch('/?section_id=cart-goal')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('cart-goal-container').innerHTML = data;
-      })
-      .catch(error => console.error('Error updating cart goal snippet:', error));
-  }
-
-  // Function to monitor cart changes
-  function monitorCartChanges() {
-    document.querySelectorAll('button, input, a').forEach(element => {
-      element.addEventListener('click', function() {
-        setTimeout(updateCartGoalSnippet, 1000); // Adjust timing as needed
-      });
-    });
-  }
-
-  //monitorCartChanges();
-});

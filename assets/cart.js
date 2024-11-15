@@ -76,7 +76,6 @@ class Cart extends HTMLElement {
     }
 
     this.classList.remove('loading')
-    this.updateCartGoalSnippet()
   }
 
   reloadCartElements (sections) {
@@ -127,10 +126,6 @@ class Cart extends HTMLElement {
         }, 250)
       })
     })
-  }
-
-  updateCartGoalSnippet(){
-updateCartGoalSnippet();
   }
 }
 customElements.define('cart-container', Cart)
