@@ -76,6 +76,7 @@ class Cart extends HTMLElement {
     }
 
     this.classList.remove('loading')
+      alert(0)
   }
 
   reloadCartElements (sections) {
