@@ -33,13 +33,13 @@
   transition: opacity 0.3s ease;
 }
 .product-card .image-wrapper img:hover{
-    opacity: none;
-}
-.product-card .image-wrapper img.second {
-  opacity: 0;
+  opacity: none;
 }
 .product-card .image-wrapper:hover {
   opacity: 0.9;
+}
+.product-card .image-wrapper img.second {
+  opacity: 0;
 }
 
 /* product details page */
