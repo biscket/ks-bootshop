@@ -10,7 +10,7 @@ setTimeout(() => {
         secondImage.style.transitionDelay = "0s";
 
         firstImage.style.marginLeft = "-100%";
-        firstImage.style.opacity = "0";
+        firstImage.style.opacity = "0.8";
 
         secondImage.style.marginLeft = "0";
         secondImage.style.opacity = "1";
