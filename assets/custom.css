@@ -30,7 +30,7 @@
 .product-card .image-wrapper {
   overflow: hidden;
   display: flex;
-  transition: transform 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 .product-card .image-wrapper img.second {
   opacity: 0;
