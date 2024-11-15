@@ -123,6 +123,7 @@ div.needsclick a svg {
   display: none !important;
 }
 
+/* collection image hover zoom */
 .collection-card-img-wrapper {
   .image-wrapper {
     position: relative;
