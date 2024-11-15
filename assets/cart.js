@@ -9,7 +9,8 @@ class Cart extends HTMLElement {
 
     this.querySelectorAll('[name="updates[]"]').forEach(input =>
       input.addEventListener('change', () =>
-        this.change(input.dataset.lineItemKey, Number(input.value))
+        this.change(input.dataset.lineItemKey, Number(input.value));
+                             alert(0)
       )
     )
 
@@ -158,58 +159,3 @@ class CartNote extends HTMLElement {
   }
 }
 customElements.define('cart-note', CartNote)
-
-
-
-
-
-
-
-
-   (function () {  
-    async function insertSection() {
-
-      const cartDrawerItems = document.querySelector('#offcanvas-cart .cart-item')
-
-      if (cartDrawerItems.classList.contains('is-empty')) return
-      if (document.querySelector('#offcanvas-cart #cart-goal')) return
-
-      const wrapper = document.querySelector('#cart-goal-wrapper')
-
-      cartDrawerItems.insertAdjacentHTML('beforebegin', wrapper.innerHTML) 
-
-      setTimeout(() => {
-        const progressBar = document.querySelector('#cart-goal .progress-bar')
-        progressBar.style.width = progressBar.dataset.width
-      }, 250)
-
-    }
-    insertSection()
-    
-    function listenCartDrawer() {
-      const element = document.querySelector('#offcanvas-cart')
-      let timer
-      
-      const observer = new MutationObserver((mutations) => { 
-        if (timer) clearTimeout(timer)
-
-        timer = setTimeout(async () => {
-          const respoonse = await fetch(window.location.href)
-          const text = await respoonse.text()
-          const newDocument = new DOMParser().parseFromString(text, 'text/html')
-
-          document.querySelector('#cart-goal-wrapper')
-            .replaceWith(newDocument.querySelector('#cart-goal-wrapper'))
-
-          insertSection()
-        }, 250)
-      })
-
-      observer.observe(element, { 
-        attributes: true, 
-        childList: true, 
-        subtree: true
-      });
-    }
-    listenCartDrawer()
-  })();
