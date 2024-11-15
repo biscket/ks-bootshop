@@ -421,24 +421,12 @@
         "pt": 10,
         "pb": 13
       }
-    },
-    "cart_goal_xBegK6": {
-      "type": "cart-goal",
-      "settings": {
-        "goal_value": "100",
-        "icon": "bi-truck",
-        "not_completed_text": "<p>You're <strong>[amount]</strong> away from <strong>FREE SHIPPING!</strong>",
-        "not_completed_color": "#ffc107",
-        "completed_text": "<p>Congrats! You're eligible for <strong>FREE SHIPPING!</strong>",
-        "completed_color": "#198754"
-      }
     }
   },
   "order": [
     "8f4f1b58-133b-491a-a7b2-8bf2e6fbc583",
     "8b8acb35-e69e-4471-a6cb-d0a09485fb41",
     "1710322973d29fae05",
-    "faq_V3wr9b",
-    "cart_goal_xBegK6"
+    "faq_V3wr9b"
   ]
 }
