@@ -99,7 +99,7 @@
   .product-price {
     margin: 0 !important;
   }
-  &:hover{
+  :hover{
     opacity:09;
   }
 }
