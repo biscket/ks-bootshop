@@ -35,13 +35,8 @@
   opacity: 0;
 }
 .product-card {
- .image-wrapper {
-    img {
-
-    }
-    img:hover {
-
-    }
+ .image-wrapper: hover {
+  opacity: 0.8;
   }
 }
 
