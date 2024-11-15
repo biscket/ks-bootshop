@@ -69,5 +69,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  monitorCartChanges();
+  //monitorCartChanges();
 });
