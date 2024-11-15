@@ -18,7 +18,7 @@
     assign color = section.settings.completed_color
   endif
 %}
-{{ Current Date and Time: {{ "now"}} 
+<p class="alert alert-primary text-center">Current time is: {{ "now" | date: "%Y-%m-%d %H:%M" }}</p>
 <style>
   #cart-goal {
     text-align: center;
