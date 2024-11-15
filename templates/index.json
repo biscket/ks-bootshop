@@ -133,7 +133,7 @@
         "slider_scrollbar": false,
         "slider_partial_slides_mobile": true,
         "slider_rows": 2,
-        "slider_autoplay": 6,
+        "slider_autoplay": 0,
         "breakpoint_mobile": 2,
         "breakpoint_tablet": 2,
         "breakpoint_desktop": 4,
