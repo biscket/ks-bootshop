@@ -32,6 +32,9 @@
   display: flex;
   transition: opacity 0.3s ease;
 }
+.product-card .image-wrapper img:hover{
+    opacity: none;
+}
 .product-card .image-wrapper img.second {
   opacity: 0;
 }
