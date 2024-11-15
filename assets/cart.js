@@ -130,16 +130,7 @@ class Cart extends HTMLElement {
   }
 
   updateCartGoalSnippet(){
-    setTimeout(function(){
-           fetch('/?section_id=cart-goalx')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('cart-goal-container').innerHTML = data;
-      })
-      .catch(error => console.error('Error updating cart goal snippet:', error));
-    }, 2000);
-    
-
+updateCartGoalSnippet();
   }
 }
 customElements.define('cart-container', Cart)
