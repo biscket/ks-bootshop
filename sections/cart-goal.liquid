@@ -133,7 +133,7 @@
     insertSection()
     
     function listenCartDrawer() {
-      const element = document.querySelector('cart-drawer')
+      const element = document.querySelector('#offcanvas-cart')
       let timer
       
       const observer = new MutationObserver((mutations) => { 
@@ -144,8 +144,8 @@
           const text = await respoonse.text()
           const newDocument = new DOMParser().parseFromString(text, 'text/html')
 
-          document.querySelector('#ks-cart-goal-wrapper')
-            .replaceWith(newDocument.querySelector('#ks-cart-goal-wrapper'))
+          document.querySelector('#cart-goal-wrapper')
+            .replaceWith(newDocument.querySelector('#cart-goal-wrapper'))
 
           insertSection()
         }, 250)
@@ -161,8 +161,8 @@
   })();
 {%- endjavascript -%}
 
-<div id="ks-cart-goal-wrapper" hidden>
-  <div id="ks-cart-goal" {% if cart.currency.iso_code != shop.currency %}hidden{% endif %}>
+<div id="cart-goal-wrapper" hidden>
+  <div id="cart-goal" {% if cart.currency.iso_code != shop.currency %}hidden{% endif %}>
     <div 
       class="description rte"
       style="{% if percentage == 100 %}color: {{ color }};{% endif %}">
@@ -181,7 +181,7 @@
       </div>
       {% if section.settings.icon != blank %}
         <div 
-          class="ks-cart-goal-icon" 
+          class="cart-goal-icon" 
           style="{% if percentage == 100 %}background-color: {{ color }}; color: white;{% endif %}">
           {% if section.settings.icon == 'bi-truck' %}
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
