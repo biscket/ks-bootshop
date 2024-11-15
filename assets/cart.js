@@ -130,7 +130,7 @@ class Cart extends HTMLElement {
   }
 
   updateCartGoalSnippet(){
-     fetch('/?snippet_id=cart-goalx')
+     fetch('/?section_id=cart-goalx')
       .then(response => response.text())
       .then(data => {
         document.getElementById('cart-goal-container').innerHTML = data;
