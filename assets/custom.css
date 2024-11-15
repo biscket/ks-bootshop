@@ -34,11 +34,9 @@
 .product-card .image-wrapper img.second {
   opacity: 0;
 }
-.product-card {
- .image-wrapper:hover {
+.product-card .image-wrapper:hover {
   opacity: 0.8;
-   transition: transform 0.3s ease;transform: scale(1.1);
-  }
+  transition: transform 0.3s ease;
 }
 
 /* product details page */
