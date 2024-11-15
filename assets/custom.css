@@ -120,20 +120,21 @@
   top: 75% !important;
 }
 div.needsclick a svg {
-  display:none!important;
+  display: none !important;
 }
 
 .collection-card-img-wrapper {
-  position: relative;
-  overflow: hidden;
-  display:inline-block;
-}
+  .image-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
 
-.collection-card-img-wrapper img {
-  transition: transform 0.3s ease;
-  vertical-align: middle;
-}
-
-.collection-card-img-wrapper img:hover {
-  transform: scale(1.1);
+    img {
+      transition: transform 0.3s ease;
+      vertical-align: middle;
+    }
+    img:hover {
+      transform: scale(1.1);
+    }
+  }
 }
