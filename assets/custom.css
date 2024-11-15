@@ -33,7 +33,7 @@
   display: flex;
   transition: opacity 0.3s ease;
 }
-.product-card .image-wrapper img{
+.product-card .image-wrapper img:hover{
   opacity: 1;
 }
 .product-card .image-wrapper:hover {
