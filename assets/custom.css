@@ -129,8 +129,7 @@ div.needsclick a svg {
 }
 
 .collection-card-img-wrapper img {
-  transition: transform 0.3s ease;
-  transform-origin: center; /* Ensures the zoom effect is centered */
+{ transition: transform 0.3s ease; object-fit: cover; /* Ensures the image covers the container area */ width: 100%; /* Keeps the image within the bounds of the container */ height:
 }
 
 .collection-card-img-wrapper:hover img {
