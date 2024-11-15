@@ -90,12 +90,18 @@
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #444;
 }
 
-/* also available on in the product details page */
-.product-block-related-product-type img {
-  width: 100px;
-}
-.product-block-related-product-type .product-price {
-  margin: 0 !important;
+/* also available in the product details page */
+.product-block-related-product-type {      
+  transition: all 0.3s ease;
+  img {
+    width: 100px;
+  }
+  .product-price {
+    margin: 0 !important;
+  }
+  &:hover{
+    opacity:09;
+  }
 }
 
 /* faq */
