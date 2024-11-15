@@ -126,6 +126,7 @@ div.needsclick a svg {
 .collection-card-img-wrapper {
   position: relative;
   overflow: hidden;
+  display:inline-block;
 }
 
 .collection-card-img-wrapper img {
@@ -134,5 +135,5 @@ div.needsclick a svg {
 }
 
 .collection-card-img-wrapper img:hover {
-  transform: scale(1.1);object-fit: cover;
+  transform: scale(1.1);
 }
