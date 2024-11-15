@@ -37,10 +37,10 @@
 .product-card {
  .image-wrapper {
     img {
-      vertical-align: middle;
+
     }
     img:hover {
-      transform: scale(1.1);
+
     }
   }
 }
