@@ -70,13 +70,22 @@
             "img": "shopify://shop_images/collection-ugly-tshirt.png",
             "title": ""
           }
+        },
+        "collection_mk44ma": {
+          "type": "collection",
+          "settings": {
+            "collection": "boho-christmas-sweatshirts",
+            "img": "shopify://shop_images/Collections.png",
+            "title": ""
+          }
         }
       },
       "block_order": [
         "collection_BLLjyg",
         "collection_MmTaHW",
         "collection_DtdwhX",
-        "collection_iwW8RK"
+        "collection_iwW8RK",
+        "collection_mk44ma"
       ],
       "custom_css": [
         ".collection-card-title {margin-top: 1rem;}"
@@ -100,7 +109,8 @@
         "slider_pagination": true,
         "slider_pagination_type": "bullets",
         "slider_scrollbar": false,
-        "slider_partial_slides_mobile": false,
+        "slider_partial_slides_mobile": true,
+        "slider_rows": 2,
         "slider_autoplay": 0,
         "collection_card_text_align": "text-center",
         "collection_card_img_orientation": "ratio-3x4",
