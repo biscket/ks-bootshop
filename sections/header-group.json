@@ -85,6 +85,7 @@
           "type": "desktop",
           "settings": {
             "container_max_width": "",
+            "logo": "{{ shop.brand.logo }}",
             "logo_height": 30,
             "main_menu": "main-menu",
             "pt": 5,
