@@ -73,7 +73,7 @@
           "settings": {
             "container_max_width": "",
             "logo": "{{ shop.brand.logo }}",
-            "logo_height": 26,
+            "logo_height": 20,
             "main_menu": "main-menu",
             "collections_menu": "",
             "social_icons": true,
