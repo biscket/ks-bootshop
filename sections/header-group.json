@@ -86,7 +86,7 @@
           "settings": {
             "container_max_width": "",
             "logo": "{{ shop.brand.logo }}",
-            "logo_height": 30,
+            "logo_height": 26,
             "main_menu": "main-menu",
             "pt": 5,
             "pb": 5
