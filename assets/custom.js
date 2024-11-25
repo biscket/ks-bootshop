@@ -52,6 +52,7 @@ function openModal(title, content) {
   return false;
 }
 
+// show newsletter sign up for etsy users
 document.addEventListener("DOMContentLoaded", function () {
   // Function to get query string parameters
   function getQueryParams(param) {
