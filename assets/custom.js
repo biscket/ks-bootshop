@@ -61,7 +61,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Check if the utm_source is 'etsy_vip'
   if (getQueryParams("utm_source") === "etsy_vip") {
-    alert(0);
     window._klOnsite = window._klOnsite || [];
     window._klOnsite.push(["openForm", "X6xkTu"]);
   }
