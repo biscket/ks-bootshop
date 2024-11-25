@@ -1,6 +1,6 @@
 // product card show the secondary image
 setTimeout(() => {
-  document.querySelectorAll(".product-card .image-wrapper").forEach(card => {
+  document.querySelectorAll(".product-card .image-wrapper").forEach((card) => {
     const firstImage = card.querySelector(".first");
     const secondImage = card.querySelector(".second");
 
@@ -36,16 +36,34 @@ setTimeout(() => {
   });
 }, 1000);
 
-
 function openModal(title, content) {
   // Set the modal title and content
   document.getElementById("customModalTitle").innerHTML = title;
   document.getElementById("customModalPageContent").innerHTML = content;
 
   // Show the modal
-  var myModal = new bootstrap.Modal(document.getElementById('customPageModal'), {
-    keyboard: true
-  });
+  var myModal = new bootstrap.Modal(
+    document.getElementById("customPageModal"),
+    {
+      keyboard: true,
+    }
+  );
   myModal.show();
   return false;
 }
+
+setTimeout(() => {
+  document.addEventListener("DOMContentLoaded", function () {
+    // Function to get query string parameters
+    function getQueryParams(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    // Check if the utm_source is 'etsy_vip'
+    if (getQueryParams("utm_source") === "etsy_vip") {
+      window._klOnsite = window._klOnsite || [];
+      window._klOnsite.push(["openForm", "X6xkTu"]);
+    }
+  });
+}, 100);
