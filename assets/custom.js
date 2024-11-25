@@ -52,19 +52,17 @@ function openModal(title, content) {
   return false;
 }
 
-setTimeout(() => {
-  document.addEventListener("DOMContentLoaded", function () {
-    // Function to get query string parameters
-    function getQueryParams(param) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get(param);
-    }
+document.addEventListener("DOMContentLoaded", function () {
+  // Function to get query string parameters
+  function getQueryParams(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
 
-    // Check if the utm_source is 'etsy_vip'
-    if (getQueryParams("utm_source") === "etsy_vip") {
-      alert(0)
-      window._klOnsite = window._klOnsite || [];
-      window._klOnsite.push(["openForm", "X6xkTu"]);
-    }
-  });
-}, 100);
+  // Check if the utm_source is 'etsy_vip'
+  if (getQueryParams("utm_source") === "etsy_vip") {
+    alert(0);
+    window._klOnsite = window._klOnsite || [];
+    window._klOnsite.push(["openForm", "X6xkTu"]);
+  }
+});
